@@ -1,0 +1,70 @@
+---
+settings:
+  name: BlueXP digital wallet
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: fr-fr,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,es-es
+sidebar:
+  entries:
+  - title: Documents relatifs aux comptes numériques BlueXP
+    url: "/index.html"
+  - title: Notes de mise à jour
+    url: "/whats-new.html"
+  - title: Commencez
+    entries:
+    - title: Découvrez le portefeuille digital BlueXP
+      url: "/concept-digital-wallet.html"
+  - title: Utilisez le portefeuille digital BlueXP
+    entries:
+    - title: Gestion des licences pour Cloud Volumes ONTAP
+      entries:
+      - title: Licences basées sur la capacité
+        url: "/task-manage-capacity-licenses.html"
+      - title: Licences basées sur les nœuds
+        url: "/task-manage-node-based-licenses.html"
+    - title: Gérez les licences des services de données BlueXP
+      url: "/task-manage-data-services-licenses.html"
+    - title: Gérer les abonnements et les contrats PAYGO
+      url: "/task-manage-subscriptions.html"
+    - title: Gérez les abonnements Keystone Flex
+      url: "/task-manage-keystone.html"
+    - title: Gérez les licences des clusters ONTAP sur site
+      url: "/task-manage-on-prem-clusters.html"
+  - title: Connaissances et support
+    entries:
+    - title: S'inscrire pour obtenir de l'aide
+      url: "/task-support-registration.html"
+    - title: Obtenez de l'aide
+      url: "/task-get-help.html"
+  - title: Mentions légales
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: Commencez
+    links:
+    - title: Découvrez le portefeuille digital BlueXP
+      url: concept-digital-wallet.html
+  - title: Gérer vos licences
+    links:
+    - title: Gestion des licences basées sur la capacité pour Cloud Volumes ONTAP
+      url: task-manage-capacity-licenses.html
+    - title: Gérez les licences des services de données BlueXP
+      url: task-manage-data-services-licenses.html
+    - title: Gérer les abonnements et les contrats PAYGO
+      url: task-manage-subscriptions.html
+  - title: Blogs et communauté
+    links:
+    - title: Communauté NetApp
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Blog BlueXP
+      url: https://bluexp.netapp.com/blog
+    - title: Webinaires sur le cloud
+      url: https://bluexp.netapp.com/events
+product-family:
+  name: BlueXP
+  repo: cloud-manager-family
+  sidebar_label: Toute la documentation BlueXP

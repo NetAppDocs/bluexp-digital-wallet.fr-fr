@@ -1,0 +1,113 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes' 
+summary: Découvrez les nouveautés du portefeuille digital BlueXP. 
+---
+= Quoi de neuf
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Découvrez les nouveautés du portefeuille digital BlueXP.
+
+
+
+== 3 avril 2023
+
+
+
+=== Notifications par e-mail
+
+Les notifications par e-mail sont désormais prises en charge par le portefeuille digital.
+
+Si vous configurez vos paramètres de notification, vous pouvez recevoir des notifications par e-mail lorsque vos licences BYOL vont expirer (une notification d'avertissement) ou si elles ont déjà expiré (une notification d'erreur).
+
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["Découvrez comment configurer les notifications par e-mail"^]
+
+
+
+=== Capacité sous licence pour les abonnements Marketplace
+
+Lors de l'affichage des licences basées sur la capacité pour Cloud Volumes ONTAP, le portefeuille digital affiche désormais la capacité sous licence que vous avez achetée avec des offres privées Marketplace.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["Découvrez comment afficher la capacité consommée dans votre compte"].
+
+
+
+== 6 novembre 2022
+
+
+
+=== Abonnements et contrats annuels
+
+Vos abonnements PAYGO et vos contrats annuels pour BlueXP sont désormais disponibles pour la consultation et la gestion à partir du portefeuille numérique.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-subscriptions.html["Découvrez comment gérer vos abonnements"].
+
+
+
+== 18 septembre 2022
+
+
+
+=== E/S optimisées et capacité WORM
+
+Le porte-monnaie numérique présente maintenant un résumé du package de licences d'E/S optimisées et de la capacité WORM provisionnée pour les systèmes Cloud Volumes ONTAP de votre compte.
+
+Ces informations vous permettront de mieux comprendre la facturation et l'achat de capacité supplémentaire.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["Découvrez comment afficher la capacité consommée dans votre compte"].
+
+
+
+== 31 juillet 2022
+
+
+
+=== Changer la méthode de charge
+
+Vous pouvez désormais modifier la méthode de facturation d'un système Cloud Volumes ONTAP utilisant des licences basées sur la capacité. Par exemple, si vous avez déployé un système Cloud Volumes ONTAP avec le pack Essentials, vous pouvez le remplacer par le pack Professional si vos besoins évoluent.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["Apprenez à changer les méthodes de charge"].
+
+
+
+== 3 juillet 2022
+
+
+
+=== Capacité consommée
+
+Le porte-monnaie numérique vous indique maintenant la capacité totale consommée dans votre compte et la capacité consommée par le package de licences. Cela vous permet de mieux comprendre la façon dont vous achetez de la capacité supplémentaire et si celle-ci est nécessaire.
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["Capture d'écran qui affiche la page du portefeuille numérique pour les licences basées sur la capacité. La page présente la capacité consommée dans votre compte et réduit la capacité consommée par le package de licences."]
+
+
+
+== 27 février 2022
+
+
+
+=== Licences pour les clusters ONTAP sur site
+
+Vous pouvez désormais consulter l'inventaire de vos clusters ONTAP sur site ainsi que la date d'expiration de leurs contrats de service et de matériel. Des informations supplémentaires sur les clusters sont également disponibles.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["Découvrez comment gérer les licences des clusters ONTAP sur site"].
+
+
+
+== 2 janvier 2022
+
+
+
+=== Les conditions de licence sont automatiquement mises à jour
+
+Si vous modifiez la capacité ou la durée de l'une de vos licences, les termes de la licence sont désormais automatiquement mis à jour dans le portefeuille digital. Vous n'avez pas besoin de mettre à jour manuellement la licence vous-même.
+
+La mise à jour automatique des licences fonctionne avec tous les types de licences Cloud Volumes ONTAP et toutes les licences pour les services de données.

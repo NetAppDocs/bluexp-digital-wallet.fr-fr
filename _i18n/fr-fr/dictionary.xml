@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="3346762ff8f7a33c4ab0e7fa6f5ae4bf" category="summary">Gérez vos licences de capacité avec l'Portefeuille digital pour vérifier que votre compte NetApp présente la capacité suffisante pour vos systèmes Cloud Volumes ONTAP.</block>
+  <block id="56a50532d8da2bebb09d6190c126140c" category="doc">Gestion des licences basées sur la capacité</block>
+  <block id="93ed65a89f306426be7980ddc22595e8" category="paragraph">_Licences basées sur la capacité_ vous pouvez payer pour Cloud Volumes ONTAP par Tio de capacité.</block>
+  <block id="d9bf30eba2f9818a8ee777ae42a8f9f5" category="paragraph">Le _Portefeuille numérique_ vous permet de gérer les licences de Cloud Volumes ONTAP à partir d'un seul emplacement. Vous pouvez ajouter de nouvelles licences et mettre à jour des licences existantes.</block>
+  <block id="8caaaa4afae93c31b741be21eed669cc" category="inline-link">En savoir plus sur les licences Cloud Volumes ONTAP</block>
+  <block id="6e987a799bff743a20629c6963efee7e" category="paragraph"><block ref="88e663ceca138a2ba6bdf07d4cbe79f1" category="inline-link-rx"></block>.</block>
+  <block id="331320477ecac4cca1b63e686d99f8d3" category="section-title">Comment les licences sont ajoutées au porte-monnaie numérique</block>
+  <block id="792eeb7f686f2ad37b664f6478d40bed" category="paragraph">Une fois que vous aurez acheté une licence auprès de votre ingénieur commercial NetApp, NetApp vous enverra un e-mail contenant le numéro de série et les informations supplémentaires relatives aux licences.</block>
+  <block id="b6bc1ae4ef8c82767b9ae039ea083da2" category="paragraph">En attendant, BlueXP interroge automatiquement le service des licences NetApp pour obtenir des informations sur les licences associées à votre compte du site de support NetApp. En l'absence d'erreurs, BlueXP ajoute automatiquement les licences au porte-monnaie numérique.</block>
+  <block id="ad0be4bc913a8026a3f5e42fc7656d23" category="inline-xref">Découvrez comment ajouter des licences achetées à votre compte</block>
+  <block id="e71139eb9146e38a7b8cdb5f435f8ed1" category="paragraph">Si BlueXP ne peut pas ajouter la licence, vous devrez les ajouter manuellement au porte-monnaie numérique vous-même. Par exemple, si le connecteur est installé dans un emplacement qui n'a pas accès à Internet, vous devrez ajouter vous-même les licences. <block ref="2b377ff52574668221716136185f8476" category="inline-xref-macro-rx"></block>.</block>
+  <block id="03021ab228ad1d1c921bbf536e2913a4" category="section-title">Affichez la capacité consommée dans votre compte</block>
+  <block id="e54d493645f297f788982c1215f721bf" category="paragraph">Le porte-monnaie numérique vous indique la capacité totale consommée dans votre compte et la capacité consommée par le package de licences. Cela vous permet de mieux comprendre la façon dont vous achetez de la capacité supplémentaire et si celle-ci est nécessaire.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Étapes</block>
+  <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">Dans le menu de navigation BlueXP, sélectionnez *gouvernance &gt; porte-monnaie numérique*.</block>
+  <block id="e83a5b2754cd537ac6467dc025115726" category="list-text">Dans l'onglet *Cloud Volumes ONTAP*, conservez *licences basées sur la capacité* sélectionné.</block>
+  <block id="2bd469c6a2a1a44818909050205d416b" category="list-text">Consultez le récapitulatif des packages, qui indique la capacité consommée, la capacité totale préallouée et la capacité totale PAYGO.</block>
+  <block id="29f9c9781f75b695cb6c7c93910280cd" category="list-text">_Capacité totale consommée_ correspond à la capacité totale provisionnée de tous les systèmes Cloud Volumes ONTAP de votre compte NetApp. La charge dépend de la taille de provisionnement de chaque volume, peu importe l'espace local, utilisé, stocké ou effectif au sein du volume.</block>
+  <block id="def968f0e18d0f7aed6421ac81039272" category="list-text">_La capacité totale préallouée_ correspond à la capacité totale sous licence (BYOL ou contrat Marketplace) que vous avez achetée auprès de NetApp.</block>
+  <block id="4cca90046112da5c5d3a703dafebbb7e" category="list-text">_Total PAYGO_ est la capacité totale provisionnée via des abonnements Cloud Marketplace. La facturation via PAYGO n'est utilisée que si la capacité consommée est supérieure à la capacité sous licence ou si aucune licence BYOL n'est disponible dans le portefeuille numérique.</block>
+  <block id="6805f1cb53971ab8cf6263bd093c5d20" category="paragraph">Voici un exemple de résumé des packages Cloud Volumes ONTAP dans le portefeuille digital :</block>
+  <block id="e9132fa20985cf4b3d5004a6a371ecab" category="inline-image-macro">Capture d'écran affichant un récapitulatif des packages Cloud Volumes ONTAP incluant la capacité totale consommée, la capacité totale préallouée (contrats BYOL et Marketplace) et la capacité totale PAYGO, ou provisionnée dans le portefeuille digital.</block>
+  <block id="68519fd40c76d6220d905ceda4e0956b" category="paragraph"><block ref="68519fd40c76d6220d905ceda4e0956b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ea7c202c277e5ccf92e08be29b4a64e9" category="list-text">Sous le récapitulatif, consultez la capacité consommée pour chaque package de licences.</block>
+  <block id="af61e314a8c2484dfcfef0afc2e5b8b9" category="list-text">_Consumed Capacity_ indique la capacité des volumes de ce package. Pour plus de détails sur un pack spécifique, placez le curseur de la souris sur l'info-bulle.</block>
+  <block id="d30bc4bd5cee7ac23a1df54311d1f4b3" category="inline-link">En savoir plus sur le chargement pour le pack Essentials</block>
+  <block id="9bb754282eec4e66c9472848d18fa68b" category="paragraph">Pour mieux comprendre les capacités affichées dans le pack Essentials, vous devez connaître le fonctionnement de la charge.<block ref="e0127f60c714803ed2bb7172384e02ad" category="inline-link-rx"></block>.</block>
+  <block id="cfc852810f89c13febd473e12117d828" category="list-text">_La capacité recommandée_ correspond à la capacité sous licence (BYOL ou contrat Marketplace) que vous avez achetée auprès de NetApp.</block>
+  <block id="b35741916171a2b4d1210c1ccf6e3920" category="list-text">_BYOL_ indique la capacité sous licence achetée auprès de NetApp pour ce type de package.</block>
+  <block id="59bdc4172870791ff34a990174b34a66" category="list-text">_Contrats Marketplace_ indique la capacité sous licence que vous avez achetée avec un contrat Marketplace pour ce type de package.</block>
+  <block id="e733f8e4574a8639831d6df796e6a0eb" category="list-text">_PAYGO_ vous indique la capacité consommée par modèle de consommation de licence.</block>
+  <block id="bbb170bfbf4105204b0dbe4292724d6e" category="paragraph">Voici un exemple de compte avec plusieurs packages de licences :</block>
+  <block id="b0980f4f35d961e95a685e0af8bda7e4" category="inline-image-macro">Capture d'écran affichant la capacité consommée, la capacité préallouée et PAYGO ou provisionnée pour les packages essentiels et professionnels.</block>
+  <block id="71b669d4d19df676d975ef4911ded7af" category="paragraph"><block ref="71b669d4d19df676d975ef4911ded7af" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b2dfe525c9a6bec7392826fba889fe07" category="section-title">Ajoutez des licences achetées à votre compte</block>
+  <block id="e3562c1adf2604137baf3d2df3c68ecd" category="paragraph">Si vous ne voyez pas vos licences achetées dans le porte-monnaie numérique, vous devrez ajouter les licences à BlueXP pour que la capacité soit disponible pour Cloud Volumes ONTAP.</block>
+  <block id="d59db7846bd10b6d60d21543df9faa9e" category="list-title">Ce dont vous avez besoin</block>
+  <block id="160caa44a14b9421593597c51ec2a7e8" category="list-text">Vous devez fournir à BlueXP le numéro de série de la licence ou du fichier de licence.</block>
+  <block id="04b14ae402c3ab4f87916eed6238424b" category="inline-link">Ajoutez votre compte sur le site de support NetApp à BlueXP</block>
+  <block id="93902497f86e5fd83c90ceba7ab44f98" category="list-text">Pour saisir le numéro de série, vous devez d'abord le faire<block ref="2db49b408be38f7749cbd1912ff32a1f" category="inline-link-rx"></block>. Il s'agit du compte du site de support NetApp autorisé à accéder au numéro de série.</block>
+  <block id="666ac747a8d5a1aa317496f8add413a6" category="list-text">Dans l'onglet *Cloud Volumes ONTAP*, sélectionnez *licences basées sur la capacité* et cliquez sur *Ajouter licence*.</block>
+  <block id="5c55b043854250a04085395d6b5a3a9d" category="list-text">Entrez le numéro de série de la licence basée sur la capacité ou téléchargez le fichier de licence.</block>
+  <block id="204d2b4625a88f2700ea6c08a4f85014" category="paragraph">Si vous avez saisi un numéro de série, vous devez également sélectionner le compte du site de support NetApp autorisé à accéder au numéro de série.</block>
+  <block id="ea9a2b9ac34c9aab133f21aa5b67976e" category="list-text">Cliquez sur *Ajouter une licence*.</block>
+  <block id="89046e28df67df094886562aac624243" category="section-title">Mettez à jour une licence basée sur la capacité</block>
+  <block id="97a02c1884b510883e586382d384fb61" category="paragraph">Si vous avez acheté de la capacité supplémentaire ou si vous avez prolongé la durée de votre licence, BlueXP met automatiquement à jour la licence dans le porte-monnaie numérique. Vous n'avez rien à faire.</block>
+  <block id="2144c137b123de98ab20d5bfa9677b33" category="paragraph">Cependant, si vous avez déployé BlueXP dans un emplacement qui n'a pas d'accès à Internet, vous devrez mettre à jour la licence manuellement dans BlueXP.</block>
+  <block id="e02250fabfba9f2d7325403663479a43" category="paragraph">Le fichier de licence (ou _files_ si vous avez une paire HA).</block>
+  <block id="ecdf6ba3b837de5910abdabc360df552" category="list-text">Dans l'onglet *Cloud Volumes ONTAP*, cliquez sur le menu d'action en regard de la licence et sélectionnez *mettre à jour la licence*.</block>
+  <block id="f591dbc4232b149ea0792178559405f9" category="list-text">Téléchargez le fichier de licence.</block>
+  <block id="034f6db5181ab87d962e69b9b7b5a995" category="list-text">Cliquez sur *Télécharger la licence*.</block>
+  <block id="662442d32a5fd91298fcf8b6391fdf17" category="section-title">Changer les méthodes de charge</block>
+  <block id="a117b4a94f6f90aef089573b1f002d26" category="paragraph">Vous pouvez modifier la méthode de facturation d'un système Cloud Volumes ONTAP utilisant des licences basées sur la capacité. Par exemple, si vous avez déployé un système Cloud Volumes ONTAP avec le pack Essentials, vous pouvez le remplacer par le pack Professional si vos besoins évoluent.</block>
+  <block id="86f463a1f0f0879749d1274dc94305d9" category="paragraph-title">Remarque importante</block>
+  <block id="cfdb32f80009b1e5c5c0468dda9f013d" category="paragraph">Si vous disposez d'une offre ou d'un contrat privé sur le marché de votre fournisseur cloud, le fait de changer de méthode de facturation non incluse dans votre contrat entraînera une facturation en fonction du modèle BYOL (si vous avez acheté une licence auprès de NetApp) ou du modèle de facturation PAYGO.</block>
+  <block id="3397777d22d2d5f746157ca31f0d8460" category="list-text">Dans l'onglet *Cloud Volumes ONTAP*, cliquez sur *changer la méthode de chargement*.</block>
+  <block id="731d5463e4c6962d26d5b5d4b345930e" category="inline-image-macro">Capture d'écran de la page Cloud Volumes ONTAP dans le porte-monnaie numérique où le bouton changer la méthode de chargement se trouve juste au-dessus du tableau.</block>
+  <block id="e98a6fb0343d664e817b1f922b7a92f1" category="paragraph"><block ref="e98a6fb0343d664e817b1f922b7a92f1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="de4b4e176958ea7181911ce715504321" category="list-text">Sélectionnez un environnement de travail, choisissez la nouvelle méthode de charge, puis confirmez que la modification du type de colis affectera les frais de service.</block>
+  <block id="b0d246ceb3cd290ace3abd509e982f73" category="inline-image-macro">Capture d'écran de la boîte de dialogue changer la méthode de charge dans laquelle vous choisissez une nouvelle méthode de charge pour un environnement de travail Cloud Volumes ONTAP.</block>
+  <block id="6e594f7cd72195c88515a50fcfc2397e" category="paragraph"><block ref="6e594f7cd72195c88515a50fcfc2397e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5331b4ea3bd1ef32d06c003e7e8f1c3d" category="list-text">Cliquez sur *changer la méthode de charge*.</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">Résultat</block>
+  <block id="a3f83af733570f5c2a5b63c7087e6164" category="paragraph">BlueXP modifie la méthode de charge du système Cloud Volumes ONTAP.</block>
+  <block id="41687868b5d65bd96b455ce93a771517" category="paragraph">Vous pouvez également remarquer que le porte-monnaie numérique actualise la capacité consommée pour chaque type de paquet pour tenir compte de la modification que vous venez de faire.</block>
+  <block id="8f79a5bc1b9725ce4036eb2d94c60de9" category="section-title">Suppression d'une licence basée sur la capacité</block>
+  <block id="78a946dc090d511b993ffbe9803dff06" category="paragraph">Si une licence basée sur la capacité a expiré et n'est plus utilisée, vous pouvez la supprimer à tout moment.</block>
+  <block id="5ca97f84ee577fbacf355fc75d23921d" category="list-text">Dans l'onglet *Cloud Volumes ONTAP*, cliquez sur le menu d'action en regard de la licence et sélectionnez *Supprimer la licence*.</block>
+  <block id="40b851aafab82c78484c46169f816fd2" category="list-text">Cliquez sur *Supprimer* pour confirmer.</block>
+  <block id="885d83848cc69da53e81865263b93e9b" category="summary">Le portefeuille digital BlueXP vous permet de gérer et de contrôler les licences BlueXP achetées avec NetApp (BYOL), les abonnements BlueXP Marketplace et NetApp Keystone.</block>
+  <block id="3d6f73228ead0d62be228ed7b18d0d05" category="doc">Découvrez le portefeuille digital BlueXP</block>
+  <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">Caractéristiques</block>
+  <block id="012ae05db65bea80da7b7050b5d96f9e" category="list-text">Gestion des licences basées sur la capacité et sur les nœuds pour Cloud Volumes ONTAP</block>
+  <block id="62d9aca3bac1caa2d9cff120588c3e35" category="list-text">Ajoutez et gérez des licences pour les services de données BlueXP</block>
+  <block id="94c8d5dbc233a7f83819d5552acfe787" category="list-text">Gérez les abonnements pour PAYGO et les contrats annuels associés à votre compte BlueXP et à Astra</block>
+  <block id="68893f701c3397a3a6f6ae5a965a7ef6" category="list-text">Gérez les abonnements Keystone Flex pour une utilisation avec Cloud Volumes ONTAP et demandez des modifications de la capacité allouée</block>
+  <block id="385b7e85ac73053263ffe4f49784da13" category="list-text">Afficher des informations sur l'état des contrats matériels et logiciels pour les clusters ONTAP sur site</block>
+  <block id="ea22f9957523103248d84695e98b17ba" category="section-title">Services pris en charge</block>
+  <block id="0cf6e0b36272b906da65f6af3ab672b0" category="paragraph">Le portefeuille digital BlueXP vous permet de gérer les licences pour les services BlueXP suivants :</block>
+  <block id="dad57e95fc9a5390302ad830888cbdb9" category="list-text">La sauvegarde dans le cloud</block>
+  <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="list-text">Sens des données cloud</block>
+  <block id="92d2b6aba6afa3f690540cf3dba9b633" category="list-text">Tiering dans le cloud</block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="list-text">Cloud Volumes ONTAP</block>
+  <block id="d0f1687c68ee0f0d9bac765716d18923" category="list-text">Clusters ONTAP sur site</block>
+  <block id="a4f0f752cbc0651ce6551bad053b1ae6" category="summary">Le portefeuille digital BlueXP permet de centraliser la gestion et le contrôle de vos licences et de vos abonnements.</block>
+  <block id="7b432de78427e2c7ffdddf3f0a09ce52" category="doc">Portefeuille digital BlueXP</block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">Avant d'ouvrir un dossier de demande de support auprès du support technique NetApp, vous devez ajouter un compte sur le site de support NetApp à BlueXP, puis vous inscrire pour bénéficier du support.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">S'inscrire pour obtenir de l'aide</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">Avant d'ouvrir un dossier de demande de support auprès du support technique NetApp, vous devez ajouter un compte sur le site du support NetApp (NSS) à BlueXP, puis vous inscrire pour obtenir du support.</block>
+  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">Prise en charge des solutions des fournisseurs cloud</block>
+  <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">Pour obtenir une assistance technique sur les solutions de fournisseurs de services cloud suivantes que vous avez intégrées à BlueXP, reportez-vous à la section « obtention d'aide » de la documentation BlueXP de ce produit.</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX pour ONTAP</block>
+  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service pour Google Cloud</block>
+  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Présentation de l'inscription au support</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Il existe deux types d'inscription pour activer les droits d'assistance :</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">Enregistrement de votre abonnement au support pour les identifiants de compte BlueXP (votre numéro de série à 20 chiffres 960xxxxxxxxx se trouve sur la page des ressources de support de BlueXP).</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">Il sert d'ID d'abonnement unique pour tous les services de BlueXP. Chaque abonnement au support BlueXP au niveau du compte doit être enregistré.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Enregistrement des numéros de série Cloud Volumes ONTAP associés à un abonnement sur le marché de votre fournisseur cloud (numéros de série à 20 chiffres 909201xxxxxxxx).</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">Ces numéros de série sont généralement appelés _PAYGO - numéros de série_ et sont générés par BlueXP au moment du déploiement de Cloud Volumes ONTAP.</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">L'enregistrement des deux types de numéros de série offre des fonctionnalités telles que l'ouverture de tickets de support et la génération automatique de tickets.</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">La façon dont vous vous inscrivez dépend de votre présence ou de votre présence chez un client ou un partenaire nouveau ou existant.</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">Client ou partenaire existant</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">En tant que client ou partenaire NetApp, vous pouvez utiliser votre compte SSO du site de support NetApp pour effectuer les enregistrements suivants. Dans le tableau de bord support, BlueXP fournit une page *NSS Management* où vous pouvez ajouter votre compte NSS. Une fois votre compte NSS ajouté, BlueXP enregistre automatiquement ces numéros de série pour vous.</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">Découvrez comment ajouter votre compte NSS</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">Nouveaux partenaires NetApp</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">Si vous êtes nouveau chez NetApp, vous devez enregistrer votre numéro de série BlueXP sur le site d'inscription du support NetApp. Une fois que vous avez terminé cette inscription et créé un nouveau compte NSS, vous pouvez utiliser ce compte dans BlueXP pour vous inscrire automatiquement à l'avenir.</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">Découvrez comment vous inscrire auprès de NetApp</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>.</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">Ajouter un compte NSS à BlueXP</block>
+  <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">Le tableau de bord du support vous permet d'ajouter et de gérer vos comptes du site de support NetApp pour BlueXP.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Si vous avez un compte au niveau du client, vous pouvez ajouter un ou plusieurs comptes NSS.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Si vous avez un compte partenaire ou revendeur, vous pouvez ajouter un ou plusieurs comptes NSS, mais ils ne peuvent pas être ajoutés en même temps que les comptes au niveau du client.</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">Dans le coin supérieur droit de la console BlueXP, cliquez sur l'icône aide et sélectionnez *support*.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Capture d'écran du menu aide où support est la première option répertoriée</block>
+  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">Cliquez sur *NSS Management &gt; Ajouter un compte NSS*.</block>
+  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">Lorsque vous y êtes invité, cliquez sur *Continuer* pour être redirigé vers une page de connexion Microsoft.</block>
+  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp utilise Microsoft Azure Active Directory comme fournisseur d'identités pour les services d'authentification spécifiques au support et aux licences.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Sur la page de connexion, indiquez l'adresse e-mail et le mot de passe que vous avez enregistrés sur le site de support NetApp pour réaliser le processus d'authentification.</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Ces actions permettent à BlueXP d'utiliser votre compte NSS pour des opérations telles que le téléchargement de licences, la vérification de la mise à niveau logicielle et les inscriptions de support futures.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Notez ce qui suit :</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">Le compte NSS doit être un compte de niveau client (pas un compte invité ou temporaire). Vous pouvez avoir plusieurs comptes NSS de niveau client.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">Il ne peut y avoir qu'un seul compte NSS si ce compte est un compte de niveau partenaire. Si vous essayez d'ajouter des comptes NSS de niveau client et qu'un compte de niveau partenaire existe, le message d'erreur suivant s'affiche :</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"Le type de client NSS n'est pas autorisé pour ce compte car il existe déjà des utilisateurs NSS de type différent."</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">Il en va de même si vous possédez des comptes NSS client préexistants et que vous essayez d'ajouter un compte de niveau partenaire.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Une fois la connexion établie, NetApp stockera le nom d'utilisateur NSS.</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Une icône de trois points horizontaux</block>
+  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">Il s'agit d'un ID généré par le système qui correspond à votre courrier électronique. Sur la page *NSS Management*, vous pouvez afficher votre courriel à partir du <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> menu.</block>
+  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">Si vous avez besoin d'actualiser vos jetons d'identification de connexion, il existe également une option *mettre à jour les informations d'identification* dans le <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> menu.</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Cette option vous invite à vous reconnecter. Notez que le jeton de ces comptes expire après 90 jours. Une notification sera publiée pour vous en informer.</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">Inscrivez-vous auprès de NetApp</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">Le fait de vous inscrire au support NetApp dépend de la présence ou non d'un compte sur le site de support NetApp (NSS).</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Client existant avec un compte NSS</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">Si vous êtes client NetApp avec un compte NSS, il vous suffit de vous inscrire pour obtenir du support dans BlueXP.</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">Si ce n'est déjà fait, ajoutez votre compte NSS à BlueXP.</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">Sur la page *Ressources*, cliquez sur *s'inscrire au support*.</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">Capture d'écran indiquant le numéro de série d'un compte et l'option Register pour le support</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Client existant mais aucun compte NSS</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">Si vous êtes déjà client NetApp avec des licences et des numéros de série existants mais que _no_ NSS, il vous suffit de créer un compte NSS.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">Formulaire d'inscription de l'utilisateur du site de support NetApp</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Créez un compte sur le site de support NetApp en complétant le<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Veillez à sélectionner le niveau d'utilisateur approprié, qui est généralement *client/utilisateur final NetApp*.</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">Veillez à copier le numéro de série du compte BlueXP (960xxxx) utilisé ci-dessus pour le champ Numéro de série. Le traitement du compte sera ainsi accéléré.</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Découvrez la toute nouvelle gamme NetApp</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Si vous êtes nouveau chez NetApp et que vous ne disposez pas d'un compte NSS, effectuez chacune des étapes ci-dessous.</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Recherchez le numéro de série de l'ID de compte sur la page d'inscription au support.</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Site d'inscription au support NetApp</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Accédez à<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> Et sélectionnez *je ne suis pas un client NetApp enregistré*.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Remplissez les champs obligatoires (ceux avec des astérisques rouges).</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">Dans le champ *Product Line*, sélectionnez *Cloud Manager*, puis votre fournisseur de facturation applicable.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">Copiez le numéro de série de votre compte à l'étape 2 ci-dessus, vérifiez sa sécurité, puis lisez la Déclaration de confidentialité des données NetApp.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Un e-mail est immédiatement envoyé à la boîte aux lettres fournie pour finaliser cette transaction sécurisée. Assurez-vous de vérifier vos dossiers de courrier indésirable si l'e-mail de validation n'arrive pas dans quelques minutes.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Confirmez l'action à partir de l'e-mail.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">La confirmation de la soumission de votre demande à NetApp et vous recommande de créer un compte sur le site de support NetApp.</block>
+  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">Veillez à copier le numéro de série du compte (960xxxx) utilisé ci-dessus pour le champ Numéro de série. Le traitement du compte sera ainsi accéléré.</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Une fois que vous avez terminé</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp devrait vous contacter au cours de ce processus. Il s'agit d'un exercice d'intégration unique pour les nouveaux utilisateurs.</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">Une fois votre compte sur le site de support NetApp, vous pouvez accéder à BlueXP et ajouter ce compte NSS pour les inscriptions futures.</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp prend en charge BlueXP de plusieurs façons. De nombreuses options d'auto-assistance gratuites sont disponibles 24 h/24 et 7 j/7, comme des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut un support technique à distance via la création de tickets en ligne.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Obtenez de l'aide</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp prend en charge BlueXP et ses services cloud de différentes manières. De nombreuses options d'auto-assistance gratuites sont disponibles 24 h/24 et 7 j/7, comme des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut un support technique à distance via la création de tickets en ligne.</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">Utilisation d'options de support en libre-service</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Ces options sont disponibles gratuitement, 24 heures sur 24, 7 jours sur 7 :</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Base de connaissances</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">Recherchez dans la base de connaissances BlueXP des articles utiles pour résoudre les problèmes.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">Communautés</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">Rejoignez la communauté BlueXP pour suivre des discussions en cours ou en créer de nouveaux.</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Documentation</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">La documentation BlueXP que vous consultez actuellement.</block>
+  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">Courrier électronique :ng-cloudmanager-feedback@netapp.com[E-mail de commentaires]</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">Nous accordons une grande importance à vos commentaires. Envoyez vos commentaires pour nous aider à améliorer BlueXP.</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">Créez un dossier de demande de support auprès du support NetApp</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Outre les options d'auto-support mentionnées ci-dessus, vous pouvez travailler avec un spécialiste du support NetApp pour résoudre tous les problèmes après avoir activé le service de support.</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">Avant de commencer</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">Découvrez comment vous inscrire à de l'aide</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">Pour utiliser la fonction *Créer un cas*, vous devez d'abord effectuer un enregistrement unique de votre numéro de série d'ID de compte BlueXP (par exemple 960xxxx) avec NetApp. <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>.</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">Dans BlueXP, cliquez sur *aide &gt; support*.</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">Sur la page *Ressources*, choisissez l'une des options disponibles sous support technique :</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">Cliquez sur *appelez-nous* si vous souhaitez parler avec quelqu'un au téléphone. Vous serez dirigé vers une page netapp.com qui répertorie les numéros de téléphone que vous pouvez appeler.</block>
+  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">Cliquez sur *Créer un dossier* pour ouvrir un dossier auprès d'un spécialiste du support NetApp :</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">*Compte sur le site de support NetApp* : sélectionnez le compte NSS applicable associé à la personne qui ouvre le dossier de support. Cette personne sera le contact principal avec NetApp en plus de l'e-mail ci-dessous.</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">Si vous ne voyez pas votre compte NSS, vous pouvez accéder à l'onglet *NSS Management* de la section support de BlueXP pour l'ajouter.</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service* : sélectionnez le service auquel le problème est associé. Par exemple, BlueXP lorsqu'il est spécifique à un problème de support technique avec des flux de travail ou des fonctionnalités au sein du service.</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*Environnement de travail* : si applicable au stockage, sélectionnez *Cloud Volumes ONTAP* ou *sur site*, puis l'environnement de travail associé.</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">La liste des environnements de travail est comprise dans le cadre du compte, de l'espace de travail et du connecteur BlueXP que vous avez sélectionnés dans la bannière supérieure du service.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*Priorité du cas* : choisissez la priorité du cas, qui peut être faible, Moyen, élevé ou critique.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">Pour en savoir plus sur ces priorités, passez votre souris sur l'icône d'information située à côté du nom du champ.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*Description du problème* : fournir une description détaillée de votre problème, y compris les messages d'erreur ou les étapes de dépannage applicables que vous avez effectués.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Adresses e-mail supplémentaires*: Entrez des adresses e-mail supplémentaires si vous souhaitez informer quelqu'un d'autre de ce problème.</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*Pièce jointe (facultatif)* : téléchargez jusqu'à cinq pièces jointes, une à la fois.</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Les pièces jointes sont limitées à 25 Mo par fichier. Les extensions de fichier suivantes sont prises en charge : txt, log, PDF, jpg/JPEG, rtf, doc/docx, xls/xlsx et csv.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Capture d'écran du formulaire Créer un dossier qui vous permet de créer un dossier auprès du support NetApp.</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Une fenêtre contextuelle contenant votre numéro de dossier de support s'affiche. Un spécialiste du support NetApp va étudier votre dossier et vous recontacterons très rapidement.</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">Pour consulter l'historique de vos dossiers d'assistance, vous pouvez cliquer sur *Paramètres &gt; Chronologie* et rechercher les actions nommées "Créer un dossier de support". Un bouton à l'extrême droite vous permet de développer l'action pour voir les détails.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">Il est possible que vous rencontriez le message d'erreur suivant lors de la création d'un dossier :</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">« Vous n'êtes pas autorisé à créer un dossier pour le service sélectionné »</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">Cette erreur peut signifier que le compte NSS et la société d'enregistrement auquel il est associé n'est pas la même société d'enregistrement pour le numéro de série du compte BlueXP (par exemple 960xxxx) ou le numéro de série de l'environnement de travail. Vous pouvez consulter votre liste de comptes NSS en haut du formulaire *Créer un dossier* pour trouver la correspondance appropriée, ou vous pouvez demander de l'aide en utilisant l'une des options suivantes :</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">Utilisez le chat du produit</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">Soumettre un dossier non technique à<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">Gestion de vos dossiers de demande de support (aperçu)</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">Vous pouvez afficher et gérer les dossiers de support actifs et résolus directement à partir de BlueXP. Vous pouvez gérer les dossiers associés à votre compte NSS et à votre entreprise.</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">La gestion des dossiers est disponible en tant qu'aperçu. Nous prévoyons d'affiner cette expérience et d'ajouter des améliorations dans les prochaines versions. Envoyez-nous vos commentaires à l'aide de l'outil de chat In-Product.</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">Le tableau de bord de gestion des dossiers en haut de la page propose deux vues :</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">La vue de gauche affiche le nombre total de dossiers ouverts au cours des 3 derniers mois par le compte NSS utilisateur que vous avez fourni.</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">La vue de droite affiche le nombre total de dossiers ouverts au cours des 3 derniers mois au niveau de votre entreprise en fonction de votre compte NSS utilisateur.</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">Les résultats du tableau reflètent les cas liés à la vue que vous avez sélectionnée.</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">Vous pouvez ajouter ou supprimer des colonnes d'intérêt et filtrer le contenu des colonnes telles que priorité et Statut. D'autres colonnes offrent uniquement des fonctions de tri.</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">Pour plus d'informations, consultez les étapes ci-dessous.</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">Au niveau de chaque dossier, nous offrons la possibilité de mettre à jour les notes de dossier ou de fermer un dossier qui n'est pas déjà à l'état fermé ou en attente fermée.</block>
+  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">Cliquez sur *case Management* et si vous y êtes invité, ajoutez votre compte NSS à BlueXP.</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">La page *gestion des cas* affiche les cas ouverts associés au compte NSS associé à votre compte utilisateur BlueXP. Il s'agit du même compte NSS qui apparaît en haut de la page *gestion NSS*.</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">Modifiez éventuellement les informations qui s'affichent dans le tableau :</block>
+  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">Sous *cas de l'organisation*, cliquez sur *Afficher* pour afficher tous les cas associés à votre société.</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">Modifiez la plage de dates en choisissant une plage de dates exacte ou en choisissant une autre période.</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">Capture d'écran de l'option au-dessus du tableau de la page gestion des cas qui vous permet de choisir une plage de dates exacte ou les 7 derniers jours, 30 derniers jours ou 3 derniers mois.</block>
+  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">Filtrez le contenu des colonnes.</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">Capture d'écran de l'option de filtre dans la colonne État qui vous permet de filtrer les dossiers correspondant à un état spécifique, comme actif ou fermé.</block>
+  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">Icône plus qui apparaît dans le tableau</block>
+  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">Modifiez les colonnes qui apparaissent dans le tableau en cliquant sur <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> puis choisissez les colonnes que vous souhaitez afficher.</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">Capture d'écran affichant les colonnes que vous pouvez afficher dans le tableau.</block>
+  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Icône avec trois points qui apparaît dans la dernière colonne du tableau</block>
+  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">Pour gérer un dossier de demande de support existant, cliquez sur <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> et en sélectionnant l'une des options disponibles :</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Voir cas*: Afficher tous les détails sur un cas spécifique.</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Mettre à jour les notes de cas* : fournir des détails supplémentaires sur votre problème ou sélectionner *Télécharger les fichiers* pour joindre jusqu'à cinq fichiers.</block>
+  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*Fermer le cas* : fournissez des détails sur la raison pour laquelle vous fermez le cas et cliquez sur *Fermer le cas*.</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">Capture d'écran qui montre les actions que vous pouvez effectuer après avoir sélectionné le menu dans la dernière colonne du tableau.</block>
+  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4dc97d13f8afbf15e0936287290445d1" category="summary">Le portefeuille digital BlueXP vous permet de gérer les licences que vous avez achetées directement auprès de NetApp (BYOL) pour une utilisation avec Cloud Backup, Cloud Data Sense et Cloud Tiering. Vous pouvez afficher la capacité de licence utilisée et la capacité disponible restante. Une notification s'affiche si vous avez atteint la limite de capacité ou la date d'expiration.</block>
+  <block id="e9598339aeb07702e2b24ef63fca36cc" category="doc">Gérez les licences des services de données BlueXP</block>
+  <block id="9733849463a86c6a043ab58c8ddf1ac4" category="paragraph">Les instructions de cette page fournissent des informations qui s'appliquent à chaque service. Pour plus d'informations sur les licences de ces services, reportez-vous aux pages suivantes :</block>
+  <block id="854a5b181af5166b0412d0786c77db0b" category="inline-link">Configuration des licences pour Cloud Backup</block>
+  <block id="b984bca5aec62e5640849a3ce56f3a6c" category="list-text"><block ref="b984bca5aec62e5640849a3ce56f3a6c" category="inline-link-rx"></block></block>
+  <block id="0ed0a0ad5aadf8f8ef3ea382b8f4a106" category="inline-link">Configurez les licences pour Cloud Data Sense</block>
+  <block id="b3b23402aeecfc18bdb1d8932564085d" category="list-text"><block ref="b3b23402aeecfc18bdb1d8932564085d" category="inline-link-rx"></block></block>
+  <block id="4b75686c0a14158ec6b99e93fbf1828b" category="inline-link">Configuration des licences pour NetApp Cloud Tiering</block>
+  <block id="f896a045834fbc7eb21af1d43d98136b" category="list-text"><block ref="f896a045834fbc7eb21af1d43d98136b" category="inline-link-rx"></block></block>
+  <block id="73acd586df3bf9938d39f0e738d5c161" category="section-title">Obtenir un fichier de licence</block>
+  <block id="f11bf973a6c8039ecfd0152979db21be" category="paragraph">Après avoir acheté une licence, vous pouvez activer la licence dans BlueXP en saisissant le numéro de série et le compte NSS ou en téléchargeant le fichier de licence NetApp (NLF). Les étapes ci-dessous montrent comment obtenir le fichier de licence NLF si vous prévoyez d'utiliser cette méthode.</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">Site de support NetApp</block>
+  <block id="80c4b6e3dfa1d4f33033585b7c74e7e9" category="list-text">Connectez-vous au<block ref="fcc52edac3ce57829c48ee35d97a295d" category="inline-link-rx"></block> Et cliquez sur *systèmes &gt; licences logicielles*.</block>
+  <block id="5f734fc198c7d1b1aaf7c6893cc13cd2" category="list-text">Entrez le numéro de série de votre licence.</block>
+  <block id="5190e9ec018f5e661ec4b31ff1b34423" category="inline-image-macro">Capture d'écran affichant une table de licences après une recherche par numéro de série.</block>
+  <block id="193bccfc2cf277cad00678895e527b35" category="paragraph"><block ref="193bccfc2cf277cad00678895e527b35" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a6cfac773f21906007a8ddf407596067" category="list-text">Dans la colonne *License Key*, cliquez sur *Get NetApp License File*.</block>
+  <block id="f68bf28051d836364652b5a91d1bcd3a" category="list-text">Saisissez votre identifiant de compte BlueXP (il s'agit d'un identifiant de locataire sur le site d'assistance) et cliquez sur *Submit* pour télécharger le fichier de licence.</block>
+  <block id="56273f3344c87fabbf5196fba9816fff" category="inline-image-macro">Une capture d'écran qui affiche la boîte de dialogue obtenir la licence dans laquelle vous entrez votre identifiant de locataire, puis cliquez sur soumettre pour télécharger le fichier de licence.</block>
+  <block id="7ca3a83129f844a42c263755a0fa4a32" category="paragraph"><block ref="7ca3a83129f844a42c263755a0fa4a32" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="257ff1df6b80ed0bf9b3463d53be79f9" category="paragraph">Vous pouvez trouver votre identifiant de compte BlueXP en sélectionnant le menu déroulant *compte* en haut de BlueXP, puis en cliquant sur *gérer compte* en regard de votre compte. Votre ID de compte se trouve dans l'onglet vue d'ensemble.</block>
+  <block id="ec01ce5d7a75843507cddc0f1e980f6a" category="section-title">Ajouter une licence</block>
+  <block id="e57e44bf22e7fb35d0bc0ba9f8593a5b" category="paragraph">Après avoir acheté une licence pour un service de données BlueXP, vous devez ajouter la licence à BlueXP.</block>
+  <block id="8d080a0104c2b8b29f5fc2be913926af" category="list-text">Dans le menu BlueXP, cliquez sur *gouvernance &gt; porte-monnaie numérique*, puis sélectionnez l'onglet *licences de services de données*.</block>
+  <block id="c1b2dc0798d3960e25b8a12c751f53ec" category="list-text">Dans la boîte de dialogue _Add License_, entrez les informations de licence et cliquez sur *Add License*:</block>
+  <block id="929bfeada83228e2a76020a5050a605e" category="list-text">Si vous avez le numéro de série et que vous connaissez votre compte NSS, sélectionnez l'option *entrer le numéro de série* et entrez ces informations.</block>
+  <block id="bae190eec3db4a0dd635ae72756acde8" category="inline-link">Ajoutez le compte NSS à BlueXP</block>
+  <block id="3a7d2aab6d3f158a52978777da89804f" category="paragraph">Si votre compte sur le site de support NetApp n'est pas disponible dans la liste déroulante,<block ref="6d9745cd4f1d60b55f06aef4c5cb6ec4" category="inline-link-rx"></block></block>
+  <block id="6e2573cea3af840a0c24f94975047370" category="list-text">Si vous disposez du fichier de licence (requis lors de l'utilisation de BlueXP en mode privé), sélectionnez l'option *Upload License File* et suivez les invites pour joindre le fichier.</block>
+  <block id="b91c77235ab93af32b475ca05ffa1ab2" category="inline-image-macro">Capture d'écran affichant la page permettant d'ajouter la licence Cloud Backup BYOL.</block>
+  <block id="78364824176e311173787bc994b841d4" category="paragraph"><block ref="78364824176e311173787bc994b841d4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9f7100a1f5980a935ee73427b4e84228" category="paragraph">BlueXP ajoute la licence.</block>
+  <block id="6c1c5737355a8b30e87ad5d7c6da9553" category="section-title">Mettre à jour une licence</block>
+  <block id="f2325e725df0937d64ac12917b15a3b3" category="paragraph">Si votre période de licence approche de la date d'expiration ou si votre capacité sous licence atteint la limite, vous en serez informé dans le portefeuille digital. Vous pouvez mettre à jour votre licence avant son expiration afin que vous puissiez utiliser le service de données BlueXP sans interruption.</block>
+  <block id="89ec6475bcd2a52ce9ca1c8fa843339e" category="inline-image-macro">Capture d'écran qui montre une licence arrivant à expiration dans la page du porte-monnaie numérique.</block>
+  <block id="b16535eaa5694c59eb7ff71777c5cd59" category="paragraph"><block ref="b16535eaa5694c59eb7ff71777c5cd59" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bb99d6c3efadbec99aeab8b89922e30d" category="list-text">Cliquez sur l'icône de chat dans le coin inférieur droit de BlueXP, ou contactez le support pour demander une extension de votre période ou de la capacité supplémentaire de votre licence pour le numéro de série spécifique.</block>
+  <block id="8061535eb5e8bab52c4a8a0fdc119d14" category="paragraph">Une fois que vous avez payé la licence et qu'elle est enregistrée sur le site de support NetApp, BlueXP met automatiquement à jour la licence dans Digital Wallet et et la page des licences des services de données reflétera la modification dans 5 à 10 minutes.</block>
+  <block id="b74318cb9e5cf2bae938953860aade06" category="list-text">Si BlueXP ne peut pas mettre à jour automatiquement la licence (par exemple, si vous utilisez BlueXP en mode privé), vous devez télécharger manuellement le fichier de licence.</block>
+  <block id="b2b168bd64a341a85c749cb61bba40cb" category="inline-xref">Procurez-vous le fichier de licence sur le site de support NetApp</block>
+  <block id="5281a9b97c306047dc796d618670919d" category="list-text">C'est possible <block ref="2ee9df93e68c4a0ffa870dc00950ab97" category="inline-xref-macro-rx"></block>.</block>
+  <block id="8f0a75d2d5a82f31f2cf069c3b0ee684" category="inline-image-macro">Plus d'icône</block>
+  <block id="99da83a7a226f8a0da83a88d51713f13" category="list-text">Dans l'onglet _licences des services de données_, cliquez sur <block ref="50acd719b1954eb4890c002b3b5e71a6" category="inline-image-macro-rx" type="image"></block> Pour le numéro de série de service que vous mettez à jour, cliquez sur *mettre à jour la licence*.</block>
+  <block id="3ce750f001c2369e23b68f3210d9f100" category="inline-image-macro">Capture d'écran de la sélection du bouton mettre à jour la licence pour un service particulier.</block>
+  <block id="9d37072f5a1b76b16e647a14826ade70" category="paragraph"><block ref="9d37072f5a1b76b16e647a14826ade70" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="41e921305ae1b027e5d364af4a2a9df2" category="list-text">Dans la page _Update License_, téléchargez le fichier de licence et cliquez sur *Update License*.</block>
+  <block id="34674441113c2bf2e8f3d38a0e8276bb" category="paragraph">BlueXP met à jour la licence.</block>
+  <block id="75b8c5a187d84d0b9176c9a71ca76c92" category="summary">La page Portefeuille numérique vous permet de gérer les licences pour Cloud Volumes ONTAP à partir d'un seul emplacement. Vous pouvez ajouter de nouvelles licences et mettre à jour des licences existantes.</block>
+  <block id="46172ce69f0d69dc6b2a28ea9573950b" category="doc">Gérez les abonnements Keystone Flex</block>
+  <block id="541be6e1dda8fc9678c974d148e15469" category="paragraph">Gérez vos abonnements Keystone Flex à partir du portefeuille digital en activant les abonnements pour une utilisation avec Cloud Volumes ONTAP. Vous pouvez également demander des modifications à la capacité engagée et annuler la liaison des abonnements.</block>
+  <block id="144db5f18aa0a48a9fe63c8b55bd0275" category="paragraph">Un _Keystone Flex Subscription_ est un service de stockage NetApp qui offre un modèle de paiement à l'utilisation.</block>
+  <block id="4edb70089cdbc18de22fa9ead5189bc8" category="section-title">Autoriser votre compte</block>
+  <block id="5187c95ccaa9cce754eff51fdf83a80b" category="paragraph">Avant de pouvoir utiliser et gérer les abonnements Keystone Flex dans BlueXP, vous devez contacter NetApp pour autoriser votre compte utilisateur BlueXP avec vos abonnements Keystone Flex.</block>
+  <block id="492847bcbc9ec0bd3075b612aa43e4a7" category="list-text">Sélectionnez *Keystone*.</block>
+  <block id="daf4ae396784c74ec2cbf002eaaa25f4" category="list-text">Si vous voyez la page *Bienvenue dans NetApp Keystone*, envoyez un e-mail à l'adresse indiquée sur la page.</block>
+  <block id="16692c26ca4528e651bbb36d93c465c7" category="paragraph">Un représentant NetApp traitera votre demande en autorisant votre compte utilisateur à accéder aux abonnements.</block>
+  <block id="ed53b278164ebd0a6b2a2a8f63581c09" category="list-text">Revenez à l'abonnement *Keystone Flex* pour afficher vos abonnements.</block>
+  <block id="7aca1d09047c08c604b14d2916222137" category="inline-image-macro">Capture d'écran affichant la liste des abonnements Keystone Flex.</block>
+  <block id="9eb7d5bfc7310c477d520b7308dcb502" category="paragraph"><block ref="9eb7d5bfc7310c477d520b7308dcb502" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">Et la suite ?</block>
+  <block id="18dea2097f201a1ab3eb6d3305d42f0a" category="paragraph">Associez les abonnements que vous souhaitez utiliser avec Cloud Volumes ONTAP.</block>
+  <block id="06f358c39bc3b4633cefd78beb67e671" category="section-title">Associer un abonnement</block>
+  <block id="a105e3cd0d458207c5631417eee0c8a2" category="paragraph">Après avoir autorisé votre compte, vous devez lier des abonnements Keystone Flex à utiliser avec Cloud Volumes ONTAP. Cette action permet aux utilisateurs de sélectionner l'abonnement comme méthode de facturation pour les nouveaux systèmes Cloud Volumes ONTAP.</block>
+  <block id="b0afff19aa3343a6f86619d833dbd316" category="inline-image-macro">Icône représentant trois points côte à côte</block>
+  <block id="fc6ada65ff8f08c80e7d6167f68c89c2" category="list-text">Pour l'abonnement que vous souhaitez lier, cliquez sur <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> Et sélectionnez *Link*.</block>
+  <block id="a71102951bc0488f4ec3cb5e52602100" category="inline-image-macro">Capture d'écran affichant l'option de lien pour un abonnement.</block>
+  <block id="53dd6d03631eca7d8e89d0d7d8cdeb77" category="paragraph"><block ref="53dd6d03631eca7d8e89d0d7d8cdeb77" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c01bba3f5cf220440d62298c4287d655" category="paragraph">L'abonnement est désormais lié à votre compte BlueXP et disponible pour la création d'un environnement de travail Cloud Volumes ONTAP.</block>
+  <block id="1b02ed65c5ea56c85fffa6b88378d762" category="section-title">Demandez plus ou moins de capacité dédiée</block>
+  <block id="51865ab5b1a727fd7b6804d74e80a1cd" category="paragraph">Si vous devez ajuster la capacité engagée pour un abonnement, vous pouvez envoyer une demande directement à partir de l'interface BlueXP.</block>
+  <block id="a2748c51966db7db689a8801f6ae4150" category="list-text">Pour l'abonnement pour lequel vous souhaitez ajuster la capacité, cliquez sur <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> Et sélectionnez *Afficher le détail et modifier*.</block>
+  <block id="56ecf988dec174f4d23028e78eeed82c" category="list-text">Saisissez la capacité d'engagement requise pour un ou plusieurs abonnements.</block>
+  <block id="b21f9c14aa5cab57ac732dac504b7b63" category="inline-image-macro">Capture d'écran indiquant la possibilité de demander une modification de la capacité demandée pour un abonnement.</block>
+  <block id="6a39e9f54ea83c3684d0fc38cb4ce576" category="paragraph"><block ref="6a39e9f54ea83c3684d0fc38cb4ce576" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dbae9df22f08344d5508b91cb73c6d15" category="list-text">Faites défiler vers le bas, saisissez les détails supplémentaires de la demande, puis cliquez sur *Envoyer*.</block>
+  <block id="8f140d9c4d508c36e3d4c57102f117eb" category="paragraph">Votre demande crée un ticket dans le système NetApp.</block>
+  <block id="0c0401d1e9169d6dd38462b1e0d04126" category="section-title">Dissocier un abonnement</block>
+  <block id="a991be6c178aa61e164f05082c15f594" category="paragraph">Si vous ne souhaitez plus utiliser un abonnement Keystone Flex avec de nouveaux systèmes Cloud Volumes ONTAP, vous pouvez annuler la liaison de l'abonnement. Notez que vous ne pouvez dissocier qu'un abonnement qui n'est pas associé à un abonnement Cloud Volumes ONTAP existant.</block>
+  <block id="a666a430e484ea214384aefaa30da852" category="list-text">Pour l'abonnement que vous souhaitez dissocier, cliquez sur <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> Et sélectionnez *Unlink*.</block>
+  <block id="ae187bda8f85dfd75202915fcca6b90d" category="paragraph">L'abonnement n'est plus lié à votre compte BlueXP et ne peut plus être sélectionné lors de la création d'un environnement de travail Cloud Volumes ONTAP.</block>
+  <block id="0ba30235105c7547a3e7658745e09be4" category="summary">Découvrez les nouveautés du portefeuille digital BlueXP.</block>
+  <block id="490414e0366b091220802d406e52c076" category="doc">Quoi de neuf</block>
+  <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">3 avril 2023</block>
+  <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">Notifications par e-mail</block>
+  <block id="a08572617e25a61e8569807ac103ab07" category="paragraph">Les notifications par e-mail sont désormais prises en charge par le portefeuille digital.</block>
+  <block id="380d0a0b2cec998dcd9f52b91b24304c" category="paragraph">Si vous configurez vos paramètres de notification, vous pouvez recevoir des notifications par e-mail lorsque vos licences BYOL vont expirer (une notification d'avertissement) ou si elles ont déjà expiré (une notification d'erreur).</block>
+  <block id="335e7f21f0fdfecbe9c04540dcb8cdd6" category="inline-link">Découvrez comment configurer les notifications par e-mail</block>
+  <block id="497d867daded8927a3cf934337006373" category="paragraph"><block ref="497d867daded8927a3cf934337006373" category="inline-link-rx"></block></block>
+  <block id="164bf9dea8d8396a2e7501258b908616" category="section-title">Capacité sous licence pour les abonnements Marketplace</block>
+  <block id="1b8d4ee3ff5e577bc8524d6a5e73790e" category="paragraph">Lors de l'affichage des licences basées sur la capacité pour Cloud Volumes ONTAP, le portefeuille digital affiche désormais la capacité sous licence que vous avez achetée avec des offres privées Marketplace.</block>
+  <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">Découvrez comment afficher la capacité consommée dans votre compte</block>
+  <block id="1e9f781ad3dabc2f942313854ce94883" category="paragraph"><block ref="bcd8bf14da5e102dbc4b48dd0870869e" category="inline-link-rx"></block>.</block>
+  <block id="5a4346a01828d72104a6540080377b25" category="section-title">6 novembre 2022</block>
+  <block id="36e33f823d687cad39366d44fd0b326d" category="section-title">Abonnements et contrats annuels</block>
+  <block id="a7dad5ac7e311dedf2a82e4bb5a713dd" category="paragraph">Vos abonnements PAYGO et vos contrats annuels pour BlueXP sont désormais disponibles pour la consultation et la gestion à partir du portefeuille numérique.</block>
+  <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">Découvrez comment gérer vos abonnements</block>
+  <block id="02a7eedc354fe91b04b9ff906dc9c760" category="paragraph"><block ref="dcb08a7187e62f8d5d6c3eba08ea6b8f" category="inline-link-rx"></block>.</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">18 septembre 2022</block>
+  <block id="b269d65b4fd592fc59288f3c9c3917b9" category="section-title">E/S optimisées et capacité WORM</block>
+  <block id="e1de90a0937196074c7abb9f8b5e5edf" category="paragraph">Le porte-monnaie numérique présente maintenant un résumé du package de licences d'E/S optimisées et de la capacité WORM provisionnée pour les systèmes Cloud Volumes ONTAP de votre compte.</block>
+  <block id="c3304f9cf1f523f219fc4a936bde8242" category="paragraph">Ces informations vous permettront de mieux comprendre la facturation et l'achat de capacité supplémentaire.</block>
+  <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">31 juillet 2022</block>
+  <block id="b69737a8aa6d54e160fd215ef53825b5" category="section-title">Changer la méthode de charge</block>
+  <block id="f999ecec0a946b40cdd04ca71d0ac5e0" category="paragraph">Vous pouvez désormais modifier la méthode de facturation d'un système Cloud Volumes ONTAP utilisant des licences basées sur la capacité. Par exemple, si vous avez déployé un système Cloud Volumes ONTAP avec le pack Essentials, vous pouvez le remplacer par le pack Professional si vos besoins évoluent.</block>
+  <block id="63b54c0d3b4fb8e35270bfdf7b2bdcbb" category="inline-link">Apprenez à changer les méthodes de charge</block>
+  <block id="8c8503ff8c21813561363b608190163e" category="paragraph"><block ref="24cab88ee4e7cc87558a54f6745deabe" category="inline-link-rx"></block>.</block>
+  <block id="1511b856d0328cfba458b8f83c2e94e3" category="section-title">3 juillet 2022</block>
+  <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">Capacité consommée</block>
+  <block id="d5503d6062daaaa4326462970164cbac" category="paragraph">Le porte-monnaie numérique vous indique maintenant la capacité totale consommée dans votre compte et la capacité consommée par le package de licences. Cela vous permet de mieux comprendre la façon dont vous achetez de la capacité supplémentaire et si celle-ci est nécessaire.</block>
+  <block id="232ac716fdabb7e9b9ba7c3a108574a7" category="inline-image-macro">Capture d'écran qui affiche la page du portefeuille numérique pour les licences basées sur la capacité. La page présente la capacité consommée dans votre compte et réduit la capacité consommée par le package de licences.</block>
+  <block id="998e6cc07bc5c3b4a2329ad21093316c" category="paragraph"><block ref="998e6cc07bc5c3b4a2329ad21093316c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ba26e4556a0f160834687982b0479336" category="section-title">27 février 2022</block>
+  <block id="ad542dc76a1c13d716648648c7052561" category="section-title">Licences pour les clusters ONTAP sur site</block>
+  <block id="cc6992a66b9fc6bd5f23a20beff49e2a" category="paragraph">Vous pouvez désormais consulter l'inventaire de vos clusters ONTAP sur site ainsi que la date d'expiration de leurs contrats de service et de matériel. Des informations supplémentaires sur les clusters sont également disponibles.</block>
+  <block id="af7d9848ad6bc871344453ac12a13027" category="inline-link">Découvrez comment gérer les licences des clusters ONTAP sur site</block>
+  <block id="770294ba582707dbf5d21f7add8b531e" category="paragraph"><block ref="d28003d0743d6fc8a920f6982b9bd603" category="inline-link-rx"></block>.</block>
+  <block id="586301717819197e24001cac47efdaaa" category="section-title">2 janvier 2022</block>
+  <block id="d5ce756f503ae6211b9ef6c827e757be" category="section-title">Les conditions de licence sont automatiquement mises à jour</block>
+  <block id="310c945b52669c8754bf13907cbb5859" category="paragraph">Si vous modifiez la capacité ou la durée de l'une de vos licences, les termes de la licence sont désormais automatiquement mis à jour dans le portefeuille digital. Vous n'avez pas besoin de mettre à jour manuellement la licence vous-même.</block>
+  <block id="b2d68f8e07e0e6ca8d81ba9d15e96e7e" category="paragraph">La mise à jour automatique des licences fonctionne avec tous les types de licences Cloud Volumes ONTAP et toutes les licences pour les services de données.</block>
+  <block id="94fd71e366753efc2c71fcdd0fc3afd4" category="summary">Le portefeuille digital BlueXP vous permet de consulter les détails des contrats pour chacun de vos clusters ONTAP sur site. Si vous n'avez pas encore découvert de cluster dans BlueXP, vous pouvez également le faire à partir du portefeuille digital.</block>
+  <block id="dc8526e1d318113e071717b2a8bb27b7" category="doc">Gérez les licences des clusters ONTAP sur site</block>
+  <block id="b2483d10bcc14093a8053b8770aba9d5" category="paragraph">Le portefeuille digital BlueXP vous permet de consulter les détails des contrats pour chacun de vos clusters ONTAP sur site. Si vous n'avez pas encore découvert de cluster dans BlueXP, vous pouvez également les découvrir via le portefeuille digital.</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Avant de commencer</block>
+  <block id="2b474be1d4faf7d5e70a3977fa183a0a" category="paragraph">Le portefeuille digital BlueXP affiche des informations détaillées sur les clusters ONTAP sur site que vous avez détectés en tant qu'environnement de travail ou associés à un compte sur le site de support NetApp que vous avez ajouté à BlueXP.</block>
+  <block id="422bab6ebf30e7a3f981f61427aaba19" category="inline-link">Découvrez comment découvrir un cluster ONTAP sur site</block>
+  <block id="ee77aca075c41e33c626b202c8aa8b8d" category="list-text"><block ref="ee77aca075c41e33c626b202c8aa8b8d" category="inline-link-rx"></block></block>
+  <block id="9f7c8fad2f6cbf64994a97a18db097a3" category="inline-link">Découvrez comment gérer les informations d'identification NSS associées à votre compte BlueXP</block>
+  <block id="de45514bc9fd0b9604aa1c860a077256" category="list-text"><block ref="de45514bc9fd0b9604aa1c860a077256" category="inline-link-rx"></block></block>
+  <block id="4bbcdd6338e8631576e63f1156b1c51d" category="section-title">Afficher les informations sur le cluster et les détails du contrat</block>
+  <block id="dfaa8df1d6444411a1429b0866742025" category="paragraph">Consultez l'état des contrats matériels et logiciels pour vos clusters ONTAP sur site afin de pouvoir les renouveler avant qu'ils n'expirent.</block>
+  <block id="e65135bd79d15db91bec6c98a9f8dabe" category="list-text">Sélectionnez *ONTAP sur site*.</block>
+  <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">Les dates d'expiration du contrat logiciel et du contrat matériel apparaissent sur la ligne de chaque cluster.</block>
+  <block id="6723aa6a44348a3e74720156abb41f28" category="paragraph">Si vous êtes invité à saisir d'abord les informations d'identification de votre compte sur le site de support NetApp (NSS), sélectionnez *Ajouter un compte NSS*. Une fois le compte ajouté, les clusters associés à ce compte NSS s'affichent.</block>
+  <block id="a28ac2453944ea9dd8226245843a732a" category="list-text">Si le contrat est proche de la date d'expiration ou a expiré, vous pouvez cliquer sur l'icône de chat dans le coin inférieur droit de la console BlueXP pour demander une extension du contrat.</block>
+  <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">Une icône de point d'arrêt</block>
+  <block id="fcc677fe098adab7dfc32abe993e374e" category="list-text">Pour afficher plus de détails, cliquez sur <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> pour développer les informations sur le cluster.</block>
+  <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">Capture d'écran indiquant l'extension des détails du cluster pour vous permettre d'afficher les informations de licence du cluster.</block>
+  <block id="5796086a716a7059f711cc33be934605" category="paragraph"><block ref="5796086a716a7059f711cc33be934605" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="20dbb48f93e265cf5e1f55346fd44629" category="section-title">Découvrir les clusters</block>
+  <block id="ab395f2156c2b2dd069758d285bf1831" category="paragraph">Si vous n'avez pas découvert de cluster ONTAP sur site comme environnement de travail, vous pouvez le faire à partir du portefeuille digital BlueXP. Une fois découvert, un cluster est disponible en tant qu'environnement de travail dans BlueXP, pour que vous puissiez le gérer.</block>
+  <block id="e2a716542f109d4a2fb34f69a07f4989" category="paragraph">Vous devez connaître vos options de découverte et de gestion (découverte à l'aide d'un connecteur ou découverte directe sans connecteur) ainsi que les exigences de découverte.</block>
+  <block id="01b0421859ec2fed2ce4dff333e190ee" category="inline-link">Découvrez les options et les exigences de la découverte</block>
+  <block id="8728d93a5567e0ffeed42f1c7696c10e" category="paragraph"><block ref="c87751a78e1ec3740ccd8d6a5b7bbdf4" category="inline-link-rx"></block>.</block>
+  <block id="705316ae4d75d35f1e961cab58a5d5df" category="inline-image-macro">Capture d'écran de la page Portefeuille numérique pour les clusters ONTAP sur site.</block>
+  <block id="7d584a90892954972995f98a62f03440" category="paragraph"><block ref="7d584a90892954972995f98a62f03440" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e3c5f2c16e01a4bb5b1747361f4b1fdf" category="paragraph">Vos clusters ONTAP s'affichent et indiquent si leur état a été détecté dans BlueXP.</block>
+  <block id="0cd51dae8d109dd3491432cc2fd0c1fa" category="list-text">Cliquez sur *Discover* pour le cluster que vous souhaitez gérer via BlueXP.</block>
+  <block id="f024b01de8a49fd78376b5b34e191e05" category="list-text">Sur la page _découvrir le cluster_ONTAP, entrez le mot de passe du compte utilisateur admin et cliquez sur *découvrir*.</block>
+  <block id="8de100c0dba6b3831c0b2881ceb2cda0" category="inline-image-macro">Copie d'écran affichant un exemple de page des détails du cluster ONTAP : l'adresse IP de gestion du cluster, le nom d'utilisateur et le mot de passe.</block>
+  <block id="357d0c6bce7e8c970eebbf9c77a986a3" category="paragraph"><block ref="357d0c6bce7e8c970eebbf9c77a986a3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1a2fb7ccfa21c70443bb345dbcce015c" category="paragraph">Notez que l'adresse IP de gestion du cluster est renseignée en fonction des informations de votre compte sur le site de support NetApp.</block>
+  <block id="6298e67fb2f8f39c3aee90b850d2576a" category="paragraph">BlueXP découvre le cluster et l'ajoute en tant qu'environnement de travail dans la zone de dessin. L'état du cluster passe à *découvert* dans la page _sur-site ONTAP_. Notez que le nom de l'environnement de travail correspond au nom du cluster.</block>
+  <block id="487e5c142c79949705e4fec4bdaf1798" category="inline-image-macro">Copie d'écran d'un cluster ONTAP sur site dans la fenêtre Canvas.</block>
+  <block id="55b907f18f62b7afccbe773678898915" category="paragraph"><block ref="55b907f18f62b7afccbe773678898915" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d123a6bdeb75e456b3adf0e79646234d" category="paragraph">Vous pouvez maintenant commencer à gérer le cluster.</block>
+  <block id="b1f50daaafce361695fc65132af507a0" category="inline-link">Découvrez comment gérer les clusters découverts avec un connecteur</block>
+  <block id="2b3c797a98693bc95eb014beb60621b8" category="list-text"><block ref="2b3c797a98693bc95eb014beb60621b8" category="inline-link-rx"></block></block>
+  <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link">Découvrez comment gérer les clusters découverts directement</block>
+  <block id="99d7f3ff9fb7308bda3abc7d58891657" category="list-text"><block ref="99d7f3ff9fb7308bda3abc7d58891657" category="inline-link-rx"></block></block>
+  <block id="4d17b7f0d1f8c0ae69c0ec8d32fea349" category="summary">Lorsque vous vous abonnez à BlueXP depuis le marché d'un fournisseur de services Cloud, vous êtes redirigé vers le site Web BlueXP où vous devez enregistrer votre abonnement et l'associer à des comptes spécifiques. Après votre inscription, vous pouvez gérer chaque abonnement à partir du porte-monnaie numérique.</block>
+  <block id="b01b1be092b95233172f870dc729234b" category="doc">Gérer les abonnements et les contrats PAYGO</block>
+  <block id="e858f445394700e621aa67dd8e3fe958" category="section-title">Afficher vos abonnements</block>
+  <block id="9c1b3fb5f48f73ce89025933ec931382" category="paragraph">Le porte-monnaie numérique fournit des informations détaillées sur chaque abonnement PAYGO et contrat annuel associé à votre compte BlueXP et à Astra (Astra utilise le service de facturation de BlueXP).</block>
+  <block id="8c3682e85d7f4dbe8a46485082335dec" category="list-text">Sélectionnez *abonnements*.</block>
+  <block id="1422eb9c77ef6c74d6abe35beedc5d64" category="paragraph">Vous ne verrez que les abonnements associés au compte que vous consultez actuellement.</block>
+  <block id="572e470335e0a6d55da05c732a01aed3" category="list-text">Lorsque vous affichez les informations relatives à vos abonnements, vous pouvez interagir avec les détails du tableau comme suit :</block>
+  <block id="6a1de13d318f22872902849cd26467b4" category="list-text">Développez une ligne pour afficher plus de détails.</block>
+  <block id="d61aec883b403c61da2d8d8e19d78473" category="inline-image-macro">Capture d'écran de l'onglet abonnements du porte-monnaie numérique dans laquelle vous pouvez sélectionner la flèche à la fin d'une ligne pour la développer.</block>
+  <block id="3a9d2caf2b3b63f1b3ab7d00e469b158" category="paragraph"><block ref="3a9d2caf2b3b63f1b3ab7d00e469b158" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="56594b7222b35921f9fe676eadf6bbdf" category="inline-image-macro">l'icône plus à l'extrémité de l'en-tête de la table</block>
+  <block id="33d90cc16eaedf37738a3faf06f00f36" category="list-text">Sélectionnez <block ref="98b11313fea6c4106e5a3c018f0ffbc9" category="inline-image-macro-rx" type="image"></block> pour choisir les colonnes qui s'affichent dans le tableau.</block>
+  <block id="c090ce3dc0b8ea780bfa95c666328c67" category="paragraph">Notez que les colonnes Term et Auto Renew n'apparaissent pas par défaut. La colonne Renouvellement automatique affiche les informations de renouvellement des contrats Azure uniquement.</block>
+  <block id="48772efe35cdbabca3c0abdab7360b57" category="paragraph">Notez ce qui suit à propos de ce que vous voyez dans le tableau :</block>
+  <block id="4d34f1097f6c8b9cee28bca8b78bbee9" category="list-text">Date de début</block>
+  <block id="d1686d74b72c58f44c6fceaf3011df0b" category="list-text">La date de début est la date à laquelle vous avez correctement associé l'abonnement à votre compte et que la facturation a commencé.</block>
+  <block id="382b0f5185773fa0f67a8ed8056c7759" category="list-text">S/O</block>
+  <block id="716e98867696fbbeed00e3dcd1f76758" category="list-text">Si vous voyez N/A dans le tableau, les informations ne sont pas disponibles dans l'API du fournisseur de cloud pour le moment.</block>
+  <block id="cd494d76449d5dfe0c0adfb2f3447761" category="list-text">Contrats</block>
+  <block id="8090b542b799e2f0268fddd048d44eda" category="list-text">Si vous développez les détails d'un contrat, le porte-monnaie numérique affiche les éléments disponibles pour votre plan actuel : les options et unités du contrat (capacité ou nombre de nœuds).</block>
+  <block id="7f96d1365390f4c6a7c1befe0b068769" category="list-text">Le porte-monnaie numérique identifie la date de fin et indique si le contrat sera bientôt renouvelé ou s'il a déjà pris fin.</block>
+  <block id="def1d5f1d4a6db4b59f941bed287221d" category="list-text">Si vous avez souscrit un contrat AWS et que vous avez modifié l'une des options du contrat après la date de début, vérifiez vos options de contrat sur AWS Marketplace.</block>
+  <block id="6942b724002d90bb0f705f478cdd6bf3" category="section-title">Gérez vos abonnements</block>
+  <block id="ac3dad7b0d90a8896f44e77f84726619" category="paragraph">Vous pouvez gérer vos abonnements à partir du porte-monnaie numérique en renommant un abonnement et en choisissant les comptes associés à l'abonnement.</block>
+  <block id="0c3ef8839b737ed6600351348aace81b" category="paragraph">Par exemple, disons que vous avez deux comptes et que chacun est facturé par le biais d'abonnements distincts. Vous pouvez dissocier un abonnement de l'un des comptes afin que les utilisateurs de ce compte ne choisissent pas accidentellement le mauvais abonnement lors de la création d'un environnement de travail Cloud Volumes ONTAP.</block>
+  <block id="e97d1d1134e32a84fb4d6d796e3e56a9" category="list-text">Sélectionnez le menu d'action dans la ligne correspondant à l'abonnement que vous souhaitez gérer.</block>
+  <block id="1dea06c0cd8c3b77e4597670a860c155" category="inline-image-macro">Capture d'écran du menu d'action pour un abonnement.</block>
+  <block id="23531331db8be0d13d9ce3c0685c0c8e" category="paragraph"><block ref="23531331db8be0d13d9ce3c0685c0c8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1201c1bd99e40a424aee33ac62838b92" category="list-text">Choisissez de renommer l'abonnement ou de gérer les comptes BlueXP associés à l'abonnement.</block>
+  <block id="7e3a4c0ec1aee45acf094839bb9c449f" category="summary">Gérez vos licences basées sur des nœuds dans le porte-monnaie numérique pour vous assurer que chaque système Cloud Volumes ONTAP dispose d'une licence valide avec la capacité requise.</block>
+  <block id="de94398a333e3b7bdafad2ddf3232331" category="doc">Gestion des licences basées sur des nœuds</block>
+  <block id="15d021d83ccb68dbaf63683ce6741fee" category="paragraph">Gérez les licences par nœud dans le portefeuille numérique pour vous assurer que chaque système Cloud Volumes ONTAP dispose d'une licence valide avec la capacité requise.</block>
+  <block id="4627bd080634e9380c75a1cc04a09486" category="paragraph">_Les licences par nœud_ sont le modèle de licence de génération précédente (et non disponible pour les nouveaux clients) :</block>
+  <block id="81f9d97336a30fb7be6f8d770fee25eb" category="list-text">Licences BYOL achetées auprès de NetApp</block>
+  <block id="17ac9e85cf5b6f7b77acf61fb7721242" category="list-text">Des abonnements avec facturation à l'utilisation (PAYGO) à partir du marché de votre fournisseur cloud</block>
+  <block id="9426b05d2fc423b761e34f9d75b4066d" category="section-title">Gérez les licences PAYGO</block>
+  <block id="39489bc3468be0f9c30ed41b5ac89051" category="paragraph">La page porte-monnaie numérique vous permet d'afficher des détails sur chacun de vos systèmes Cloud Volumes ONTAP PAYGO, y compris le numéro de série et le type de licence PAYGO.</block>
+  <block id="5844b24c31c1897efda5443d984702f8" category="list-text">Dans l'onglet *Cloud Volumes ONTAP*, sélectionnez *licences par nœud* dans la liste déroulante.</block>
+  <block id="87089bacab591352ad6ad6579e34d93e" category="list-text">Cliquez sur *PAYGO*.</block>
+  <block id="82be8e06ac169a3de0fce42cd01f5760" category="list-text">Pour en savoir plus, consultez le tableau relatif à chacune de vos licences PAYGO.</block>
+  <block id="76e10a0df08439afad301bff55b0ae58" category="inline-image-macro">Capture d'écran qui montre une table de la page du porte-monnaie numérique avec trois licences paygo. Chaque ligne indique le nom, le type de système, le numéro de série, le package et un lien permettant de gérer la licence.</block>
+  <block id="7488ecf8b7b85ed6fdf59249f884f829" category="paragraph"><block ref="7488ecf8b7b85ed6fdf59249f884f829" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a45c9786e45613660f519d740b30671a" category="list-text">Si nécessaire, cliquez sur *Manage PAYGO License* pour modifier la licence PAYGO ou pour changer le type d'instance.</block>
+  <block id="00b61e8d20d055a6505bd5bc88e18aeb" category="section-title">Gérez les licences BYOL</block>
+  <block id="33375e3f722897194d509130054856dd" category="paragraph">Gérez les licences que vous avez achetées directement auprès de NetApp en ajoutant et en supprimant des licences système et des licences de capacité supplémentaire.</block>
+  <block id="4742f5b0c38f7c105542ecb15a214212" category="section-title">Ajouter des licences non affectées</block>
+  <block id="006b5d653459d707768b29d141d64d87" category="paragraph">Ajoutez une licence basée sur un nœud au porte-monnaie numérique pour pouvoir sélectionner la licence lorsque vous créez un nouveau système Cloud Volumes ONTAP. Le porte-monnaie numérique identifie ces licences comme _non affectées_.</block>
+  <block id="9827486f8d28067db0a9918ee807f05e" category="list-text">Cliquez sur *non affecté*.</block>
+  <block id="7fa863d81a4b4f5f46596207ce29dc50" category="list-text">Cliquez sur *Ajouter des licences non attribuées*.</block>
+  <block id="851df848340ac5c43d036a7c8ab531e8" category="list-text">Saisissez le numéro de série de la licence ou téléchargez le fichier de licence.</block>
+  <block id="bec033f0535da0f58c9f0a7ccd96e793" category="paragraph">Si vous n'avez pas encore le fichier de licence, reportez-vous à la section ci-dessous.</block>
+  <block id="8c97ed5bc0c7a571b8993af8c6396051" category="paragraph">BlueXP ajoute la licence au porte-monnaie numérique. La licence sera identifiée comme non affectée jusqu'à ce que vous l'associez à un nouveau système Cloud Volumes ONTAP. Ensuite, la licence passe à l'onglet *BYOL* du porte-monnaie numérique.</block>
+  <block id="df5b9d272738b4adaa43e7eb4949a0e5" category="section-title">Licences Exchange non attribuées basées sur des nœuds</block>
+  <block id="6527032302a12c0fbe0e9a93494d253b" category="paragraph">Si vous disposez d'une licence non attribuée à un nœud pour Cloud Volumes ONTAP que vous n'avez pas utilisée, vous pouvez échanger la licence en la convertissant en licence Cloud Backup, en licence Cloud Data Sense ou en licence Cloud Tiering.</block>
+  <block id="82330159ba1b86113008185841af38f9" category="paragraph">L'échange de la licence révoque la licence Cloud Volumes ONTAP et crée une licence équivalente en dollars pour le service :</block>
+  <block id="9df8e0785445964e646ecf922e67b378" category="list-text">Les licences d'une paire haute disponibilité Cloud Volumes ONTAP sont converties en licence de service de données de 51 Tio</block>
+  <block id="fc9771c21d913259d9cc1605db9e67fc" category="list-text">Les licences d'un nœud Cloud Volumes ONTAP unique sont converties en licence de service de données de 32 Tio</block>
+  <block id="0f4fe815dba79cae727d101224b259f6" category="paragraph">La licence convertie a la même date d'expiration que la licence Cloud Volumes ONTAP.</block>
+  <block id="fff69e388498c7da2216c0a49587cbc8" category="list-text">Cliquez sur *Exchange License*.</block>
+  <block id="25abdaf706ab9bbfe1775de2626f958f" category="inline-image-macro">Capture d'écran de l'option de licence Exchange qui apparaît sur la page de licence non affectée.</block>
+  <block id="59069c86e2c388bcb56b4ec04ba7c1b1" category="paragraph"><block ref="59069c86e2c388bcb56b4ec04ba7c1b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b2bcb667f1a3e2cd665dce56fa38946c" category="list-text">Sélectionnez le service avec lequel vous souhaitez échanger la licence.</block>
+  <block id="d54ac11d311c4a7a85e11a557ee305e3" category="list-text">Si vous y êtes invité, sélectionnez une licence supplémentaire pour la paire haute disponibilité.</block>
+  <block id="1e4109afcb540c886b450b6944b83567" category="list-text">Lisez le consentement légal et cliquez sur *J'accepte*.</block>
+  <block id="e366d9a0e89a88ec47c46ef7e75a1620" category="paragraph">BlueXP convertit la licence non attribuée au service que vous avez sélectionné. Vous pouvez afficher la nouvelle licence dans l'onglet *Data Services Licenses*.</block>
+  <block id="bed8ee00b54ae810def15122c80a9dba" category="section-title">Obtenir un fichier de licence système</block>
+  <block id="6177b41ef17c0f5a67f9964d589c26a6" category="paragraph">Dans la plupart des cas, BlueXP peut obtenir automatiquement votre fichier de licence à l'aide de votre compte sur le site de support NetApp. Si ce n'est pas le cas, vous devrez charger manuellement le fichier de licence. Si vous n'avez pas le fichier de licence, vous pouvez l'obtenir sur netapp.com.</block>
+  <block id="eeb818d6636d7675fb1108e834a0fed1" category="inline-link">Générateur de fichiers de licences NetApp</block>
+  <block id="3eff90cc077e6c35c01b4fa2ce08352e" category="list-text">Accédez au<block ref="d4604fbd185a778fcb9e2d4bce6d880d" category="inline-link-rx"></block> Et connectez-vous en utilisant vos identifiants du site du support NetApp.</block>
+  <block id="fd714c8e7c7967952f8eefe7a8c25c48" category="list-text">Entrez votre mot de passe, choisissez votre produit, entrez le numéro de série, confirmez que vous avez lu et accepté la politique de confidentialité, puis cliquez sur *Envoyer*.</block>
+  <block id="938f1047c15f00fdd0cbfc8e4cfa15e1" category="paragraph">*Exemple*</block>
+  <block id="7260bbc39295ef94e60be19b73affac6" category="inline-image-macro">Capture d'écran : montre un exemple de la page Web du générateur de licences NetApp avec les lignes de produits disponibles.</block>
+  <block id="c7db6ec8c72cc25c90f19ebafe2ddfbd" category="paragraph"><block ref="c7db6ec8c72cc25c90f19ebafe2ddfbd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="74fd2dac6a51b8a94f6612bae65dcbdf" category="list-text">Choisissez si vous souhaitez recevoir le fichier numéro de série.NLF JSON par e-mail ou par téléchargement direct.</block>
+  <block id="58f676020d30c00d4b3fb18fc835e7ca" category="section-title">Mettre à jour une licence système</block>
+  <block id="34a3a4e91ba83bf9b417b1453a1dbdc6" category="paragraph">Lorsque vous renouvelez un abonnement BYOL en contactant un représentant NetApp, BlueXP obtient automatiquement la nouvelle licence auprès de NetApp et l'installe sur le système Cloud Volumes ONTAP.</block>
+  <block id="579ed3178fe639cd20c8874360f7ff2f" category="paragraph">Si BlueXP ne parvient pas à accéder au fichier de licence via la connexion Internet sécurisée, vous pouvez obtenir le fichier vous-même, puis le télécharger manuellement vers BlueXP.</block>
+  <block id="eda4b0f5ee71694deda064c01799f329" category="list-text">Dans l'onglet *BYOL*, développez les détails d'un système Cloud Volumes ONTAP.</block>
+  <block id="d91a847294f18b5d31d438a059c2532d" category="list-text">Cliquez sur le menu d'action en regard de la licence système et sélectionnez *mettre à jour la licence*.</block>
+  <block id="98022931ad96bfc8db710666a48e0416" category="list-text">Téléchargez le fichier de licence (ou les fichiers si vous disposez d'une paire HA).</block>
+  <block id="1c523ff18e24f3b5d4d5fa45c4410b01" category="list-text">Cliquez sur *mettre à jour la licence*.</block>
+  <block id="4632dee9f50d24fa16636177719f09ff" category="paragraph">BlueXP met à jour la licence sur le système Cloud Volumes ONTAP.</block>
+  <block id="2c2e7695734e076306fc8ba50ca70c1b" category="section-title">Gérez les licences de capacité supplémentaire</block>
+  <block id="d452bdec5cf94a61fe23690b513f4a71" category="paragraph">Vous pouvez acheter des licences de capacité supplémentaire pour un système Cloud Volumes ONTAP BYOL afin d'allouer plus de 368 To de capacité, si la licence du système BYOL est fournie. Par exemple, vous pouvez acheter une capacité de licence supplémentaire pour allouer une capacité allant jusqu'à 736 Tio à Cloud Volumes ONTAP. Vous pouvez également acheter trois licences de capacité supplémentaire pour obtenir jusqu'à 1.4 Pio.</block>
+  <block id="5e26587c8f074cc4f0455ff005cb744c" category="paragraph">Le nombre de licences que vous pouvez acheter pour un système à un seul nœud ou une paire HA est illimité.</block>
+  <block id="6e869ff6c9fd5eb76baa394c52e2ef18" category="section-title">Ajoutez des licences de capacité</block>
+  <block id="b4fb827c06226e7a2af35e533d837e28" category="paragraph">Achetez une licence de capacité supplémentaire en nous contactant par l'icône de chat dans le coin inférieur droit de BlueXP. Une fois la licence acheté, vous pouvez l'appliquer sur un système Cloud Volumes ONTAP.</block>
+  <block id="423cdc57679399d47229e2f74dfc102b" category="list-text">Cliquez sur *Ajouter une licence de capacité*.</block>
+  <block id="b0bfc70f0e7f3f10c4334bd53c2c2a27" category="list-text">Saisissez le numéro de série ou téléchargez le fichier de licence (ou les fichiers si vous disposez d'une paire HA).</block>
+  <block id="c4e9cc48e592b9354b10b9d54e14525c" category="section-title">Mettez à jour les licences de capacité</block>
+  <block id="4e1651bb146bb28e944da5ff79e00342" category="paragraph">Si vous avez prolongé la durée d'une licence de capacité supplémentaire, vous devez mettre à jour la licence dans BlueXP.</block>
+  <block id="555efdea73381bcd8582646f75b68253" category="list-text">Cliquez sur le menu d'action en regard de la licence de capacité et sélectionnez *mettre à jour la licence*.</block>
+  <block id="df478b8a8dcb38cfbba69a02ff5cae20" category="section-title">Éliminez les licences de capacité</block>
+  <block id="9906134ee224bc081497b19c4269cc34" category="paragraph">Si une licence de capacité supplémentaire a expiré et n'est plus utilisée, vous pouvez la supprimer à tout moment.</block>
+  <block id="c320af21170d1ca43751b7580a1125f4" category="list-text">Cliquez sur le menu d'action en regard de la licence de capacité et sélectionnez *Supprimer la licence*.</block>
+  <block id="03b194a23dcb353466fbfb7acff64363" category="list-text">Cliquez sur *Supprimer*.</block>
+  <block id="b38317f372e5ede5e8e7662a6abf56de" category="section-title">Convertissez une licence d'évaluation en licence BYOL</block>
+  <block id="6f3e45030426e1b86c424d2780111d20" category="paragraph">Une licence d'évaluation est valable 30 jours. Vous pouvez appliquer une nouvelle licence BYOL à la licence d'évaluation pour une mise à niveau sur place.</block>
+  <block id="6e7fc6b7eae0415b78955003531a799e" category="paragraph">Lorsque vous convertissez une licence d'évaluation en licence BYOL, BlueXP redémarre le système Cloud Volumes ONTAP.</block>
+  <block id="9a640fdf29d0376d44625fbe7757592a" category="list-text">Pour un système à un seul nœud, le redémarrage entraîne une interruption des E/S lors du processus de redémarrage.</block>
+  <block id="a1b2198d5e77e52b34a9567f6e8204f9" category="list-text">Pour une paire haute disponibilité, le redémarrage lance le basculement et le rétablissement pour continuer à transmettre des E/S aux clients.</block>
+  <block id="b7c7df7a1f738eeeb402c8feafc80dba" category="list-text">Cliquez sur *Eval*.</block>
+  <block id="fcb9420dfbbc4a57ba1b1a992a71d207" category="list-text">Dans le tableau, cliquez sur *convertir en licence BYOL* pour un système Cloud Volumes ONTAP.</block>
+  <block id="e539cbd6aefe9d1fb7bc951680944206" category="list-text">Entrez le numéro de série ou téléchargez le fichier de licence.</block>
+  <block id="b171537681ac6ab38d6353435252c4f1" category="list-text">Cliquez sur *convertir la licence*.</block>
+  <block id="629b6ceff1a1b74de909c5f304f623b9" category="paragraph">BlueXP démarre le processus de conversion. Cloud Volumes ONTAP redémarre automatiquement dans le cadre de ce processus. Lors de la sauvegarde, les informations de licence reflètent la nouvelle licence.</block>
+  <block id="594cb44c6500d8855ad820b0653e02c7" category="section-title">PAYGO à la solution BYOL</block>
+  <block id="a704128156d562fe5860508e9584ee34" category="paragraph">Convertir un système en licences PAYGO par nœud en licences BYOL (et inversement) n'est pas pris en charge. Si vous souhaitez basculer entre un abonnement avec paiement à l'utilisation et un abonnement BYOL, vous devez déployer un nouveau système et répliquer les données depuis le système existant vers le nouveau.</block>
+  <block id="7f7c7e70efe0e6e29f5d0b207145f30e" category="list-text">Créez un nouvel environnement de travail Cloud Volumes ONTAP.</block>
+  <block id="9bd20ffd5e91ec2bb61bc593be38bb13" category="list-text">Configuration d'une réplication unique des données entre les systèmes pour chaque volume à répliquer</block>
+  <block id="95b10ad2ca24b4c8bd5673b7383531a2" category="inline-link">Découvrez comment répliquer des données entre les systèmes</block>
+  <block id="0f1f7d0cff1734f943c2503c9febec73" category="paragraph"><block ref="0f1f7d0cff1734f943c2503c9febec73" category="inline-link-rx"></block></block>
+  <block id="2dd15870a87ceaf45f31f08d066afaeb" category="list-text">Mettez fin au système Cloud Volumes ONTAP dont vous n'avez plus besoin en supprimant l'environnement de travail d'origine .</block>
+  <block id="2464ba8f7f97ce117f749b75a1c60906" category="inline-link">Découvrez comment supprimer un environnement de travail Cloud Volumes ONTAP</block>
+  <block id="180b09672bfae24bd56a0aee5f3b1b2b" category="paragraph"><block ref="a9e2b0598eacf571f92143c75c6c24a3" category="inline-link-rx"></block>.</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Mentions légales</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Les mentions légales donnent accès aux déclarations de copyright, aux marques, aux brevets, etc.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Droits d'auteur</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marques déposées</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, le logo NETAPP et les marques mentionnées sur la page des marques commerciales NetApp sont des marques commerciales de NetApp, Inc. Les autres noms de sociétés et de produits peuvent être des marques commerciales de leurs propriétaires respectifs.</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Brevets</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Vous trouverez une liste actuelle des brevets appartenant à NetApp à l'adresse suivante :</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Politique de confidentialité</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Source ouverte</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Les fichiers de notification fournissent des informations sur les droits d'auteur et les licences de tiers utilisés dans le logiciel NetApp.</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">Note pour BlueXP</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="fa368619230133ce62a5c22840714a1d" category="sidebar">Documents relatifs aux comptes numériques BlueXP</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notes de mise à jour</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Commencez</block>
+  <block id="8bb544128c435d0dd9901ce772f7beb9" category="sidebar">Utilisez le portefeuille digital BlueXP</block>
+  <block id="fbf5bb26f6374732410ccc529ef29ffa" category="sidebar">Gestion des licences pour Cloud Volumes ONTAP</block>
+  <block id="f52ead6bbf1fb1c871d206603e5a2347" category="sidebar">Licences basées sur la capacité</block>
+  <block id="d56bf07ec8cd4e9f29339d605ffef95c" category="sidebar">Licences basées sur les nœuds</block>
+  <block id="5800a1d9dbde53529f0b345493ff9e4e" category="sidebar">Gérez les abonnements Keystone Flex</block>
+  <block id="064ff692e4b4a468969f66368c68e2c8" category="sidebar">Gérez les licences des clusters ONTAP sur site</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Connaissances et support</block>
+  <block id="25b1fde564bb1fc860069167d8668df6" category="sidebar">Gérer vos licences</block>
+  <block id="7cbe4872773ca07492a76acf7d557fef" category="sidebar">Gestion des licences basées sur la capacité pour Cloud Volumes ONTAP</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs et communauté</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Communauté NetApp</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">Blog BlueXP</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinaires sur le cloud</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toute la documentation BlueXP</block>
+</blocks>
