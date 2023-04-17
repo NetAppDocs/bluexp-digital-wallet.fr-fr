@@ -85,7 +85,6 @@
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="list-text">Cloud Volumes ONTAP</block>
   <block id="d0f1687c68ee0f0d9bac765716d18923" category="list-text">Clusters ONTAP sur site</block>
   <block id="a4f0f752cbc0651ce6551bad053b1ae6" category="summary">Le portefeuille digital BlueXP permet de centraliser la gestion et le contrôle de vos licences et de vos abonnements.</block>
-  <block id="7b432de78427e2c7ffdddf3f0a09ce52" category="doc">Portefeuille digital BlueXP</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">Avant d'ouvrir un dossier de demande de support auprès du support technique NetApp, vous devez ajouter un compte sur le site de support NetApp à BlueXP, puis vous inscrire pour bénéficier du support.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">S'inscrire pour obtenir de l'aide</block>
   <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">Avant d'ouvrir un dossier de demande de support auprès du support technique NetApp, vous devez ajouter un compte sur le site du support NetApp (NSS) à BlueXP, puis vous inscrire pour obtenir du support.</block>
@@ -549,4 +548,5 @@
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">Blog BlueXP</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinaires sur le cloud</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toute la documentation BlueXP</block>
+  <block id="49f326995814ee311b340478f99f992f" category="doc">Documentation du portefeuille digital BlueXP</block>
 </blocks>
