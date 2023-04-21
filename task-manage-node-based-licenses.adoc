@@ -14,7 +14,7 @@ summary: 'Gérez vos licences basées sur des nœuds dans le porte-monnaie numé
 
 
 [role="lead"]
-Gérez les licences par nœud dans le portefeuille numérique pour vous assurer que chaque système Cloud Volumes ONTAP dispose d'une licence valide avec la capacité requise.
+Gérez les licences basées sur les nœuds dans le portefeuille digital pour vous assurer que chaque système Cloud Volumes ONTAP dispose d'une licence valide avec la capacité requise.
 
 _Les licences par nœud_ sont le modèle de licence de génération précédente (et non disponible pour les nouveaux clients) :
 

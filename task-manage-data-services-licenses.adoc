@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-data-services-licenses.html 
 keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license 
-summary: 'Le portefeuille digital BlueXP vous permet de gérer les licences que vous avez achetées directement auprès de NetApp (BYOL) pour une utilisation avec Cloud Backup, Cloud Data Sense et Cloud Tiering. Vous pouvez afficher la capacité de licence utilisée et la capacité disponible restante. Une notification s"affiche si vous avez atteint la limite de capacité ou la date d"expiration.' 
+summary: 'Le portefeuille digital BlueXP vous permet de gérer les licences que vous avez achetées directement auprès de NetApp (BYOL) pour une utilisation avec la sauvegarde et la restauration, le classement et le Tiering BlueXP. Vous pouvez afficher la capacité de licence utilisée et la capacité disponible restante. Une notification s"affiche si vous avez atteint la limite de capacité ou la date d"expiration.' 
 ---
 = Gérez les licences des services de données BlueXP
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: 'Le portefeuille digital BlueXP vous permet de gérer les licences que 
 
 
 [role="lead"]
-Le portefeuille digital BlueXP vous permet de gérer les licences que vous avez achetées directement auprès de NetApp (BYOL) pour une utilisation avec Cloud Backup, Cloud Data Sense et Cloud Tiering. Vous pouvez afficher la capacité de licence utilisée et la capacité disponible restante. Une notification s'affiche si vous avez atteint la limite de capacité ou la date d'expiration.
+Le portefeuille digital BlueXP vous permet de gérer les licences que vous avez achetées directement auprès de NetApp (BYOL) pour une utilisation avec la sauvegarde et la restauration, le classement et le Tiering BlueXP. Vous pouvez afficher la capacité de licence utilisée et la capacité disponible restante. Une notification s'affiche si vous avez atteint la limite de capacité ou la date d'expiration.
 
 Les instructions de cette page fournissent des informations qui s'appliquent à chaque service. Pour plus d'informations sur les licences de ces services, reportez-vous aux pages suivantes :
 
-* https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-licensing-cloud-backup.html["Configuration des licences pour Cloud Backup"^]
-* https://docs.netapp.com/us-en/cloud-manager-data-sense/task-licensing-datasense.html["Configurez les licences pour Cloud Data Sense"^]
-* https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering.html["Configuration des licences pour NetApp Cloud Tiering"^]
+* https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-licensing-cloud-backup.html["Configurez les licences pour la sauvegarde et la restauration BlueXP"^]
+* https://docs.netapp.com/us-en/cloud-manager-data-sense/task-licensing-datasense.html["Configurez les licences pour la classification BlueXP"^]
+* https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering.html["Configurez les licences pour le Tiering BlueXP"^]
 
 
 
@@ -62,7 +62,7 @@ Si votre compte sur le site de support NetApp n'est pas disponible dans la liste
 
 ** Si vous disposez du fichier de licence (requis lors de l'utilisation de BlueXP en mode privé), sélectionnez l'option *Upload License File* et suivez les invites pour joindre le fichier.
 +
-image:screenshot_services_license_add2.png["Capture d'écran affichant la page permettant d'ajouter la licence Cloud Backup BYOL."]
+image:screenshot_services_license_add2.png["Copie d'écran affichant la page d'ajout de la licence BYOL."]
 
 
 
@@ -75,14 +75,14 @@ BlueXP ajoute la licence.
 
 == Mettre à jour une licence
 
-Si votre période de licence approche de la date d'expiration ou si votre capacité sous licence atteint la limite, vous en serez informé dans le portefeuille digital. Vous pouvez mettre à jour votre licence avant son expiration afin que vous puissiez utiliser le service de données BlueXP sans interruption.
+Si votre période de licence approche la date d'expiration ou si votre capacité sous licence atteint la limite, vous en serez informé dans le portefeuille digital BlueXP. Vous pouvez mettre à jour votre licence avant son expiration afin que vous puissiez utiliser le service de données BlueXP sans interruption.
 
 image:screenshot_services_license_expire.png["Capture d'écran qui montre une licence arrivant à expiration dans la page du porte-monnaie numérique."]
 
 .Étapes
-. Cliquez sur l'icône de chat dans le coin inférieur droit de BlueXP, ou contactez le support pour demander une extension de votre période ou de la capacité supplémentaire de votre licence pour le numéro de série spécifique.
+. Cliquez sur l'icône de chat dans le coin inférieur droit de BlueXP, ou contactez le support, pour demander une extension de votre période ou de la capacité supplémentaire de votre licence pour le numéro de série spécifique.
 +
-Une fois que vous avez payé la licence et qu'elle est enregistrée sur le site de support NetApp, BlueXP met automatiquement à jour la licence dans Digital Wallet et et la page des licences des services de données reflétera la modification dans 5 à 10 minutes.
+Une fois que vous avez payé la licence et qu'elle est enregistrée sur le site de support NetApp, BlueXP met automatiquement à jour la licence dans le portefeuille digital. La page des licences des services de données reflète le changement en 5 à 10 minutes.
 
 . Si BlueXP ne peut pas mettre à jour automatiquement la licence (par exemple, si vous utilisez BlueXP en mode privé), vous devez télécharger manuellement le fichier de licence.
 +
