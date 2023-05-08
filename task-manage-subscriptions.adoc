@@ -22,6 +22,8 @@ Lorsque vous vous abonnez à BlueXP depuis le marché d'un fournisseur de servic
 
 Le portefeuille digital BlueXP fournit des informations détaillées sur chaque abonnement PAYGO et chaque contrat annuel associé à votre compte BlueXP et à Astra Control (Astra Control utilise le service de facturation de BlueXP).
 
+Pour Google Cloud, vous pouvez également identifier les abonnements Marketplace associés à une offre privée, ce qui vous permet de vérifier que vous avez bien accepté l'offre.
+
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
 . Sélectionnez *abonnements*.
@@ -46,12 +48,14 @@ Notez ce qui suit à propos de ce que vous voyez dans le tableau :
 +
 Date de début:: La date de début est la date à laquelle vous avez correctement associé l'abonnement à votre compte et que la facturation a commencé.
 S/O:: Si vous voyez N/A dans le tableau, les informations ne sont pas disponibles dans l'API du fournisseur de cloud pour le moment.
+Durée:: Si votre abonnement Google Cloud est associé à une offre privée et que cette offre privée a été modifiée après sa création et son acceptation, le terme indique S. O. Dans ce scénario, la réponse API que nous recevons de Google Cloud Marketplace n'inclut pas d'informations liées à la durée.
 Contrats::
 +
 --
 ** Si vous élargissez les détails d'un contrat, le portefeuille digital BlueXP affiche les options disponibles pour votre plan actuel : les options de contrat et les unités (capacité ou nombre de nœuds).
 ** Le portefeuille digital BlueXP identifie la date de fin et indique si le contrat va être renouvelé prochainement, se terminer bientôt ou s'il est déjà terminé.
 ** Si vous avez souscrit un contrat AWS et que vous avez modifié l'une des options du contrat après la date de début, vérifiez vos options de contrat sur AWS Marketplace.
+** Si vous disposez d'une offre privée Google Cloud, les options de contrat ne sont pas disponibles.
 
 
 --
