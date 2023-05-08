@@ -74,7 +74,6 @@
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">Caractéristiques</block>
   <block id="012ae05db65bea80da7b7050b5d96f9e" category="list-text">Gestion des licences basées sur la capacité et sur les nœuds pour Cloud Volumes ONTAP</block>
   <block id="62d9aca3bac1caa2d9cff120588c3e35" category="list-text">Ajoutez et gérez des licences pour les services de données BlueXP</block>
-  <block id="68893f701c3397a3a6f6ae5a965a7ef6" category="list-text">Gérez les abonnements Keystone Flex pour une utilisation avec Cloud Volumes ONTAP et demandez des modifications de la capacité allouée</block>
   <block id="385b7e85ac73053263ffe4f49784da13" category="list-text">Afficher des informations sur l'état des contrats matériels et logiciels pour les clusters ONTAP sur site</block>
   <block id="ea22f9957523103248d84695e98b17ba" category="section-title">Services pris en charge</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="list-text">Cloud Volumes ONTAP</block>
@@ -270,8 +269,6 @@
   <block id="9d37072f5a1b76b16e647a14826ade70" category="paragraph"><block ref="9d37072f5a1b76b16e647a14826ade70" category="inline-image-macro-rx" type="image"></block></block>
   <block id="41e921305ae1b027e5d364af4a2a9df2" category="list-text">Dans la page _Update License_, téléchargez le fichier de licence et cliquez sur *Update License*.</block>
   <block id="34674441113c2bf2e8f3d38a0e8276bb" category="paragraph">BlueXP met à jour la licence.</block>
-  <block id="75b8c5a187d84d0b9176c9a71ca76c92" category="summary">La page Portefeuille numérique vous permet de gérer les licences pour Cloud Volumes ONTAP à partir d'un seul emplacement. Vous pouvez ajouter de nouvelles licences et mettre à jour des licences existantes.</block>
-  <block id="46172ce69f0d69dc6b2a28ea9573950b" category="doc">Gérez les abonnements Keystone Flex</block>
   <block id="541be6e1dda8fc9678c974d148e15469" category="paragraph">Gérez vos abonnements Keystone Flex à partir du portefeuille digital en activant les abonnements pour une utilisation avec Cloud Volumes ONTAP. Vous pouvez également demander des modifications à la capacité engagée et annuler la liaison des abonnements.</block>
   <block id="144db5f18aa0a48a9fe63c8b55bd0275" category="paragraph">Un _Keystone Flex Subscription_ est un service de stockage NetApp qui offre un modèle de paiement à l'utilisation.</block>
   <block id="4edb70089cdbc18de22fa9ead5189bc8" category="section-title">Autoriser votre compte</block>
@@ -505,7 +502,6 @@
   <block id="fbf5bb26f6374732410ccc529ef29ffa" category="sidebar">Gestion des licences pour Cloud Volumes ONTAP</block>
   <block id="f52ead6bbf1fb1c871d206603e5a2347" category="sidebar">Licences basées sur la capacité</block>
   <block id="d56bf07ec8cd4e9f29339d605ffef95c" category="sidebar">Licences basées sur les nœuds</block>
-  <block id="5800a1d9dbde53529f0b345493ff9e4e" category="sidebar">Gérez les abonnements Keystone Flex</block>
   <block id="064ff692e4b4a468969f66368c68e2c8" category="sidebar">Gérez les licences des clusters ONTAP sur site</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Connaissances et support</block>
   <block id="25b1fde564bb1fc860069167d8668df6" category="sidebar">Gérer vos licences</block>
@@ -563,4 +559,7 @@
   <block id="cf5f3091e30dee6597885d8c0e0c357f" category="list-text">Durée</block>
   <block id="314c4a4eeddb6d1cd1f813b95714f7a2" category="list-text">Si votre abonnement Google Cloud est associé à une offre privée et que cette offre privée a été modifiée après sa création et son acceptation, le terme indique S. O. Dans ce scénario, la réponse API que nous recevons de Google Cloud Marketplace n'inclut pas d'informations liées à la durée.</block>
   <block id="3b3f3f7253f4c57a7eb145d69d119e28" category="list-text">Si vous disposez d'une offre privée Google Cloud, les options de contrat ne sont pas disponibles.</block>
+  <block id="885ce97feb1a2410a348b3f3764dee9d" category="list-text">Gérez les services d'abonnement Keystone à utiliser avec Cloud Volumes ONTAP et demandez des modifications de la capacité allouée</block>
+  <block id="e29dbbc5408d2fe6da0ae9249031fad5" category="summary">Gérez les services d'abonnement Keystone à partir du portefeuille digital en activant les abonnements pour l'utilisation avec Cloud Volumes ONTAP. Vous pouvez également demander des modifications à la capacité engagée et annuler la liaison des abonnements.</block>
+  <block id="8cd29d21eeca72789ed2e573a1032dbd" category="doc">Gérez les services d'abonnement Keystone</block>
 </blocks>

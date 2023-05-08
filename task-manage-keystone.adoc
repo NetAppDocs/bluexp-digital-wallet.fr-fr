@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-keystone.html 
-keywords: license, licensing, install, keystone, requst capacity, link subscription, add keystone subscription, keystone subscription 
-summary: 'La page Portefeuille numérique vous permet de gérer les licences pour Cloud Volumes ONTAP à partir d"un seul emplacement. Vous pouvez ajouter de nouvelles licences et mettre à jour des licences existantes.' 
+keywords: license, licensing, install, keystone, request capacity, link subscription, add keystone subscription, keystone subscription 
+summary: 'Gérez les services d"abonnement Keystone à partir du portefeuille digital en activant les abonnements pour l"utilisation avec Cloud Volumes ONTAP. Vous pouvez également demander des modifications à la capacité engagée et annuler la liaison des abonnements.' 
 ---
-= Gérez les abonnements Keystone Flex
+= Gérez les services d'abonnement Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
