@@ -14,11 +14,11 @@ summary: 'Gérez les services d"abonnement Keystone à partir du portefeuille di
 
 
 [role="lead"]
-Gérez vos abonnements Keystone Flex à partir du portefeuille digital en activant les abonnements pour une utilisation avec Cloud Volumes ONTAP. Vous pouvez également demander des modifications à la capacité engagée et annuler la liaison des abonnements.
+Gérez vos abonnements Keystone à partir du portefeuille digital BlueXP en activant les abonnements pour une utilisation avec Cloud Volumes ONTAP. Vous pouvez également demander des modifications à la capacité engagée et annuler la liaison des abonnements.
 
-Un _Keystone Flex Subscription_ est un service de stockage NetApp qui offre un modèle de paiement à l'utilisation.
+Un _abonnement Keystone_ est un service de stockage avec paiement à l'utilisation proposé par NetApp.
 
-Le _Portefeuille numérique_ vous permet de gérer les licences de Cloud Volumes ONTAP à partir d'un seul emplacement. Vous pouvez ajouter de nouvelles licences et mettre à jour des licences existantes.
+Le portefeuille digital BlueXP_ vous permet de gérer les licences pour Cloud Volumes ONTAP à partir d'un emplacement unique. Vous pouvez ajouter de nouvelles licences et mettre à jour des licences existantes.
 
 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html["En savoir plus sur les licences Cloud Volumes ONTAP"].
 
@@ -26,7 +26,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 == Autoriser votre compte
 
-Avant de pouvoir utiliser et gérer les abonnements Keystone Flex dans BlueXP, vous devez contacter NetApp pour autoriser votre compte utilisateur BlueXP avec vos abonnements Keystone Flex.
+Avant de pouvoir utiliser et gérer les abonnements Keystone dans BlueXP, vous devez contacter NetApp afin d'autoriser votre compte utilisateur BlueXP avec vos abonnements Keystone.
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
@@ -35,9 +35,9 @@ Avant de pouvoir utiliser et gérer les abonnements Keystone Flex dans BlueXP, v
 +
 Un représentant NetApp traitera votre demande en autorisant votre compte utilisateur à accéder aux abonnements.
 
-. Revenez à l'abonnement *Keystone Flex* pour afficher vos abonnements.
+. Revenez à l'abonnement *Keystone* pour afficher vos abonnements.
 +
-image:screenshot-keystone-overview.png["Capture d'écran affichant la liste des abonnements Keystone Flex."]
+image:screenshot-keystone-overview.png["Capture d'écran affichant la liste des abonnements Keystone."]
 
 
 
@@ -48,7 +48,7 @@ Associez les abonnements que vous souhaitez utiliser avec Cloud Volumes ONTAP.
 
 == Associer un abonnement
 
-Après avoir autorisé votre compte, vous devez lier des abonnements Keystone Flex à utiliser avec Cloud Volumes ONTAP. Cette action permet aux utilisateurs de sélectionner l'abonnement comme méthode de facturation pour les nouveaux systèmes Cloud Volumes ONTAP.
+Une fois que NetApp a autorisé votre compte, vous devez lier les abonnements Keystone pour les utiliser avec Cloud Volumes ONTAP. Cette action permet aux utilisateurs de sélectionner l'abonnement comme méthode de facturation pour les nouveaux systèmes Cloud Volumes ONTAP.
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
@@ -86,7 +86,7 @@ Votre demande crée un ticket dans le système NetApp.
 
 == Dissocier un abonnement
 
-Si vous ne souhaitez plus utiliser un abonnement Keystone Flex avec de nouveaux systèmes Cloud Volumes ONTAP, vous pouvez annuler la liaison de l'abonnement. Notez que vous ne pouvez dissocier qu'un abonnement qui n'est pas associé à un abonnement Cloud Volumes ONTAP existant.
+Si vous ne souhaitez plus utiliser un abonnement Keystone avec les nouveaux systèmes Cloud Volumes ONTAP, vous pouvez annuler le lien de cet abonnement. Notez que vous ne pouvez dissocier qu'un abonnement qui n'est pas associé à un abonnement Cloud Volumes ONTAP existant.
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.

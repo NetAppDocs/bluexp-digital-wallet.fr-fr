@@ -14,7 +14,7 @@ summary: 'Gérez vos licences basées sur des nœuds dans le porte-monnaie numé
 
 
 [role="lead"]
-Gérez les licences basées sur les nœuds dans le portefeuille digital pour vous assurer que chaque système Cloud Volumes ONTAP dispose d'une licence valide avec la capacité requise.
+Gérez les licences basées sur les nœuds dans le portefeuille digital BlueXP pour vérifier que chaque système Cloud Volumes ONTAP dispose d'une licence valide avec la capacité requise.
 
 _Les licences par nœud_ sont le modèle de licence de génération précédente (et non disponible pour les nouveaux clients) :
 
@@ -22,7 +22,7 @@ _Les licences par nœud_ sont le modèle de licence de génération précédente
 * Des abonnements avec facturation à l'utilisation (PAYGO) à partir du marché de votre fournisseur cloud
 
 
-Le _Portefeuille numérique_ vous permet de gérer les licences de Cloud Volumes ONTAP à partir d'un seul emplacement. Vous pouvez ajouter de nouvelles licences et mettre à jour des licences existantes.
+Le portefeuille digital BlueXP_ vous permet de gérer les licences pour Cloud Volumes ONTAP à partir d'un emplacement unique. Vous pouvez ajouter de nouvelles licences et mettre à jour des licences existantes.
 
 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html["En savoir plus sur les licences Cloud Volumes ONTAP"].
 
@@ -30,7 +30,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 == Gérez les licences PAYGO
 
-La page porte-monnaie numérique vous permet d'afficher des détails sur chacun de vos systèmes Cloud Volumes ONTAP PAYGO, y compris le numéro de série et le type de licence PAYGO.
+La page du portefeuille digital BlueXP vous permet de consulter des informations détaillées sur chacun de vos systèmes Cloud Volumes ONTAP PAYGO, notamment le numéro de série et le type de licence PAYGO.
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
@@ -38,7 +38,7 @@ La page porte-monnaie numérique vous permet d'afficher des détails sur chacun 
 . Cliquez sur *PAYGO*.
 . Pour en savoir plus, consultez le tableau relatif à chacune de vos licences PAYGO.
 +
-image:screenshot_paygo_licenses.png["Capture d'écran qui montre une table de la page du porte-monnaie numérique avec trois licences paygo. Chaque ligne indique le nom, le type de système, le numéro de série, le package et un lien permettant de gérer la licence."]
+image:screenshot_paygo_licenses.png["Copie d'écran affichant un tableau sur la page de portefeuille digital BlueXP avec trois licences paygo. Chaque ligne indique le nom, le type de système, le numéro de série, le package et un lien permettant de gérer la licence."]
 
 . Si nécessaire, cliquez sur *Manage PAYGO License* pour modifier la licence PAYGO ou pour changer le type d'instance.
 
@@ -53,7 +53,7 @@ Gérez les licences que vous avez achetées directement auprès de NetApp en ajo
 
 === Ajouter des licences non affectées
 
-Ajoutez une licence basée sur un nœud au porte-monnaie numérique pour pouvoir sélectionner la licence lorsque vous créez un nouveau système Cloud Volumes ONTAP. Le porte-monnaie numérique identifie ces licences comme _non affectées_.
+Ajoutez une licence basée sur des nœuds au portefeuille digital BlueXP afin de sélectionner la licence lors de la création d'un nouveau système Cloud Volumes ONTAP. Le portefeuille numérique identifie ces licences comme _non attribuées_.
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
@@ -68,13 +68,13 @@ Si vous n'avez pas encore le fichier de licence, reportez-vous à la section ci-
 
 
 .Résultat
-BlueXP ajoute la licence au porte-monnaie numérique. La licence sera identifiée comme non affectée jusqu'à ce que vous l'associez à un nouveau système Cloud Volumes ONTAP. Ensuite, la licence passe à l'onglet *BYOL* du porte-monnaie numérique.
+BlueXP ajoute la licence au portefeuille digital. La licence sera identifiée comme non affectée jusqu'à ce que vous l'associez à un nouveau système Cloud Volumes ONTAP. Ensuite, la licence passe à l'onglet *BYOL* du portefeuille numérique.
 
 
 
 === Licences Exchange non attribuées basées sur des nœuds
 
-Si vous disposez d'une licence non attribuée à un nœud pour Cloud Volumes ONTAP que vous n'avez pas utilisée, vous pouvez échanger la licence en la convertissant en licence Cloud Backup, en licence Cloud Data Sense ou en licence Cloud Tiering.
+Si vous n'avez pas utilisé de licence basée sur des nœuds non attribuée pour Cloud Volumes ONTAP, vous pouvez échanger la licence en la convertissant en licence de sauvegarde et de restauration BlueXP, en licence de classification BlueXP ou en licence de Tiering BlueXP.
 
 L'échange de la licence révoque la licence Cloud Volumes ONTAP et crée une licence équivalente en dollars pour le service :
 
