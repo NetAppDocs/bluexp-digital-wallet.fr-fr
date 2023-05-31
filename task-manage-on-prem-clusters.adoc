@@ -19,8 +19,8 @@ Le portefeuille digital BlueXP vous permet de consulter les détails des contrat
 .Avant de commencer
 Le portefeuille digital BlueXP affiche des informations détaillées sur les clusters ONTAP sur site que vous avez détectés en tant qu'environnement de travail ou associés à un compte sur le site de support NetApp que vous avez ajouté à BlueXP.
 
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["Découvrez comment découvrir un cluster ONTAP sur site"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["Découvrez comment gérer les informations d'identification NSS associées à votre compte BlueXP"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Découvrez comment découvrir un cluster ONTAP sur site"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Découvrez comment gérer les informations d'identification NSS associées à votre compte BlueXP"^]
 
 
 
@@ -54,7 +54,7 @@ Si vous n'avez pas découvert de cluster ONTAP sur site comme environnement de t
 .Avant de commencer
 Vous devez connaître vos options de découverte et de gestion (découverte à l'aide d'un connecteur ou découverte directe sans connecteur) ainsi que les exigences de découverte.
 
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["Découvrez les options et les exigences de la découverte"^].
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Découvrez les options et les exigences de la découverte"^].
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
@@ -85,6 +85,6 @@ image:screenshot_onprem_cluster.png["Copie d'écran d'un cluster ONTAP sur site 
 
 Vous pouvez maintenant commencer à gérer le cluster.
 
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-connector.html["Découvrez comment gérer les clusters découverts avec un connecteur"^]
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["Découvrez comment gérer les clusters découverts directement"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-connector.html["Découvrez comment gérer les clusters découverts avec un connecteur"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html["Découvrez comment gérer les clusters découverts directement"^]
 

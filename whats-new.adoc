@@ -52,7 +52,7 @@ Le portefeuille digital BlueXP prend désormais en charge les notifications par 
 
 Si vous configurez vos paramètres de notification, vous pouvez recevoir des notifications par e-mail lorsque vos licences BYOL vont expirer (une notification d'avertissement) ou si elles ont déjà expiré (une notification d'erreur).
 
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["Découvrez comment configurer les notifications par e-mail"^]
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html["Découvrez comment configurer les notifications par e-mail"^]
 
 
 
@@ -110,7 +110,7 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 Le NOW affiche la capacité totale consommée de votre compte et la capacité consommée par l'offre de licence. Cela vous permet de mieux comprendre la façon dont vous achetez de la capacité supplémentaire et si celle-ci est nécessaire.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["Capture d'écran affichant la page des licences basées sur la capacité. La page présente la capacité consommée dans votre compte et réduit la capacité consommée par le package de licences."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["Capture d'écran affichant la page des licences basées sur la capacité. La page présente la capacité consommée dans votre compte et réduit la capacité consommée par le package de licences."]
 
 
 
