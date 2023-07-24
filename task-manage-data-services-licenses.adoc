@@ -30,18 +30,18 @@ Les instructions de cette page fournissent des informations qui s'appliquent à 
 Après avoir acheté une licence, vous pouvez activer la licence dans BlueXP en saisissant le numéro de série et le compte NSS ou en téléchargeant le fichier de licence NetApp (NLF). Les étapes ci-dessous montrent comment obtenir le fichier de licence NLF si vous prévoyez d'utiliser cette méthode.
 
 .Étapes
-. Connectez-vous au https://mysupport.netapp.com["Site de support NetApp"^] Et cliquez sur *systèmes > licences logicielles*.
+. Connectez-vous au https://mysupport.netapp.com["Site de support NetApp"^] Et sélectionnez *systèmes > licences logicielles*.
 . Entrez le numéro de série de votre licence.
 +
 image:screenshot_cloud_backup_license_step1.gif["Capture d'écran affichant une table de licences après une recherche par numéro de série."]
 
-. Dans la colonne *License Key*, cliquez sur *Get NetApp License File*.
-. Saisissez votre identifiant de compte BlueXP (il s'agit d'un identifiant de locataire sur le site d'assistance) et cliquez sur *Submit* pour télécharger le fichier de licence.
+. Dans la colonne *clé de licence*, sélectionnez *obtenir le fichier de licence NetApp*.
+. Entrez votre ID de compte BlueXP (il s'agit d'un ID de locataire sur le site du support) et sélectionnez *Submit* pour télécharger le fichier de licence.
 +
-image:screenshot_cloud_backup_license_step2.gif["Une capture d'écran qui affiche la boîte de dialogue obtenir la licence dans laquelle vous entrez votre identifiant de locataire, puis cliquez sur soumettre pour télécharger le fichier de licence."]
+image:screenshot_cloud_backup_license_step2.gif["Capture d'écran affichant la boîte de dialogue obtenir la licence dans laquelle vous entrez votre ID de locataire, puis sélectionnez Envoyer pour télécharger le fichier de licence."]
 
 +
-Vous pouvez trouver votre identifiant de compte BlueXP en sélectionnant le menu déroulant *compte* en haut de BlueXP, puis en cliquant sur *gérer compte* en regard de votre compte. Votre ID de compte se trouve dans l'onglet vue d'ensemble.
+Vous pouvez trouver votre ID de compte BlueXP en sélectionnant la liste déroulante *compte* en haut de BlueXP, puis en sélectionnant *gérer le compte* en regard de votre compte. Votre ID de compte se trouve dans l'onglet vue d'ensemble.
 
 
 
@@ -52,9 +52,9 @@ Vous pouvez trouver votre identifiant de compte BlueXP en sélectionnant le menu
 Après avoir acheté une licence pour un service de données BlueXP, vous devez ajouter la licence à BlueXP.
 
 .Étapes
-. Dans le menu BlueXP, cliquez sur *gouvernance > porte-monnaie numérique*, puis sélectionnez l'onglet *licences de services de données*.
-. Cliquez sur *Ajouter une licence*.
-. Dans la boîte de dialogue _Add License_, entrez les informations de licence et cliquez sur *Add License*:
+. Dans le menu BlueXP, sélectionnez *gouvernance > portefeuille numérique*, puis l'onglet *licences des services de données*.
+. Sélectionnez *Ajouter licence*.
+. Dans la boîte de dialogue _Add License_, entrez les informations de licence et sélectionnez *Add License*:
 +
 ** Si vous avez le numéro de série et que vous connaissez votre compte NSS, sélectionnez l'option *entrer le numéro de série* et entrez ces informations.
 +
@@ -80,18 +80,18 @@ Si votre période de licence approche la date d'expiration ou si votre capacité
 image:screenshot_services_license_expire.png["Capture d'écran qui montre une licence arrivant à expiration dans la page du porte-monnaie numérique."]
 
 .Étapes
-. Cliquez sur l'icône de chat dans le coin inférieur droit de BlueXP, ou contactez le support, pour demander une extension de votre période ou de la capacité supplémentaire de votre licence pour le numéro de série spécifique.
+. Sélectionnez l'icône de chat dans le coin inférieur droit de BlueXP, ou contactez le support, pour demander une extension de votre période ou de votre capacité supplémentaire à votre licence pour le numéro de série spécifique.
 +
 Une fois que vous avez payé la licence et qu'elle est enregistrée sur le site de support NetApp, BlueXP met automatiquement à jour la licence dans le portefeuille digital. La page des licences des services de données reflète le changement en 5 à 10 minutes.
 
 . Si BlueXP ne peut pas mettre à jour automatiquement la licence (par exemple, si vous utilisez BlueXP en mode privé), vous devez télécharger manuellement le fichier de licence.
 +
 .. C'est possible <<Obtenir un fichier de licence,Procurez-vous le fichier de licence sur le site de support NetApp>>.
-.. Dans l'onglet _licences des services de données_, cliquez sur image:screenshot_horizontal_more_button.gif["Plus d'icône"] Pour le numéro de série de service que vous mettez à jour, cliquez sur *mettre à jour la licence*.
+.. Dans l'onglet _licences des services de données_, sélectionnez image:screenshot_horizontal_more_button.gif["Plus d'icône"] Pour le numéro de série du service que vous mettez à jour, sélectionnez *mettre à jour la licence*.
 +
 image:screenshot_services_license_update1.png["Capture d'écran de la sélection du bouton mettre à jour la licence pour un service particulier."]
 
-.. Dans la page _Update License_, téléchargez le fichier de licence et cliquez sur *Update License*.
+.. Sur la page _mettre à jour la licence_, téléchargez le fichier de licence et sélectionnez *mettre à jour la licence*.
 
 
 
