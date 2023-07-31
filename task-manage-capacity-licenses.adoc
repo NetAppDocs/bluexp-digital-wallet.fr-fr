@@ -107,7 +107,7 @@ Les rapports suivants peuvent être téléchargés. Les valeurs de capacité ind
 
 * *Utilisation des machines virtuelles de stockage* : ce rapport montre comment la capacité chargée est répartie entre les systèmes Cloud Volumes ONTAP et les machines virtuelles de stockage (SVM). Ces informations ne sont disponibles sur aucun écran du portefeuille numérique. Il contient les informations suivantes :
 +
-** ID de l'environnement de travail (affiché sous forme d'UUID)
+** ID et nom de l'environnement de travail (affiché sous forme d'UUID)
 ** Le cloud
 ** Identifiant de compte NetApp
 ** Configuration de l'environnement de travail
@@ -118,11 +118,12 @@ Les rapports suivants peuvent être téléchargés. Les valeurs de capacité ind
 ** Groupe ou fonctionnalité Cloud Volumes ONTAP
 ** Nom de l'abonnement à SaaS Marketplace en charge
 ** ID d'abonnement SaaS Marketplace en charge
+** Type de workload
 
 
 * *Utilisation des volumes* : ce rapport indique comment la capacité chargée est répartie par les volumes dans un environnement de travail. Ces informations ne sont disponibles sur aucun écran du portefeuille numérique. Il contient les informations suivantes :
 +
-** ID de l'environnement de travail (affiché sous forme d'UUID)
+** ID et nom de l'environnement de travail (affiché sous forme d'UUID)
 ** Nom SVN
 ** ID du volume
 ** Type de volume
