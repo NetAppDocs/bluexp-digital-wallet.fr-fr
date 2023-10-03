@@ -13,7 +13,7 @@ summary: 'Gérez vos licences de capacité avec l"Portefeuille digital pour vér
 :imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
 
 
-[role="lead"]
+[role="lead lead"]
 Gérez vos licences basées sur la capacité depuis le portefeuille digital BlueXP pour vous assurer que votre compte NetApp dispose de suffisamment de capacité pour vos systèmes Cloud Volumes ONTAP.
 
 _Licences basées sur la capacité_ vous pouvez payer pour Cloud Volumes ONTAP par Tio de capacité.
