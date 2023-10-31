@@ -1,32 +1,30 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-keystone.html 
-keywords: license, licensing, install, keystone, request capacity, link subscription, add keystone subscription, keystone subscription 
-summary: 'Gérez les services d"abonnement Keystone à partir du portefeuille digital en activant les abonnements pour l"utilisation avec Cloud Volumes ONTAP. Vous pouvez également demander des modifications à la capacité engagée et annuler la liaison des abonnements.' 
+keywords: license, licensing, install, keystone, request capacity, link subscription, add keystone subscription, keystone subscription, digital wallet, keystone flex 
+summary: 'Gérez vos abonnements Keystone à partir du portefeuille digital BlueXP en activant les abonnements pour l"utilisation avec Cloud Volumes ONTAP et en demandant des modifications de la capacité allouée pour les niveaux de service de votre abonnement. Une demande de capacité supplémentaire pour un niveau de services fournit davantage de stockage pour les clusters ONTAP sur site ou pour les systèmes Cloud Volumes ONTAP.' 
 ---
-= Gérez les services d'abonnement Keystone
+= Gérez les abonnements Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
+:imagesdir: ./media/
 
 
-[role="lead lead"]
-Gérez vos abonnements Keystone à partir du portefeuille digital BlueXP en activant les abonnements pour une utilisation avec Cloud Volumes ONTAP. Vous pouvez également demander des modifications à la capacité engagée et annuler la liaison des abonnements.
+[role="lead"]
+Gérez vos abonnements Keystone à partir du portefeuille digital BlueXP en activant les abonnements pour l'utilisation avec Cloud Volumes ONTAP et en demandant des modifications de la capacité allouée pour les niveaux de service de votre abonnement. Une demande de capacité supplémentaire pour un niveau de services fournit davantage de stockage pour les clusters ONTAP sur site ou pour les systèmes Cloud Volumes ONTAP.
 
-Un _abonnement Keystone_ est un service de stockage avec paiement à l'utilisation proposé par NetApp.
+NetApp Keystone est un service d'abonnement flexible avec paiement à l'utilisation. Il offre une expérience de cloud hybride aux clients qui préfèrent un modèle OpEx plutôt que CapEx ou leasing.
 
-Le portefeuille digital BlueXP_ vous permet de gérer les licences pour Cloud Volumes ONTAP à partir d'un emplacement unique. Vous pouvez ajouter de nouvelles licences et mettre à jour des licences existantes.
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["En savoir plus sur les licences Cloud Volumes ONTAP"].
+https://www.netapp.com/services/keystone/["En savoir plus sur Keystone"^]
 
 
 
 == Autoriser votre compte
 
-Avant de pouvoir utiliser et gérer les abonnements Keystone dans BlueXP, vous devez contacter NetApp afin d'autoriser votre compte utilisateur BlueXP avec vos abonnements Keystone.
+Avant de pouvoir utiliser et gérer les abonnements Keystone dans BlueXP, vous devez contacter NetApp pour autoriser votre compte utilisateur BlueXP avec vos abonnements Keystone.
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
@@ -41,14 +39,11 @@ image:screenshot-keystone-overview.png["Capture d'écran affichant la liste des 
 
 
 
-.Et la suite ?
-Associez les abonnements que vous souhaitez utiliser avec Cloud Volumes ONTAP.
-
 
 
 == Associer un abonnement
 
-Une fois que NetApp a autorisé votre compte, vous devez lier les abonnements Keystone pour les utiliser avec Cloud Volumes ONTAP. Cette action permet aux utilisateurs de sélectionner l'abonnement comme méthode de facturation pour les nouveaux systèmes Cloud Volumes ONTAP.
+Une fois que NetApp a autorisé votre compte, vous pouvez lier les abonnements Keystone pour les utiliser avec Cloud Volumes ONTAP. Cette action permet aux utilisateurs de sélectionner l'abonnement comme méthode de facturation pour les nouveaux systèmes Cloud Volumes ONTAP.
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
@@ -66,7 +61,7 @@ L'abonnement est désormais lié à votre compte BlueXP et disponible pour la cr
 
 == Demandez plus ou moins de capacité dédiée
 
-Si vous devez ajuster la capacité engagée pour un abonnement, vous pouvez envoyer une demande directement à partir de l'interface BlueXP.
+Si vous souhaitez modifier la capacité allouée des niveaux de service de votre abonnement, vous pouvez envoyer une demande à NetApp directement à partir de BlueXP. Une demande de capacité supplémentaire pour un niveau de services permet d'obtenir davantage de stockage pour les clusters sur site ou les systèmes Cloud Volumes ONTAP.
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
@@ -84,9 +79,17 @@ Votre demande crée un ticket dans le système NetApp.
 
 
 
+== Surveillez l'utilisation
+
+Le tableau de bord BlueXP Digital Advisor vous permet de surveiller l'utilisation des abonnements Keystone et de générer des rapports.
+
+https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.html["En savoir plus sur la surveillance de l'utilisation des abonnements"^]
+
+
+
 == Dissocier un abonnement
 
-Si vous ne souhaitez plus utiliser un abonnement Keystone avec les nouveaux systèmes Cloud Volumes ONTAP, vous pouvez annuler le lien de cet abonnement. Notez que vous ne pouvez dissocier qu'un abonnement qui n'est pas associé à un abonnement Cloud Volumes ONTAP existant.
+Si vous ne souhaitez plus utiliser un abonnement Keystone avec BlueXP, vous pouvez dissocier l'abonnement. Notez que vous ne pouvez dissocier qu'un abonnement qui n'est pas associé à un abonnement Cloud Volumes ONTAP existant.
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.

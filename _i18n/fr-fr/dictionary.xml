@@ -193,8 +193,6 @@
   <block id="492847bcbc9ec0bd3075b612aa43e4a7" category="list-text">Sélectionnez *Keystone*.</block>
   <block id="daf4ae396784c74ec2cbf002eaaa25f4" category="list-text">Si vous voyez la page *Bienvenue dans NetApp Keystone*, envoyez un e-mail à l'adresse indiquée sur la page.</block>
   <block id="16692c26ca4528e651bbb36d93c465c7" category="paragraph">Un représentant NetApp traitera votre demande en autorisant votre compte utilisateur à accéder aux abonnements.</block>
-  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">Et la suite ?</block>
-  <block id="18dea2097f201a1ab3eb6d3305d42f0a" category="paragraph">Associez les abonnements que vous souhaitez utiliser avec Cloud Volumes ONTAP.</block>
   <block id="06f358c39bc3b4633cefd78beb67e671" category="section-title">Associer un abonnement</block>
   <block id="b0afff19aa3343a6f86619d833dbd316" category="inline-image-macro">Icône représentant trois points côte à côte</block>
   <block id="fc6ada65ff8f08c80e7d6167f68c89c2" category="list-text">Pour l'abonnement que vous souhaitez lier, cliquez sur <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> Et sélectionnez *Link*.</block>
@@ -202,7 +200,6 @@
   <block id="53dd6d03631eca7d8e89d0d7d8cdeb77" category="paragraph"><block ref="53dd6d03631eca7d8e89d0d7d8cdeb77" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c01bba3f5cf220440d62298c4287d655" category="paragraph">L'abonnement est désormais lié à votre compte BlueXP et disponible pour la création d'un environnement de travail Cloud Volumes ONTAP.</block>
   <block id="1b02ed65c5ea56c85fffa6b88378d762" category="section-title">Demandez plus ou moins de capacité dédiée</block>
-  <block id="51865ab5b1a727fd7b6804d74e80a1cd" category="paragraph">Si vous devez ajuster la capacité engagée pour un abonnement, vous pouvez envoyer une demande directement à partir de l'interface BlueXP.</block>
   <block id="a2748c51966db7db689a8801f6ae4150" category="list-text">Pour l'abonnement pour lequel vous souhaitez ajuster la capacité, cliquez sur <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> Et sélectionnez *Afficher le détail et modifier*.</block>
   <block id="56ecf988dec174f4d23028e78eeed82c" category="list-text">Saisissez la capacité d'engagement requise pour un ou plusieurs abonnements.</block>
   <block id="b21f9c14aa5cab57ac732dac504b7b63" category="inline-image-macro">Capture d'écran indiquant la possibilité de demander une modification de la capacité demandée pour un abonnement.</block>
@@ -441,8 +438,6 @@
   <block id="314c4a4eeddb6d1cd1f813b95714f7a2" category="list-text">Si votre abonnement Google Cloud est associé à une offre privée et que cette offre privée a été modifiée après sa création et son acceptation, le terme indique S. O. Dans ce scénario, la réponse API que nous recevons de Google Cloud Marketplace n'inclut pas d'informations liées à la durée.</block>
   <block id="3b3f3f7253f4c57a7eb145d69d119e28" category="list-text">Si vous disposez d'une offre privée Google Cloud, les options de contrat ne sont pas disponibles.</block>
   <block id="885ce97feb1a2410a348b3f3764dee9d" category="list-text">Gérez les services d'abonnement Keystone à utiliser avec Cloud Volumes ONTAP et demandez des modifications de la capacité allouée</block>
-  <block id="e29dbbc5408d2fe6da0ae9249031fad5" category="summary">Gérez les services d'abonnement Keystone à partir du portefeuille digital en activant les abonnements pour l'utilisation avec Cloud Volumes ONTAP. Vous pouvez également demander des modifications à la capacité engagée et annuler la liaison des abonnements.</block>
-  <block id="8cd29d21eeca72789ed2e573a1032dbd" category="doc">Gérez les services d'abonnement Keystone</block>
   <block id="4112533811706ae9c45d956e68299f46" category="paragraph">Gérez vos licences basées sur la capacité depuis le portefeuille digital BlueXP pour vous assurer que votre compte NetApp dispose de suffisamment de capacité pour vos systèmes Cloud Volumes ONTAP.</block>
   <block id="b37ea3f4c93245969c515634c741e9bf" category="paragraph">Le portefeuille digital BlueXP_ vous permet de gérer les licences pour Cloud Volumes ONTAP à partir d'un emplacement unique. Vous pouvez ajouter de nouvelles licences et mettre à jour des licences existantes.</block>
   <block id="03fc5be3f1d32a032f3da42181c0e6ed" category="section-title">Ajout des licences au portefeuille digital BlueXP</block>
@@ -490,14 +485,9 @@
   <block id="325ef46eb3d6b63c4d60ef08cdd6176f" category="inline-image-macro">Capture d'écran de la page Cloud Volumes ONTAP du portefeuille digital BlueXP où le bouton changer de méthode de facturation se trouve juste au-dessus du tableau.</block>
   <block id="bdc5814154b1b181ca8722ef08ed8a28" category="paragraph"><block ref="bdc5814154b1b181ca8722ef08ed8a28" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d592a4e1d68c1047f1f5e39639bee6bf" category="paragraph">Notez également que le portefeuille digital BlueXP actualise la capacité consommée pour chaque type de pack en fonction des modifications que vous venez d'apporter.</block>
-  <block id="16c141e06e5f6ba408b4992a97c8b45f" category="paragraph">Gérez vos abonnements Keystone à partir du portefeuille digital BlueXP en activant les abonnements pour une utilisation avec Cloud Volumes ONTAP. Vous pouvez également demander des modifications à la capacité engagée et annuler la liaison des abonnements.</block>
-  <block id="a99a383ab90c9f21375613d8a38ea1c8" category="paragraph">Un _abonnement Keystone_ est un service de stockage avec paiement à l'utilisation proposé par NetApp.</block>
-  <block id="ef32689f1a32fe16e0893f8394486cba" category="paragraph">Avant de pouvoir utiliser et gérer les abonnements Keystone dans BlueXP, vous devez contacter NetApp afin d'autoriser votre compte utilisateur BlueXP avec vos abonnements Keystone.</block>
   <block id="5da6315cfe65abaef2d0e00c90898ddc" category="list-text">Revenez à l'abonnement *Keystone* pour afficher vos abonnements.</block>
   <block id="3d6aabe991edb10f282fd60995e725ca" category="inline-image-macro">Capture d'écran affichant la liste des abonnements Keystone.</block>
   <block id="6fd94fda3665b39867817d4700d184e8" category="paragraph"><block ref="6fd94fda3665b39867817d4700d184e8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b10dd47ec29edab7ffa21c2337ac7f5f" category="paragraph">Une fois que NetApp a autorisé votre compte, vous devez lier les abonnements Keystone pour les utiliser avec Cloud Volumes ONTAP. Cette action permet aux utilisateurs de sélectionner l'abonnement comme méthode de facturation pour les nouveaux systèmes Cloud Volumes ONTAP.</block>
-  <block id="7ec05ce6a514daa78763d92fa399d1b0" category="paragraph">Si vous ne souhaitez plus utiliser un abonnement Keystone avec les nouveaux systèmes Cloud Volumes ONTAP, vous pouvez annuler le lien de cet abonnement. Notez que vous ne pouvez dissocier qu'un abonnement qui n'est pas associé à un abonnement Cloud Volumes ONTAP existant.</block>
   <block id="990d530a36683451e6ac666b1b224270" category="paragraph">Gérez les licences basées sur les nœuds dans le portefeuille digital BlueXP pour vérifier que chaque système Cloud Volumes ONTAP dispose d'une licence valide avec la capacité requise.</block>
   <block id="755544cd7e451192e8f70ab60b76986b" category="paragraph">La page du portefeuille digital BlueXP vous permet de consulter des informations détaillées sur chacun de vos systèmes Cloud Volumes ONTAP PAYGO, notamment le numéro de série et le type de licence PAYGO.</block>
   <block id="0ad53d9b2c46069812124453e75f768d" category="inline-image-macro">Copie d'écran affichant un tableau sur la page de portefeuille digital BlueXP avec trois licences paygo. Chaque ligne indique le nom, le type de système, le numéro de série, le package et un lien permettant de gérer la licence.</block>
@@ -614,4 +604,22 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Bénéficiez du support pour les services de fichiers d'un fournisseur cloud</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Pour obtenir de l'aide concernant un service de fichiers d'un fournisseur cloud, son infrastructure ou toute solution utilisant le service, consultez la section « obtention d'aide » de la documentation BlueXP associée à ce produit.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Pour bénéficier du support technique spécifique à BlueXP et à ses solutions et services de stockage, utilisez les options de support décrites ci-dessous.</block>
+  <block id="3982145b9641373c27bb8d4756883699" category="inline-link">Découvrez comment vous abonner à BlueXP (mode standard)</block>
+  <block id="7f5bf22f42b3df7661bb90a8ee910f75" category="list-text"><block ref="7f5bf22f42b3df7661bb90a8ee910f75" category="inline-link-rx"></block></block>
+  <block id="7d546f7fc3c445881a171d5c7ee674c2" category="inline-link">Découvrez comment vous abonner à BlueXP (mode restreint)</block>
+  <block id="69dd33041899bf8cb4fdb69e6f455142" category="list-text"><block ref="69dd33041899bf8cb4fdb69e6f455142" category="inline-link-rx"></block></block>
+  <block id="c27b8e6a4f797d237583ca6d38a92cd6" category="summary">Gérez vos abonnements Keystone à partir du portefeuille digital BlueXP en activant les abonnements pour l'utilisation avec Cloud Volumes ONTAP et en demandant des modifications de la capacité allouée pour les niveaux de service de votre abonnement. Une demande de capacité supplémentaire pour un niveau de services fournit davantage de stockage pour les clusters ONTAP sur site ou pour les systèmes Cloud Volumes ONTAP.</block>
+  <block id="52ba144dbaac8239e9b6d8e287db93dc" category="doc">Gérez les abonnements Keystone</block>
+  <block id="a3b1d6e06d4fd8ccc20c61ce51e45853" category="paragraph">NetApp Keystone est un service d'abonnement flexible avec paiement à l'utilisation. Il offre une expérience de cloud hybride aux clients qui préfèrent un modèle OpEx plutôt que CapEx ou leasing.</block>
+  <block id="8635fd9dae0faf14591abf5c00ba4c36" category="inline-link">En savoir plus sur Keystone</block>
+  <block id="d9e1f569a60d13d4540b611846d761f5" category="paragraph"><block ref="d9e1f569a60d13d4540b611846d761f5" category="inline-link-rx"></block></block>
+  <block id="79554ac40a8f3a03c9aaedab34165bd3" category="paragraph">Avant de pouvoir utiliser et gérer les abonnements Keystone dans BlueXP, vous devez contacter NetApp pour autoriser votre compte utilisateur BlueXP avec vos abonnements Keystone.</block>
+  <block id="8afaab6946e4a914b70539d7502e26ac" category="paragraph">Une fois que NetApp a autorisé votre compte, vous pouvez lier les abonnements Keystone pour les utiliser avec Cloud Volumes ONTAP. Cette action permet aux utilisateurs de sélectionner l'abonnement comme méthode de facturation pour les nouveaux systèmes Cloud Volumes ONTAP.</block>
+  <block id="6659aa983422f26fe41e5bcc67fa8466" category="paragraph">Si vous souhaitez modifier la capacité allouée des niveaux de service de votre abonnement, vous pouvez envoyer une demande à NetApp directement à partir de BlueXP. Une demande de capacité supplémentaire pour un niveau de services permet d'obtenir davantage de stockage pour les clusters sur site ou les systèmes Cloud Volumes ONTAP.</block>
+  <block id="ec6e0d1bd46f010ced65478c609b1636" category="section-title">Surveillez l'utilisation</block>
+  <block id="4bb37917188b518967d0e67a2b819327" category="paragraph">Le tableau de bord BlueXP Digital Advisor vous permet de surveiller l'utilisation des abonnements Keystone et de générer des rapports.</block>
+  <block id="20ea4c62f4c9e4254314fe7fbbef0319" category="inline-link">En savoir plus sur la surveillance de l'utilisation des abonnements</block>
+  <block id="d7105dd212dc96a8b292b6b48f84916f" category="paragraph"><block ref="d7105dd212dc96a8b292b6b48f84916f" category="inline-link-rx"></block></block>
+  <block id="28ca5cda5cdef790c457097830d81ca5" category="paragraph">Si vous ne souhaitez plus utiliser un abonnement Keystone avec BlueXP, vous pouvez dissocier l'abonnement. Notez que vous ne pouvez dissocier qu'un abonnement qui n'est pas associé à un abonnement Cloud Volumes ONTAP existant.</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Quoi de neuf</block>
 </blocks>

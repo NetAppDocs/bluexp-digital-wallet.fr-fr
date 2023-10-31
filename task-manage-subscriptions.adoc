@@ -16,6 +16,10 @@ summary: 'Lorsque vous vous abonnez à BlueXP depuis le marché d"un fournisseur
 [role="lead"]
 Lorsque vous vous abonnez à BlueXP depuis le marché d'un fournisseur de services Cloud, vous êtes redirigé vers le site Web BlueXP où vous devez enregistrer votre abonnement et l'associer à des comptes spécifiques. Après votre abonnement, vous pouvez gérer chaque abonnement depuis le portefeuille digital BlueXP.
 
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html["Découvrez comment vous abonner à BlueXP (mode standard)"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html["Découvrez comment vous abonner à BlueXP (mode restreint)"^]
+
+
 
 
 == Afficher vos abonnements
