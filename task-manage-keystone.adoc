@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-keystone.html 
-keywords: license, licensing, install, keystone, request capacity, link subscription, add keystone subscription, keystone subscription, digital wallet, keystone flex 
+keywords: license, licensing, install, keystone, request capacity, link subscription, add keystone subscription, keystone subscription, digital wallet, keystone flex, digital wallet, bluexp digital wallet 
 summary: 'Gérez vos abonnements Keystone à partir du portefeuille digital BlueXP en activant les abonnements pour l"utilisation avec Cloud Volumes ONTAP et en demandant des modifications de la capacité allouée pour les niveaux de service de votre abonnement. Une demande de capacité supplémentaire pour un niveau de services fournit davantage de stockage pour les clusters ONTAP sur site ou pour les systèmes Cloud Volumes ONTAP.' 
 ---
 = Gérez les abonnements Keystone
