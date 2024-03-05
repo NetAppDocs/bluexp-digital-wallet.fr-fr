@@ -38,8 +38,6 @@
   <block id="f591dbc4232b149ea0792178559405f9" category="list-text">Téléchargez le fichier de licence.</block>
   <block id="034f6db5181ab87d962e69b9b7b5a995" category="list-text">Cliquez sur *Télécharger la licence*.</block>
   <block id="662442d32a5fd91298fcf8b6391fdf17" category="section-title">Changer les méthodes de charge</block>
-  <block id="a117b4a94f6f90aef089573b1f002d26" category="paragraph">Vous pouvez modifier la méthode de facturation d'un système Cloud Volumes ONTAP utilisant des licences basées sur la capacité. Par exemple, si vous avez déployé un système Cloud Volumes ONTAP avec le pack Essentials, vous pouvez le remplacer par le pack Professional si vos besoins évoluent.</block>
-  <block id="86f463a1f0f0879749d1274dc94305d9" category="paragraph-title">Remarque importante</block>
   <block id="cfdb32f80009b1e5c5c0468dda9f013d" category="paragraph">Si vous disposez d'une offre ou d'un contrat privé sur le marché de votre fournisseur cloud, le fait de changer de méthode de facturation non incluse dans votre contrat entraînera une facturation en fonction du modèle BYOL (si vous avez acheté une licence auprès de NetApp) ou du modèle de facturation PAYGO.</block>
   <block id="3397777d22d2d5f746157ca31f0d8460" category="list-text">Dans l'onglet *Cloud Volumes ONTAP*, cliquez sur *changer la méthode de chargement*.</block>
   <block id="de4b4e176958ea7181911ce715504321" category="list-text">Sélectionnez un environnement de travail, choisissez la nouvelle méthode de charge, puis confirmez que la modification du type de colis affectera les frais de service.</block>
@@ -628,4 +626,10 @@
   <block id="1804830d648adf9126d51f4a827ca950" category="paragraph">Le portefeuille digital BlueXP vous permet désormais de gérer les licences pour la reprise d'activité BlueXP. Vous pouvez ajouter des licences, mettre à jour des licences et afficher des détails sur la capacité sous licence.</block>
   <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">Découvrez comment gérer les licences des services de données BlueXP</block>
   <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
+  <block id="970af11c442d109ac4d016f7c57f63fb" category="paragraph">Une licence basée sur la capacité est disponible sous la forme d'un _package_. Lorsque vous créez un environnement de travail Cloud Volumes ONTAP, vous pouvez choisir parmi plusieurs packages de licences en fonction des besoins de votre entreprise. Si vos besoins changent après la création de l'environnement de travail, vous pouvez modifier le package à tout moment. Par exemple, vous pouvez passer du package Essentials au package Professional.</block>
+  <block id="58dcfad3183b701a8f1b8781a5644d09" category="inline-link">En savoir plus sur les packs de licences basés sur la capacité</block>
+  <block id="8e8751cb9b796773a6b79b4d5c3dc7b2" category="paragraph"><block ref="0205926668933cbb2cb5f56900594078" category="inline-link-rx"></block>.</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">Description de la tâche</block>
+  <block id="3e4729f0b91cf008c10b8ab719ea9e99" category="list-text">La modification du mode de facturation n'a aucun impact sur le paiement à l'utilisation, que ce soit via une licence d'abonnement NetApp (BYOL) ou sur le marché de votre fournisseur cloud.</block>
+  <block id="07456d1e170e8be27eaff1e39e1ccdf6" category="paragraph">BlueXP tente toujours de facturer d'abord une licence. Si une licence n'est pas disponible, elle est imputée à un abonnement Marketplace. Aucune conversion n'est requise pour les abonnements BYOL à un Marketplace, et inversement.</block>
 </blocks>

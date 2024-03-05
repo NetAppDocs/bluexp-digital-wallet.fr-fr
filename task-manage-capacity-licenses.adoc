@@ -188,10 +188,17 @@ Le fichier de licence (ou _files_ si vous avez une paire HA).
 
 == Changer les méthodes de charge
 
-Vous pouvez modifier la méthode de facturation d'un système Cloud Volumes ONTAP utilisant des licences basées sur la capacité. Par exemple, si vous avez déployé un système Cloud Volumes ONTAP avec le pack Essentials, vous pouvez le remplacer par le pack Professional si vos besoins évoluent.
+Une licence basée sur la capacité est disponible sous la forme d'un _package_. Lorsque vous créez un environnement de travail Cloud Volumes ONTAP, vous pouvez choisir parmi plusieurs packages de licences en fonction des besoins de votre entreprise. Si vos besoins changent après la création de l'environnement de travail, vous pouvez modifier le package à tout moment. Par exemple, vous pouvez passer du package Essentials au package Professional.
 
-.Remarque importante
-Si vous disposez d'une offre ou d'un contrat privé sur le marché de votre fournisseur cloud, le fait de changer de méthode de facturation non incluse dans votre contrat entraînera une facturation en fonction du modèle BYOL (si vous avez acheté une licence auprès de NetApp) ou du modèle de facturation PAYGO.
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["En savoir plus sur les packs de licences basés sur la capacité"].
+
+.Description de la tâche
+* La modification du mode de facturation n'a aucun impact sur le paiement à l'utilisation, que ce soit via une licence d'abonnement NetApp (BYOL) ou sur le marché de votre fournisseur cloud.
++
+BlueXP tente toujours de facturer d'abord une licence. Si une licence n'est pas disponible, elle est imputée à un abonnement Marketplace. Aucune conversion n'est requise pour les abonnements BYOL à un Marketplace, et inversement.
+
+* Si vous disposez d'une offre ou d'un contrat privé sur le marché de votre fournisseur cloud, le fait de changer de méthode de facturation non incluse dans votre contrat entraînera une facturation en fonction du modèle BYOL (si vous avez acheté une licence auprès de NetApp) ou du modèle de facturation PAYGO.
+
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
