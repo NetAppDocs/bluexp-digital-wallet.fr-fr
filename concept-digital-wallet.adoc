@@ -23,7 +23,7 @@ Le portefeuille digital BlueXP vous permet de gérer et de contrôler les licenc
 * Gestion des licences basées sur la capacité et sur les nœuds pour Cloud Volumes ONTAP
 * Ajoutez et gérez des licences pour les services de données BlueXP
 * Gérez les abonnements pour PAYGO et les contrats annuels associés à votre compte BlueXP et à Astra Control
-* Gérez les services d'abonnement Keystone à utiliser avec Cloud Volumes ONTAP et demandez des modifications de la capacité allouée
+* Gérez les services d'abonnement Keystone pour une utilisation avec Cloud Volumes ONTAP et les clusters ONTAP sur site et demandez des modifications de la capacité allouée
 * Afficher des informations sur l'état des contrats matériels et logiciels pour les clusters ONTAP sur site
 
 
@@ -31,11 +31,12 @@ Le portefeuille digital BlueXP vous permet de gérer et de contrôler les licenc
 
 == Services pris en charge
 
-Le portefeuille digital BlueXP vous permet de gérer les licences pour les éléments suivants :
+Le portefeuille digital BlueXP vous permet de gérer les licences pour les services suivants :
 
-* Sauvegarde et restauration
-* Classement
-* Cloud Volumes ONTAP
-* Clusters ONTAP sur site
-* Tiering
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["Sauvegarde et restauration"^]
+* https://docs.netapp.com/us-en/bluexp-classification/index.html["Classement"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/bluexp-disaster-recovery/index.html["Reprise après incident"^] (BYOL uniquement)
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/index.html["Clusters ONTAP sur site"^]
+* https://docs.netapp.com/us-en/bluexp-tiering/index.html["Tiering"^]
 

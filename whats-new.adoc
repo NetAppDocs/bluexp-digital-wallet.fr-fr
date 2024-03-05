@@ -18,6 +18,18 @@ Découvrez les nouveautés du portefeuille digital BlueXP.
 
 
 
+== 5 mars 2024
+
+
+
+=== Reprise d'activité BlueXP
+
+Le portefeuille digital BlueXP vous permet désormais de gérer les licences pour la reprise d'activité BlueXP. Vous pouvez ajouter des licences, mettre à jour des licences et afficher des détails sur la capacité sous licence.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html["Découvrez comment gérer les licences des services de données BlueXP"]
+
+
+
 == 30 juillet 2023
 
 
