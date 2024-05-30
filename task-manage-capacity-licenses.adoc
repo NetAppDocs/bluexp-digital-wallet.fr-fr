@@ -20,6 +20,9 @@ _Licences basées sur la capacité_ vous pouvez payer pour Cloud Volumes ONTAP p
 
 Le portefeuille digital BlueXP_ vous permet de gérer les licences pour Cloud Volumes ONTAP à partir d'un emplacement unique. Vous pouvez ajouter de nouvelles licences et mettre à jour des licences existantes.
 
+
+NOTE: Même si l'utilisation et les mesures réelles des produits et services gérés dans BlueXP sont toujours calculés en Gio et en Tio, les termes Go/Gio et To/Tio sont utilisés de manière interchangeable. Elles figurent dans les offres Cloud Marketplace, les devis, les descriptions des offres ainsi que d'autres documents justificatifs
+
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["En savoir plus sur les licences Cloud Volumes ONTAP"].
 
 
@@ -177,6 +180,9 @@ Cependant, si vous avez déployé BlueXP dans un emplacement qui n'a pas d'accè
 .Ce dont vous avez besoin
 Le fichier de licence (ou _files_ si vous avez une paire HA).
 
+
+NOTE: Pour plus d'informations sur l'obtention d'un fichier de licence, reportez-vous à la section https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html#obtain-a-system-license-file["Obtenir un fichier de licence système"^].
+
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
 . Dans l'onglet *Cloud Volumes ONTAP*, cliquez sur le menu d'action en regard de la licence et sélectionnez *mettre à jour la licence*.
@@ -190,7 +196,7 @@ Le fichier de licence (ou _files_ si vous avez une paire HA).
 
 Une licence basée sur la capacité est disponible sous la forme d'un _package_. Lorsque vous créez un environnement de travail Cloud Volumes ONTAP, vous pouvez choisir parmi plusieurs packages de licences en fonction des besoins de votre entreprise. Si vos besoins changent après la création de l'environnement de travail, vous pouvez modifier le package à tout moment. Par exemple, vous pouvez passer du package Essentials au package Professional.
 
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["En savoir plus sur les packs de licences basés sur la capacité"].
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["En savoir plus sur les packs de licences basés sur la capacité"^].
 
 .Description de la tâche
 * La modification du mode de facturation n'a aucun impact sur le paiement à l'utilisation, que ce soit via une licence d'abonnement NetApp (BYOL) ou sur le marché de votre fournisseur cloud.

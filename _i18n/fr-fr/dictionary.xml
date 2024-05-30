@@ -628,8 +628,16 @@
   <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
   <block id="970af11c442d109ac4d016f7c57f63fb" category="paragraph">Une licence basée sur la capacité est disponible sous la forme d'un _package_. Lorsque vous créez un environnement de travail Cloud Volumes ONTAP, vous pouvez choisir parmi plusieurs packages de licences en fonction des besoins de votre entreprise. Si vos besoins changent après la création de l'environnement de travail, vous pouvez modifier le package à tout moment. Par exemple, vous pouvez passer du package Essentials au package Professional.</block>
   <block id="58dcfad3183b701a8f1b8781a5644d09" category="inline-link">En savoir plus sur les packs de licences basés sur la capacité</block>
-  <block id="8e8751cb9b796773a6b79b4d5c3dc7b2" category="paragraph"><block ref="0205926668933cbb2cb5f56900594078" category="inline-link-rx"></block>.</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">Description de la tâche</block>
   <block id="3e4729f0b91cf008c10b8ab719ea9e99" category="list-text">La modification du mode de facturation n'a aucun impact sur le paiement à l'utilisation, que ce soit via une licence d'abonnement NetApp (BYOL) ou sur le marché de votre fournisseur cloud.</block>
   <block id="07456d1e170e8be27eaff1e39e1ccdf6" category="paragraph">BlueXP tente toujours de facturer d'abord une licence. Si une licence n'est pas disponible, elle est imputée à un abonnement Marketplace. Aucune conversion n'est requise pour les abonnements BYOL à un Marketplace, et inversement.</block>
+  <block id="d5f06dc5f98a38b5ccff1592c5d20e76" category="admonition">Même si l'utilisation et les mesures réelles des produits et services gérés dans BlueXP sont toujours calculés en Gio et en Tio, les termes Go/Gio et To/Tio sont utilisés de manière interchangeable. Elles figurent dans les offres Cloud Marketplace, les devis, les descriptions des offres ainsi que d'autres documents justificatifs</block>
+  <block id="3e509b6c896c67a8b8ec2afa8f3aa8eb" category="admonition">Pour plus d'informations sur l'obtention d'un fichier de licence, reportez-vous à la section<block ref="c65aa3342130b0295e06cd938a12ad5e" category="inline-link-rx"></block>.</block>
+  <block id="6b5c2460f150173d3723de8a857a4d33" category="paragraph"><block ref="179c8a3ed717f2c4de3149f0e9edf685" category="inline-link-rx"></block>.</block>
+  <block id="25b1fde564bb1fc860069167d8668df6" category="sidebar">Gérer vos licences</block>
+  <block id="7cbe4872773ca07492a76acf7d557fef" category="sidebar">Gestion des licences basées sur la capacité pour Cloud Volumes ONTAP</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs et communauté</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Communauté NetApp</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">Blog BlueXP</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinaires sur le cloud</block>
 </blocks>
