@@ -34,9 +34,12 @@ Le portefeuille digital BlueXP vous permet de gérer et de contrôler les licenc
 Le portefeuille digital BlueXP vous permet de gérer les licences pour les services suivants :
 
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["Sauvegarde et restauration"^]
-* https://docs.netapp.com/us-en/bluexp-classification/index.html["Classement"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
 * https://docs.netapp.com/us-en/bluexp-disaster-recovery/index.html["Reprise après incident"^] (BYOL uniquement)
+* https://docs.netapp.com/us-en/bluexp-ransomware-protection/index.html["Protection par ransomware"^]
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/index.html["Clusters ONTAP sur site"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/index.html["Tiering"^]
 
+
+
+TIP: Le portefeuille digital BlueXP  vous permet également de gérer les licences pour la classification BlueXP . Cependant, la classification BlueXP  est désormais disponible en tant que fonctionnalité clé au sein de BlueXP , sans frais supplémentaires. Une licence ou un abonnement n'est plus nécessaire. https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["En savoir plus sur la classification BlueXP"^]

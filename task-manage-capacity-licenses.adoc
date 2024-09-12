@@ -181,7 +181,7 @@ Cependant, si vous avez déployé BlueXP dans un emplacement qui n'a pas d'accè
 Le fichier de licence (ou _files_ si vous avez une paire HA).
 
 
-NOTE: Pour plus d'informations sur l'obtention d'un fichier de licence, reportez-vous à la section https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html#obtain-a-system-license-file["Obtenir un fichier de licence système"^].
+NOTE: Pour plus d'informations sur l'obtention d'un fichier de licence, reportez-vous à https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html#obtain-a-system-license-file["Obtenir un fichier de licence système"^]la section .
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.

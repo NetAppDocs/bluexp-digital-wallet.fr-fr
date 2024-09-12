@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-data-services-licenses.html 
 keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license, digital wallet, bluexp digital wallet, classification, bluexp classification, bluexp tiering, tiering, bluexp backup and recovery, backup and recovery, disaster recovery 
-summary: 'Le portefeuille digital BlueXP vous permet de gérer les licences que vous avez achetées directement auprès d"NetApp (BYOL) pour une utilisation avec la sauvegarde et la restauration, le classement, la reprise d"activité et le Tiering BlueXP. Vous pouvez afficher la capacité de licence utilisée et la capacité disponible restante. Une notification s"affiche si vous avez atteint la limite de capacité ou la date d"expiration.' 
+summary: 'Le portefeuille digital BlueXP  vous permet de gérer les licences achetées directement auprès d"NetApp (BYOL) pour une utilisation avec la sauvegarde et la restauration, la reprise après incident et le Tiering BlueXP . Vous pouvez afficher la capacité de licence utilisée et la capacité disponible restante. Une notification s"affiche si vous avez atteint la limite de capacité ou la date d"expiration.' 
 ---
 = Gérez les licences des services de données BlueXP
 :hardbreaks:
@@ -14,15 +14,18 @@ summary: 'Le portefeuille digital BlueXP vous permet de gérer les licences que 
 
 
 [role="lead"]
-Le portefeuille digital BlueXP vous permet de gérer les licences que vous avez achetées directement auprès d'NetApp (BYOL) pour une utilisation avec la sauvegarde et la restauration, le classement, la reprise d'activité et le Tiering BlueXP. Vous pouvez afficher la capacité de licence utilisée et la capacité disponible restante. Une notification s'affiche si vous avez atteint la limite de capacité ou la date d'expiration.
+Le portefeuille digital BlueXP  vous permet de gérer les licences achetées directement auprès d'NetApp (BYOL) pour une utilisation avec la sauvegarde et la restauration, la reprise après incident et le Tiering BlueXP . Vous pouvez afficher la capacité de licence utilisée et la capacité disponible restante. Une notification s'affiche si vous avez atteint la limite de capacité ou la date d'expiration.
 
 Les instructions de cette page fournissent des informations qui s'appliquent à chaque service. Pour plus d'informations sur les licences de ces services, reportez-vous aux pages suivantes :
 
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/task-licensing-cloud-backup.html["Configurez les licences pour la sauvegarde et la restauration BlueXP"^]
-* https://docs.netapp.com/us-en/bluexp-classification/task-licensing-datasense.html["Configurez les licences pour la classification BlueXP"^]
 * https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["Configurez les licences pour la reprise d'activité BlueXP"^]
+* https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["Configurez les licences pour la protection BlueXP contre les ransomware"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["Configurez les licences pour le Tiering BlueXP"^]
 
+
+
+TIP: Le portefeuille digital BlueXP  vous permet également de gérer les licences pour la classification BlueXP . Cependant, la classification BlueXP  est désormais disponible en tant que fonctionnalité clé au sein de BlueXP , sans frais supplémentaires. Une licence ou un abonnement n'est plus nécessaire. https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["En savoir plus sur la classification BlueXP"^]
 
 
 
