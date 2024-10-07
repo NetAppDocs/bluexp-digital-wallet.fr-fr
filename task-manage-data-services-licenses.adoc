@@ -10,7 +10,7 @@ summary: 'Le portefeuille digital BlueXP  vous permet de gérer les licences ac
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/bluexp-backup-recovery/media/
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -34,18 +34,36 @@ TIP: Le portefeuille digital BlueXP  vous permet également de gérer les licen
 Après avoir acheté une licence, vous pouvez activer la licence dans BlueXP en saisissant le numéro de série et le compte NSS ou en téléchargeant le fichier de licence NetApp (NLF). Les étapes ci-dessous montrent comment obtenir le fichier de licence NLF si vous prévoyez d'utiliser cette méthode.
 
 .Étapes
+. Recherchez votre ID de compte BlueXP  :
++
+.. Dans le coin supérieur droit de la console BlueXP , sélectionnez image:icon-settings-option.png["L'icône des paramètres qui s'affiche en haut à droite de la console Web BlueXP ."] > *gestion des identités et des accès*.
+.. Sur la page Organisation, recherchez votre ID de compte et copiez-le.
++
+Si aucun ID de compte n'est répertorié et que vous avez juste un ID d'organisation, vous devrez copier les huit premiers caractères de l'ID d'organisation et l'ajouter à _account-_
+
++
+Par exemple, supposons qu'il s'agit de votre identifiant d'entreprise :
+
++
+ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
+
++
+Votre identifiant de compte est le suivant :
+
++
+account-ea10e1c6
+
+
+
 . Connectez-vous au https://mysupport.netapp.com["Site de support NetApp"^] Et sélectionnez *systèmes > licences logicielles*.
 . Entrez le numéro de série de votre licence.
 +
 image:screenshot_cloud_backup_license_step1.gif["Capture d'écran affichant une table de licences après une recherche par numéro de série."]
 
 . Dans la colonne *clé de licence*, sélectionnez *obtenir le fichier de licence NetApp*.
-. Entrez votre ID de compte BlueXP (il s'agit d'un ID de locataire sur le site du support) et sélectionnez *Submit* pour télécharger le fichier de licence.
+. Entrez votre ID de compte BlueXP  (il s'agit d'un ID de locataire sur le site de support) et sélectionnez *soumettre* pour télécharger le fichier de licence.
 +
 image:screenshot_cloud_backup_license_step2.gif["Capture d'écran affichant la boîte de dialogue obtenir la licence dans laquelle vous entrez votre ID de locataire, puis sélectionnez Envoyer pour télécharger le fichier de licence."]
-
-+
-Vous pouvez trouver votre ID de compte BlueXP en sélectionnant la liste déroulante *compte* en haut de BlueXP, puis en sélectionnant *gérer le compte* en regard de votre compte. Votre ID de compte se trouve dans l'onglet vue d'ensemble.
 
 
 

@@ -84,7 +84,7 @@ image:screenshot-digital-wallet-packages.png["Capture d'écran affichant la capa
 
 == Télécharger les rapports d'utilisation
 
-Les administrateurs de compte peuvent télécharger quatre rapports d'utilisation depuis le portefeuille digital de BlueXP. Ces rapports d'utilisation fournissent des détails sur la capacité de vos abonnements et vous indiquent comment vous facturez les ressources de vos abonnements Cloud Volumes ONTAP. Les rapports téléchargeables capturent des données à un moment donné et peuvent être facilement partagés avec d'autres personnes.
+Vous pouvez télécharger quatre rapports d'utilisation depuis le portefeuille digital BlueXP . Ces rapports d'utilisation fournissent des détails sur la capacité de vos abonnements et vous indiquent comment vous facturez les ressources de vos abonnements Cloud Volumes ONTAP. Les rapports téléchargeables capturent des données à un moment donné et peuvent être facilement partagés avec d'autres personnes.
 
 image:screenshot-digital-wallet-usage-report.png["La capture d'écran affiche la page des licences basées sur la capacité du portefeuille digital Cloud Volumes ONTAP et met en évidence le bouton de rapport d'utilisation."]
 

@@ -24,7 +24,7 @@ Lorsque vous vous abonnez à BlueXP depuis le marché d'un fournisseur de servic
 
 == Afficher vos abonnements
 
-Le portefeuille digital BlueXP fournit des informations détaillées sur chaque abonnement PAYGO et chaque contrat annuel associé à votre compte BlueXP et à Astra Control (Astra Control utilise le service de facturation de BlueXP).
+Le portefeuille digital BlueXP  fournit des informations détaillées sur chaque abonnement PAYGO et sur chaque contrat annuel associé à votre entreprise ou compte BlueXP , et avec Astra Control (Astra Control utilise le service de facturation de BlueXP ).
 
 Pour Google Cloud, vous pouvez également identifier les abonnements Marketplace associés à une offre privée, ce qui vous permet de vérifier que vous avez bien accepté l'offre.
 
@@ -82,5 +82,5 @@ Par exemple, disons que vous avez deux comptes et que chacun est facturé par le
 +
 image:screenshot-subscription-menu.png["Capture d'écran du menu d'action pour un abonnement."]
 
-. Choisissez de renommer l'abonnement ou de gérer les comptes BlueXP associés à l'abonnement.
+. Choisissez de renommer l'abonnement ou de gérer les organisations ou les comptes BlueXP  associés à l'abonnement.
 

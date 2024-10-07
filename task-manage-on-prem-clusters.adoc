@@ -20,7 +20,7 @@ Le portefeuille digital BlueXP vous permet de consulter les détails des contrat
 Le portefeuille digital BlueXP affiche des informations détaillées sur les clusters ONTAP sur site que vous avez détectés en tant qu'environnement de travail ou associés à un compte sur le site de support NetApp que vous avez ajouté à BlueXP.
 
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Découvrez comment découvrir un cluster ONTAP sur site"^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Découvrez comment gérer les informations d'identification NSS associées à votre compte BlueXP"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Découvrez comment gérer les informations d'identification NSS associées à votre organisation ou votre compte BlueXP "^]
 
 
 
