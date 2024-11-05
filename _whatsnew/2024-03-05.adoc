@@ -1,0 +1,11 @@
+= Reprise d'activité BlueXP
+:allow-uri-read: 
+
+
+
+
+=== Reprise d'activité BlueXP
+
+Le portefeuille digital BlueXP vous permet désormais de gérer les licences pour la reprise d'activité BlueXP. Vous pouvez ajouter des licences, mettre à jour des licences et afficher des détails sur la capacité sous licence.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html["Découvrez comment gérer les licences des services de données BlueXP"]
