@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-homepage.html 
-keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
+keywords: license, licensing, dashboard, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
 summary: 'Obtenez un aperçu de tous les abonnements et licences de votre entreprise sur la page d"accueil numérique.' 
 ---
 = Utilisez la vue d'ensemble du tableau de bord
@@ -43,14 +43,14 @@ link:task-manage-data-services-licenses.html["En savoir plus sur la gestion des 
 . Sélectionnez *vue d'ensemble*.
 . Sélectionnez *Afficher* pour le service de données respectif (y compris Cloud Volumes ONTAP) pour afficher les détails et gérer les licences et les abonnements.
 +
-Chaque mosaïque fournit une vue d'ensemble graphique de l'état de la capacité tandis que la page de détails vous permet de voir et de gérer les modes de paiement de cette capacité.
+Chaque mosaïque fournit une vue d'ensemble graphique de la capacité. Vous pouvez afficher la page de détails pour voir et gérer les modes de paiement de cette capacité.
 
 . Sélectionnez l'onglet *licences* ou *abonnements*.
 . Filtrez le tableau en sélectionnant un filtre de colonne et une valeur à filtrer. Par exemple, dans l'onglet *abonnements*, vous pouvez filtrer la colonne Type par contrat annuel ou abonnement.
 +
 image:screenshot_digital_wallet_filter.png["Action de filtrage sur la table d'abonnement"]
 
-. Personnalisez les colonnes indiquées dans le tableau. Vous pouvez ajouter et supprimer des colonnes du tableau en sélectionnant l'icône colonne indiquant les colonnes à afficher ou à masquer. La capture d'écran suivante indique que seules les colonnes Type, Date de fin, Etat et Configuration sont affichées.
+. Personnalisez les colonnes indiquées dans le tableau. Vous pouvez ajouter et supprimer des colonnes de la table en sélectionnant l'icône *Column* indiquant les colonnes à afficher ou à masquer. La capture d'écran suivante indique que seules les colonnes Type, Date de fin, Etat et Configuration sont affichées.
 +
 image:screenshot_digital_wallet_show_hide_columns.png["la capture d'écran fournit un exemple d'affichage ou de masquage des colonnes"]
 
