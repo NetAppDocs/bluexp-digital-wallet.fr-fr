@@ -22,28 +22,32 @@ sidebar:
       url: "/concept-digital-wallet.html"
   - title: Utilisez le portefeuille digital BlueXP
     entries:
-    - title: Gestion des licences pour Cloud Volumes ONTAP
+    - title: Utilisez le tableau de bord Aperçu
+      url: "/task-homepage.html"
+    - title: Gérer les licences
       entries:
-      - title: Licences basées sur la capacité
-        url: "/task-manage-capacity-licenses.html"
-      - title: Licences basées sur les nœuds
-        url: "/task-manage-node-based-licenses.html"
-    - title: Gérez les licences des services de données BlueXP
-      url: "/task-manage-data-services-licenses.html"
-    - title: Gérer les abonnements et les contrats PAYGO
+      - title: Gérer les licences de service de données
+        url: "/task-manage-data-services-licenses.html"
+      - title: Gestion des licences pour Cloud Volumes ONTAP
+        entries:
+        - title: Licences basées sur la capacité pour Cloud Volumes ONTAP
+          url: "/task-manage-capacity-licenses.html"
+        - title: Licences basées sur les nœuds pour Cloud Volumes ONTAP
+          url: "/task-manage-node-based-licenses.html"
+    - title: Gérer les abonnements Marketplace
       url: "/task-manage-subscriptions.html"
     - title: Gérez les abonnements Keystone
       url: "/task-manage-keystone.html"
-    - title: Gérez les licences des clusters ONTAP sur site
+    - title: Gérez les licences pour ONTAP sur site
       url: "/task-manage-on-prem-clusters.html"
-  - title: Connaissances et support
-    entries:
-    - title: S'inscrire pour obtenir de l'aide
-      url: "/task-support-registration.html"
-    - title: Obtenez de l'aide
-      url: "/task-get-help.html"
-  - title: Mentions légales
-    url: "/legal-notices.html"
+    - title: Connaissances et support
+      entries:
+      - title: S'inscrire pour obtenir de l'aide
+        url: "/task-support-registration.html"
+      - title: Obtenez de l'aide
+        url: "/task-get-help.html"
+    - title: Mentions légales
+      url: "/legal-notices.html"
 product-family:
   name: BlueXP
   repo: bluexp-family

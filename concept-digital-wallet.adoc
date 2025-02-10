@@ -14,24 +14,27 @@ summary: 'Le portefeuille digital BlueXP vous permet de gérer et de contrôler 
 
 
 [role="lead"]
-Le portefeuille digital BlueXP vous permet de gérer et de contrôler les licences BlueXP achetées avec NetApp (BYOL), les abonnements BlueXP Marketplace et NetApp Keystone.
+Le portefeuille digital BlueXP  vous permet de gérer et de contrôler les licences BlueXP  achetées avec NetApp (BYOL), les abonnements aux services de données BlueXP  Marketplace (y compris NetApp Cloud Volumes ONTAP) et NetApp Keystone.
 
 
 
-== Caractéristiques
+== Affichage des licences et des abonnements dans le portefeuille digital
 
-* Gestion des licences basées sur la capacité et sur les nœuds pour Cloud Volumes ONTAP
-* Ajoutez et gérez des licences pour les services de données BlueXP
-* Gérez des abonnements pour PAYGO et les contrats annuels associés à votre entreprise BlueXP  et à Astra Control
-* Gérez les services d'abonnement Keystone pour une utilisation avec Cloud Volumes ONTAP et les clusters ONTAP sur site et demandez des modifications de la capacité allouée
-* Afficher des informations sur l'état des contrats matériels et logiciels pour les clusters ONTAP sur site
+Les licences et les abonnements s'affichent automatiquement dans un portefeuille digital lorsque le compte BlueXP  utilisé pour s'abonner est également un compte sur le site de support NetApp. Si vous avez utilisé un compte BlueXP  qui n'est pas associé à votre compte sur le site de support NetApp (NSS), vous devrez ajouter et mettre à jour manuellement les licences. En outre, l'utilisation, la capacité et d'autres informations ne seront pas modifiées.
 
+En attendant, BlueXP interroge automatiquement le service des licences NetApp pour obtenir des informations sur les licences associées à votre compte du site de support NetApp. S'il n'y a pas d'erreur, BlueXP ajoute automatiquement les licences au portefeuille digital.
+
+Si BlueXP  ne peut pas ajouter la licence, vous devez l'ajouter manuellement au portefeuille digital. Par exemple, si votre compte utilisateur BlueXP  n'est pas associé à votre compte sur le site de support NetApp, vous devez ajouter vous-même les licences.
+
+Après avoir acheté une licence auprès de votre représentant commercial NetApp, NetApp vous envoie un e-mail avec le numéro de série et les informations de licence supplémentaires. Vous aurez besoin de ce numéro de série pour ajouter ou mettre à jour la licence correspondante dans le portefeuille digital.
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Découvrez comment ajouter votre compte sur le site de support NetApp aux identifiants utilisateur BlueXP "^].
 
 
 
 == Services pris en charge
 
-Le portefeuille digital BlueXP vous permet de gérer les licences pour les services suivants :
+Le portefeuille digital BlueXP  vous permet de gérer les licences et les abonnements pour les services suivants :
 
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["Sauvegarde et restauration"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
@@ -40,6 +43,3 @@ Le portefeuille digital BlueXP vous permet de gérer les licences pour les servi
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/index.html["Clusters ONTAP sur site"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/index.html["Tiering"^]
 
-
-
-TIP: Le portefeuille digital BlueXP  vous permet également de gérer les licences pour la classification BlueXP . Cependant, la classification BlueXP  est désormais disponible en tant que fonctionnalité clé au sein de BlueXP , sans frais supplémentaires. Une licence ou un abonnement n'est plus nécessaire. https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["En savoir plus sur la classification BlueXP"^]

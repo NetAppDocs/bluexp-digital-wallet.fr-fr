@@ -28,12 +28,12 @@ Avant de pouvoir utiliser et gérer les abonnements Keystone dans BlueXP, vous d
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
-. Sélectionnez *Keystone*.
+. Sélectionnez *abonnements Keystone*.
 . Si vous voyez la page *Bienvenue dans NetApp Keystone*, envoyez un e-mail à l'adresse indiquée sur la page.
 +
 Un représentant NetApp traitera votre demande en autorisant votre compte utilisateur à accéder aux abonnements.
 
-. Revenez à l'abonnement *Keystone* pour afficher vos abonnements.
+. Revenez à l'onglet *abonnements Keystone* pour afficher vos abonnements.
 +
 image:screenshot-keystone-overview.png["Capture d'écran affichant la liste des abonnements Keystone."]
 
@@ -47,7 +47,7 @@ Une fois que NetApp a autorisé votre compte, vous pouvez lier les abonnements K
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
-. Sélectionnez *Keystone*.
+. Sélectionnez *abonnements Keystone*.
 . Pour l'abonnement que vous souhaitez lier, cliquez sur image:icon-action.png["Icône représentant trois points côte à côte"] Et sélectionnez *Link*.
 +
 image:screenshot-keystone-link.png["Capture d'écran affichant l'option de lien pour un abonnement."]
@@ -65,7 +65,7 @@ Si vous souhaitez modifier la capacité allouée des niveaux de service de votre
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
-. Sélectionnez *Keystone*.
+. Sélectionnez *abonnements Keystone*.
 . Pour l'abonnement pour lequel vous souhaitez ajuster la capacité, cliquez sur image:icon-action.png["Icône représentant trois points côte à côte"] Et sélectionnez *Afficher le détail et modifier*.
 . Saisissez la capacité d'engagement requise pour un ou plusieurs abonnements.
 +
@@ -89,7 +89,7 @@ https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.h
 
 == Dissocier un abonnement
 
-Si vous ne souhaitez plus utiliser un abonnement Keystone avec BlueXP, vous pouvez dissocier l'abonnement. Notez que vous ne pouvez dissocier qu'un abonnement qui n'est pas associé à un abonnement Cloud Volumes ONTAP existant.
+Si vous ne souhaitez plus utiliser d'abonnement Keystone avec BlueXP , vous pouvez annuler le lien de cet abonnement. Notez que vous ne pouvez dissocier qu'un abonnement qui n'est pas associé à un abonnement Cloud Volumes ONTAP existant.
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.

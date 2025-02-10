@@ -18,6 +18,36 @@ Découvrez les nouveautés du portefeuille digital BlueXP.
 
 
 
+== 10 février 2025
+
+Le portefeuille digital BlueXP  a été repensé pour être facile à utiliser. Il offre désormais une gestion supplémentaire des abonnements et des licences.
+
+
+
+=== Nouveau tableau de bord vue d'ensemble
+
+La page d'accueil du portefeuille digital comprend un tableau de bord mis à jour de vos licences NetApp et de vos abonnements Marketplace. Vous pouvez ainsi zoomer sur les services, les types de licences et les actions requises.
+
+
+
+=== Configuration des abonnements aux informations d'identification
+
+Le portefeuille numérique BlueXP  vous permet désormais de configurer vos abonnements aux informations d'identification du fournisseur. En général, vous le faites lors de votre premier abonnement à un abonnement Marketplace ou à un contrat annuel. Auparavant, la modification des informations d'identification de l'abonnement ne pouvait être effectuée que sur la page informations d'identification.
+
+
+
+=== Association d'abonnements à des organisations
+
+Vous pouvez maintenant mettre à jour l'organisation à laquelle un abonnement est associé directement depuis le portefeuille digital.
+
+
+
+=== Gestion des licences Cloud volumes ONTAP
+
+Vous gérez maintenant les licences Cloud Volumes ONTAP via la page d'accueil ou l'onglet *licences de service de données*. Utilisez l'onglet *abonnements Marketplace* pour afficher les informations relatives à votre abonnement.
+
+
+
 == 5 mars 2024
 
 

@@ -1,0 +1,81 @@
+---
+sidebar: sidebar 
+permalink: task-homepage.html 
+keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
+summary: 'Obtenez un aperçu de tous les abonnements et licences de votre entreprise sur la page d"accueil numérique.' 
+---
+= Utilisez la vue d'ensemble du tableau de bord
+:allow-uri-read: 
+
+
+
+
+== Utilisez la vue d'ensemble du tableau de bord
+
+[role="lead"]
+Utilisez le tableau de bord *Overview* du portefeuille numérique pour surveiller l'état de vos licences et abonnements afin de vous assurer que vous pouvez gérer les coûts et maintenir le service lorsque les abonnements atteignent les dates d'expiration ou les limites de capacité.
+
+Vous pouvez afficher des informations spécifiques sur les licences et les abonnements pour chacun de vos services de données (y compris Cloud Volumes ONTAP) et explorer chacun d'eux en détail.
+
+Vous serez également alerté des limites de capacité ou des dates d'expiration à venir et serez invité à prendre des mesures.
+
+
+
+=== Afficher les détails d'un service de données spécifique
+
+Le tableau de bord *Aperçu* du portefeuille numérique permet d'afficher les détails des services de données suivants :
+
+* Cloud Volumes ONTAP
+* Reprise après incident
+* Protection par ransomware
+* Sauvegarde et restauration
+* Tiering
+
+
+Par exemple, les administrateurs chargés de la gestion des ressources Cloud Volumes ONTAP peuvent afficher la capacité actuelle de chaque licence ou abonnement, ce qui leur donne une vue détaillée des ressources qui leur sont affectées.
+
+Remarque : bien que vous puissiez mettre à jour et supprimer des licences du tableau de bord, vous ne pouvez pas ajouter de nouvelle licence ou abonnement.
+
+link:task-manage-data-services-licenses.html["En savoir plus sur la gestion des licences"^]. link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements"^].
+
+.Étapes
+. Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
+. Sélectionnez *vue d'ensemble*.
+. Sélectionnez *Afficher* pour le service de données respectif (y compris Cloud Volumes ONTAP) pour afficher les détails et gérer les licences et les abonnements.
++
+Chaque mosaïque fournit une vue d'ensemble graphique de l'état de la capacité tandis que la page de détails vous permet de voir et de gérer les modes de paiement de cette capacité.
+
+. Sélectionnez l'onglet *licences* ou *abonnements*.
+. Filtrez le tableau en sélectionnant un filtre de colonne et une valeur à filtrer. Par exemple, dans l'onglet *abonnements*, vous pouvez filtrer la colonne Type par contrat annuel ou abonnement.
++
+image:screenshot_digital_wallet_filter.png["Action de filtrage sur la table d'abonnement"]
+
+. Personnalisez les colonnes indiquées dans le tableau. Vous pouvez ajouter et supprimer des colonnes du tableau en sélectionnant l'icône colonne indiquant les colonnes à afficher ou à masquer. La capture d'écran suivante indique que seules les colonnes Type, Date de fin, Etat et Configuration sont affichées.
++
+image:screenshot_digital_wallet_show_hide_columns.png["la capture d'écran fournit un exemple d'affichage ou de masquage des colonnes"]
+
+. Développez n'importe quelle ligne pour afficher les détails de l'abonnement ou de la licence, de la capacité achetée et des conditions générales.
+. Utilisez le menu actions pour gérer une licence ou un abonnement spécifique, tel que mettre à jour une licence ou associer un abonnement à une autre organisation.
++
+Vous ne pouvez pas ajouter de nouvelles licences ou de nouveaux abonnements à partir de la page *vue d'ensemble* pour un service spécifique, vous pouvez uniquement ajouter des licences ou des abonnements à partir de l'onglet *licences de service de données* ou de l'onglet *abonnements Marketplace*, respectivement.
+
++
+link:task-data-services-licenses.html["En savoir plus sur la gestion des licences."] link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements."]
+
+
+
+
+
+=== Résoudre les problèmes de licence ou d'abonnement
+
+Vous pouvez afficher les problèmes de licence et d'abonnement qui doivent être résolus. Les problèmes incluent les licences et les abonnements qui arrivent à expiration ou qui atteignent leur capacité.
+
+. Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
+. Sélectionnez *vue d'ensemble*.
+. Sélectionnez *résoudre* pour la mosaïque *nécessite une action* pour afficher les problèmes qui doivent être ajustés. Si *resolve* ne s'affiche pas, il n'y a pas de problèmes qui nécessitent une action pour le moment.
+. Dans la page *action requise*, sélectionnez l'onglet *licences* ou *abonnements*.
+. Utilisez le menu d'action pour résoudre le problème.
++
+link:task-manage-data-services-licenses.html["En savoir plus sur la gestion des licences"^]. link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements"^].
+
+

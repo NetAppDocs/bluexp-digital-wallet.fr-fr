@@ -18,7 +18,7 @@ Gérez les licences basées sur les nœuds dans le portefeuille digital BlueXP p
 
 _Les licences par nœud_ sont le modèle de licence de génération précédente (et non disponible pour les nouveaux clients) :
 
-* Licences BYOL achetées auprès de NetApp
+* BYOL (Bring Your Own License), acheté auprès d'NetApp
 * Des abonnements avec facturation à l'utilisation (PAYGO) à partir du marché de votre fournisseur cloud
 
 
@@ -34,7 +34,9 @@ La page du portefeuille digital BlueXP vous permet de consulter des informations
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
-. Dans l'onglet *Cloud Volumes ONTAP*, sélectionnez *licences par nœud* dans la liste déroulante.
+. Sélectionnez l'onglet *Aperçu*.
+. Sur la mosaïque Cloud Volumes ONTAP, sélectionnez *Afficher*.
+. Sélectionnez *licences basées sur un nœud* dans la liste déroulante.
 . Cliquez sur *PAYGO*.
 . Pour en savoir plus, consultez le tableau relatif à chacune de vos licences PAYGO.
 +
@@ -57,7 +59,9 @@ Ajoutez une licence basée sur des nœuds au portefeuille digital BlueXP afin de
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
-. Dans l'onglet *Cloud Volumes ONTAP*, sélectionnez *licences par nœud* dans la liste déroulante.
+. Sélectionnez l'onglet *Aperçu*.
+. Sur la mosaïque Cloud Volumes ONTAP, sélectionnez *Afficher*.
+. Sélectionnez *licences basées sur un nœud* dans la liste déroulante.
 . Cliquez sur *non affecté*.
 . Cliquez sur *Ajouter des licences non attribuées*.
 . Saisissez le numéro de série de la licence ou téléchargez le fichier de licence.
@@ -84,9 +88,13 @@ L'échange de la licence révoque la licence Cloud Volumes ONTAP et crée une li
 
 La licence convertie a la même date d'expiration que la licence Cloud Volumes ONTAP.
 
+link:https://mydemo.netapp.com/player/?demoId=c96ef113-c338-4e44-9bda-81a8d252de63&showGuide=true&showGuidesToolbar=true&showHotspots=true&source=app["Afficher la procédure d'échange de licences basées sur des nœuds."^]
+
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
-. Dans l'onglet *Cloud Volumes ONTAP*, sélectionnez *licences par nœud* dans la liste déroulante.
+. Sélectionnez l'onglet *Aperçu*.
+. Sur la mosaïque Cloud Volumes ONTAP, sélectionnez *Afficher*.
+. Sélectionnez *licences basées sur un nœud* dans la liste déroulante.
 . Cliquez sur *non affecté*.
 . Cliquez sur *Exchange License*.
 +
@@ -128,7 +136,9 @@ Si BlueXP ne parvient pas à accéder au fichier de licence via la connexion Int
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
-. Dans l'onglet *Cloud Volumes ONTAP*, sélectionnez *licences par nœud* dans la liste déroulante.
+. Sélectionnez l'onglet *Aperçu*.
+. Sur la mosaïque Cloud Volumes ONTAP, sélectionnez *Afficher*.
+. Sélectionnez *licences basées sur un nœud* dans la liste déroulante.
 . Dans l'onglet *BYOL*, développez les détails d'un système Cloud Volumes ONTAP.
 . Cliquez sur le menu d'action en regard de la licence système et sélectionnez *mettre à jour la licence*.
 . Téléchargez le fichier de licence (ou les fichiers si vous disposez d'une paire HA).
@@ -154,7 +164,9 @@ Achetez une licence de capacité supplémentaire en nous contactant par l'icône
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
-. Dans l'onglet *Cloud Volumes ONTAP*, sélectionnez *licences par nœud* dans la liste déroulante.
+. Sélectionnez l'onglet *Aperçu*.
+. Sur la mosaïque Cloud Volumes ONTAP, sélectionnez *Afficher*.
+. Sélectionnez *licences basées sur un nœud* dans la liste déroulante.
 . Dans l'onglet *BYOL*, développez les détails d'un système Cloud Volumes ONTAP.
 . Cliquez sur *Ajouter une licence de capacité*.
 . Saisissez le numéro de série ou téléchargez le fichier de licence (ou les fichiers si vous disposez d'une paire HA).
@@ -169,7 +181,9 @@ Si vous avez prolongé la durée d'une licence de capacité supplémentaire, vou
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
-. Dans l'onglet *Cloud Volumes ONTAP*, sélectionnez *licences par nœud* dans la liste déroulante.
+. Sélectionnez l'onglet *Aperçu*.
+. Sur la mosaïque Cloud Volumes ONTAP, sélectionnez *Afficher*.
+. Sélectionnez *licences basées sur un nœud* dans la liste déroulante.
 . Dans l'onglet *BYOL*, développez les détails d'un système Cloud Volumes ONTAP.
 . Cliquez sur le menu d'action en regard de la licence de capacité et sélectionnez *mettre à jour la licence*.
 . Téléchargez le fichier de licence (ou les fichiers si vous disposez d'une paire HA).
@@ -184,7 +198,9 @@ Si une licence de capacité supplémentaire a expiré et n'est plus utilisée, v
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
-. Dans l'onglet *Cloud Volumes ONTAP*, sélectionnez *licences par nœud* dans la liste déroulante.
+. Sélectionnez l'onglet *Aperçu*.
+. Sur la mosaïque Cloud Volumes ONTAP, sélectionnez *Afficher*.
+. Sélectionnez *licences basées sur un nœud* dans la liste déroulante.
 . Dans l'onglet *BYOL*, développez les détails d'un système Cloud Volumes ONTAP.
 . Cliquez sur le menu d'action en regard de la licence de capacité et sélectionnez *Supprimer la licence*.
 . Cliquez sur *Supprimer*.
@@ -204,7 +220,9 @@ Lorsque vous convertissez une licence d'évaluation en licence BYOL, BlueXP red�
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
-. Dans l'onglet *Cloud Volumes ONTAP*, sélectionnez *licences par nœud* dans la liste déroulante.
+. Sélectionnez l'onglet *Aperçu*.
+. Sur la mosaïque Cloud Volumes ONTAP, sélectionnez *Afficher*.
+. Sélectionnez *licences basées sur un nœud* dans la liste déroulante.
 . Cliquez sur *Eval*.
 . Dans le tableau, cliquez sur *convertir en licence BYOL* pour un système Cloud Volumes ONTAP.
 . Entrez le numéro de série ou téléchargez le fichier de licence.
@@ -231,3 +249,6 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Dé
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deleting-working-env.html["Découvrez comment supprimer un environnement de travail Cloud Volumes ONTAP"].
 
 
+
+.Liens connexes
+lien : link:concept-licensing.html#end-of-availability-of-node-based-licenses["Fin de disponibilité des licences basées sur les nœuds"] link:task-convert-node-capacity.html["Conversion des licences basées sur les nœuds en licences basées sur la capacité"]

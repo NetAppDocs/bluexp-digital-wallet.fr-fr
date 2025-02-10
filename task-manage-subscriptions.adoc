@@ -14,28 +14,32 @@ summary: 'Lorsque vous vous abonnez à BlueXP depuis le marché d"un fournisseur
 
 
 [role="lead"]
-Lorsque vous vous abonnez à BlueXP depuis le marché d'un fournisseur de services Cloud, vous êtes redirigé vers le site Web BlueXP où vous devez enregistrer votre abonnement et l'associer à des comptes spécifiques. Après votre abonnement, vous pouvez gérer chaque abonnement depuis le portefeuille digital BlueXP.
+Lorsque vous vous abonnez aux services de données BlueXP  (y compris Cloud Volumes ONTAP) depuis le marché d'un fournisseur cloud, vous êtes redirigé vers le site Web BlueXP  où vous devez enregistrer votre abonnement et l'associer à votre entreprise BlueXP . Après votre abonnement, vous pouvez gérer chaque abonnement depuis le portefeuille digital BlueXP.
 
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html["Découvrez comment vous abonner à BlueXP (mode standard)"^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html["Découvrez comment vous abonner à BlueXP (mode restreint)"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html["Découvrez comment vous abonner aux services de données BlueXP  (mode standard)"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html["Découvrez comment vous abonner aux services de données BlueXP  (mode restreint)"^]
 
+
+
+NOTE: La page *abonnements Marketplace* répertorie toutes les licences. Si vous souhaitez obtenir des détails de licence pour un service de données spécifique, utilisez les mosaïques de services de données du tableau de bord *Overview*. link:task-homepage.html#overview-page["En savoir plus sur le tableau de bord de présentation"].
 
 
 
 == Afficher vos abonnements
 
-Le portefeuille digital BlueXP  fournit des informations détaillées sur chaque abonnement PAYGO et sur chaque contrat annuel associé à votre entreprise ou compte BlueXP , et avec Astra Control (Astra Control utilise le service de facturation de BlueXP ).
+Le portefeuille digital BlueXP  fournit des informations détaillées sur chaque abonnement PAYGO et sur chaque contrat annuel associé à votre entreprise ou compte BlueXP .
 
 Pour Google Cloud, vous pouvez également identifier les abonnements Marketplace associés à une offre privée, ce qui vous permet de vérifier que vous avez bien accepté l'offre.
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
-. Sélectionnez *abonnements*.
+. Sélectionnez *abonnements Marketplace*.
 +
-Vous ne verrez que les abonnements associés au compte que vous consultez actuellement.
+Vous ne verrez que les abonnements associés à l'organisation que vous êtes en train de consulter.
 
 . Lorsque vous affichez les informations relatives à vos abonnements, vous pouvez interagir avec les détails du tableau comme suit :
 +
+** Utilisez la recherche avancée et le filtrage pour déterminer les abonnements affichés dans le tableau. Vous pouvez effectuer une recherche par nom spécifique d'un abonnement et filtrer par divers paramètres d'abonnement, tels que le type et la configuration.
 ** Développez une ligne pour afficher plus de détails.
 +
 image:screenshot-subscriptions-expand.png["Capture d'écran de l'onglet abonnements du portefeuille numérique dans laquelle vous pouvez sélectionner la flèche à la fin d'une ligne pour la développer."]
@@ -69,18 +73,112 @@ Contrats::
 
 
 
-== Gérez vos abonnements
+== Renommer un abonnement
 
-Vous pouvez gérer vos abonnements à partir du portefeuille digital BlueXP en renommant un abonnement et en choisissant les comptes associés.
-
-Par exemple, disons que vous avez deux comptes et que chacun est facturé par le biais d'abonnements distincts. Vous pouvez dissocier un abonnement de l'un des comptes afin que les utilisateurs de ce compte ne choisissent pas accidentellement le mauvais abonnement lors de la création d'un environnement de travail Cloud Volumes ONTAP.
+Vous pouvez renommer un abonnement pour mieux identifier son utilisation dans votre organisation.
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
-. Sélectionnez *abonnements*.
-. Sélectionnez le menu d'action dans la ligne correspondant à l'abonnement que vous souhaitez gérer.
+. Sélectionnez *abonnements Marketplace*.
+. Sélectionnez le menu d'action dans la ligne correspondant à l'abonnement que vous souhaitez gérer et choisissez *Renommer*.
 +
-image:screenshot-subscription-menu.png["Capture d'écran du menu d'action pour un abonnement."]
+image:screenshot_rename_subscription.png["Capture d'écran de l'option Renommer d'un abonnement."]
 
-. Choisissez de renommer l'abonnement ou de gérer les organisations ou les comptes BlueXP  associés à l'abonnement.
+
+
+
+
+== Configurez un abonnement avec les informations d'identification d'un fournisseur
+
+Les abonnements sont généralement configurés avec les informations d'identification du fournisseur que vous avez créées lors de votre abonnement. Dans certains cas, vous devrez peut-être reconfigurer un abonnement pour utiliser des informations d'identification différentes si vous souhaitez modifier la façon dont il est facturé. Les informations d'identification que vous associez à un abonnement doivent être des informations d'identification également associées à un connecteur.
+
+Le format des informations d'identification dépend du Marketplace que vous utilisez. Par exemple, les abonnements Azure Marketplace sont associés au nom de l'abonnement Azure, tandis que les abonnements AWS Marketplace utilisent l'ID de compte AWS. La liste des informations d'identification disponibles s'affiche à partir de la page informations d'identification.
+
+L'option configurer est grisée si vous n'êtes pas abonné à un abonnement.
+
+.Étapes
+. Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
+. Sélectionnez *abonnements Marketplace*.
+. Sélectionnez le menu d'action dans la ligne correspondant à l'abonnement que vous souhaitez configurer et choisissez *configurer*.
+. Dans la boîte de dialogue _Configure_, choisissez une information d'identification pour configurer l'abonnement. Vous pouvez uniquement choisir parmi les informations d'identification associées au connecteur actuellement sélectionné. Si vous ne voyez pas les informations d'identification que vous souhaitez utiliser, essayez de passer à une autre vue de connecteur. ## cette description est-elle exacte ? ##
+
+
+
+
+== Associer un abonnement à une organisation BlueXP 
+
+L'association d'un abonnement à une organisation garantit que les membres de cette organisation peuvent utiliser cet abonnement pour facturer.
+
+Vous pouvez limiter l'utilisation d'un abonnement à une organisation spécifique ou partager l'abonnement entre plusieurs organisations. Vous pouvez également remplacer l'abonnement d'une organisation existante si nécessaire.
+
+Vous devez avoir le rôle d'administrateur d'organisation pour associer un abonnement à une organisation.
+
+
+NOTE: BlueXP  prend en charge la gestion des identités et des accès (IAM) en mode standard qui utilise les entreprises pour gérer les utilisateurs et les ressources. Si vous utilisez BlueXP  en mode privé ou restreint, vous utilisez un _compte_ BlueXP  pour gérer les utilisateurs et les ressources, y compris les abonnements.
+
+.Étapes
+. Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
+. Sélectionnez *abonnements Marketplace*.
+. Sélectionnez le menu d'action dans la ligne correspondant à l'abonnement que vous souhaitez associer et choisissez *associer*.
+. Dans la boîte de dialogue *associer l'abonnement*, choisissez une ou plusieurs organisations auxquelles associer cet abonnement.
+. Vous pouvez également utiliser le curseur pour indiquer que vous remplacez un abonnement existant pour l'organisation sélectionnée.
+. Sélectionnez *associer*.
+
+
+
+
+== Afficher les informations d'identification associées à un abonnement
+
+##vous pouvez afficher les informations d'identification d'un abonnement spécifique à partir de la page *abonnements Marketplace* du portefeuille numérique. Cela vous permet de vérifier la facturation de l'abonnement. Comme les informations d'identification sont également liées au connecteur que vous utilisez, vous devez sélectionner le connecteur associé à l'abonnement que vous voulez voir.##
+
+
+NOTE: Utilisez la liste déroulante des connecteurs dans la barre de navigation supérieure pour changer de connecteur si nécessaire.
+
+.Étapes
+. Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
+. Sélectionnez *abonnements Marketplace*.
+. Sur la ligne contenant l'abonnement dont vous souhaitez afficher les informations d'identification, sélectionnez Afficher. Si plusieurs informations d'identification sont associées à un abonnement, aucune information d'identification ne s'affiche et vous êtes invité à sélectionner un connecteur différent.
+
+
+
+
+== Ajoutez un nouvel abonnement Marketplace
+
+Vous pouvez vous abonner à un abonnement Marketplace directement à partir du portefeuille digital.
+
+[role="tabbed-block"]
+====
+.AWS
+--
+La vidéo suivante décrit comment vous abonner à BlueXP  depuis AWS Marketplace :
+
+.Abonnez-vous à BlueXP sur AWS Marketplace
+video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
+--
+.Azure
+--
+La vidéo suivante explique comment vous abonner à Azure Marketplace :
+
+.Abonnez-vous à BlueXP depuis Azure Marketplace
+video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto]
+--
+.Google Cloud
+--
+Dans cette vidéo, vous instructions pour vous abonner à Google Cloud Marketplace :
+
+.Abonnez-vous à BlueXP depuis Google Cloud Marketplace
+video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
+--
+====
+.Étapes
+. Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
+. Sélectionnez *abonnements Marketplace*.
+. Au-dessus du tableau *abonnements*, sélectionnez *Ajouter abonnement*.
+. Dans la boîte de dialogue _Ajouter un abonnement_, sélectionnez un fournisseur de cloud.
++
+.. Si vous choisissez un abonnement AWS, choisissez entre un contrat annuel et un abonnement PAYGO.
+
+
+. Sélectionnez *Ajouter un abonnement* pour accéder au Marketplace du fournisseur et suivre les étapes indiquées.
+. Sur le marché du fournisseur cloud, revenez à BlueXP  pour terminer le processus.
 
