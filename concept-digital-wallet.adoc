@@ -22,6 +22,9 @@ Le portefeuille digital BlueXP  vous permet de gérer et de contrôler les lice
 
 Les licences et les abonnements s'affichent automatiquement dans un portefeuille digital lorsque le compte BlueXP  utilisé pour s'abonner est également un compte sur le site de support NetApp. Si vous avez utilisé un compte BlueXP  qui n'est pas associé à votre compte sur le site de support NetApp (NSS), vous devrez ajouter et mettre à jour manuellement les licences. En outre, l'utilisation, la capacité et d'autres informations ne seront pas modifiées.
 
+
+NOTE: Vous devez avoir déployé un connecteur pour afficher les informations d'abonnement dans le portefeuille numérique. Un connecteur est également nécessaire pour afficher les licences de nœud pour Cloud Volumes ONTAP.
+
 En attendant, BlueXP interroge automatiquement le service des licences NetApp pour obtenir des informations sur les licences associées à votre compte du site de support NetApp. S'il n'y a pas d'erreur, BlueXP ajoute automatiquement les licences au portefeuille digital.
 
 Si BlueXP  ne peut pas ajouter la licence, vous devez l'ajouter manuellement au portefeuille digital. Par exemple, si votre compte utilisateur BlueXP  n'est pas associé à votre compte sur le site de support NetApp, vous devez ajouter vous-même les licences.
