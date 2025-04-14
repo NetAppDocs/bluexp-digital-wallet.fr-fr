@@ -57,7 +57,7 @@ image:screenshot_digital_wallet_show_hide_columns.png["la capture d'écran fourn
 . Développez n'importe quelle ligne pour afficher les détails de l'abonnement ou de la licence, de la capacité achetée et des conditions générales.
 . Utilisez le menu actions pour gérer une licence ou un abonnement spécifique, tel que mettre à jour une licence ou associer un abonnement à une autre organisation.
 +
-Vous ne pouvez pas ajouter de nouvelles licences ou de nouveaux abonnements à partir de la page *vue d'ensemble* pour un service spécifique, vous pouvez uniquement ajouter des licences ou des abonnements à partir de l'onglet *licences de service de données* ou de l'onglet *abonnements Marketplace*, respectivement.
+Vous ne pouvez pas ajouter de nouvelles licences ou de nouveaux abonnements à partir de la page *vue d'ensemble* pour un service spécifique, vous pouvez uniquement ajouter des licences ou des abonnements à partir de l'onglet *licences directes* ou *abonnements Marketplace*, respectivement.
 
 +
 link:task-data-services-licenses.html["En savoir plus sur la gestion des licences."] link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements."]

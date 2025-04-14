@@ -109,7 +109,7 @@ L'option configurer est grisée si vous n'êtes pas abonné à un abonnement.
 
 L'association d'un abonnement à une organisation garantit que les membres de cette organisation peuvent utiliser cet abonnement pour facturer.
 
-Vous pouvez limiter l'utilisation d'un abonnement à une organisation spécifique ou partager l'abonnement entre plusieurs organisations. Vous pouvez également remplacer l'abonnement d'une organisation existante si nécessaire.
+Vous pouvez limiter l'utilisation d'un abonnement à une organisation spécifique ou partager l'abonnement entre plusieurs organisations.
 
 Vous devez avoir le rôle d'administrateur d'organisation pour associer un abonnement à une organisation.
 
@@ -119,9 +119,8 @@ NOTE: BlueXP  prend en charge la gestion des identités et des accès (IAM) en 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
 . Sélectionnez *abonnements Marketplace*.
-. Sélectionnez le menu d'action dans la ligne correspondant à l'abonnement que vous souhaitez associer et choisissez *associer*.
-. Dans la boîte de dialogue *associer l'abonnement*, choisissez une ou plusieurs organisations auxquelles associer cet abonnement.
-. Vous pouvez également utiliser le curseur pour indiquer que vous remplacez un abonnement existant pour l'organisation sélectionnée.
+. Dans la ligne de l'abonnement que vous souhaitez associer, ouvrez le menu d'action et sélectionnez *associer*.
+. Dans la boîte de dialogue *associer l'abonnement*, sélectionnez une ou plusieurs organisations à associer à l'abonnement.
 . Sélectionnez *associer*.
 
 
@@ -185,18 +184,39 @@ video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
 
 
 
-=== Supprimer un abonnement
+=== Déconfigurer un abonnement
 
-Lorsque vous vous désabonnez d'un abonnement BlueXP  dans l'hyperscaler (AWS Google Cloud ou Azure), le portefeuille digital affiche le statut de l'abonnement sous la forme *Unsubscription*.
-
-Vous pouvez supprimer les abonnements non souscrits du portefeuille numérique afin qu'ils ne s'affichent plus.
+Avant de pouvoir supprimer un abonnement, vous devez le déconfigurer. Ceci efface toutes les données et tous les paramètres associés.
 
 .Étapes
-. Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
+. Dans le menu de navigation BlueXP , sélectionnez *gouvernance > portefeuille numérique*.
 . Sélectionnez *abonnements Marketplace*.
-. Sélectionnez le menu d'action dans la ligne correspondant à l'abonnement que vous souhaitez supprimer. Choisissez *Supprimer*.
+. Dans la ligne de l'abonnement que vous souhaitez déconfigurer, cliquez sur le menu d'action et sélectionnez *Unconfigure*.
+. Suivez les invites pour supprimer ou réinitialiser tous les paramètres ou données associés.
+. Attendez que l'état se mette à jour vers *non configuré*.
+
+
+
+
+=== Supprimer un abonnement
+
+Lorsque vous vous désabonnez d'un abonnement BlueXP  à votre fournisseur cloud (AWS, Google Cloud ou Azure), le portefeuille digital affiche l'état de l'abonnement sous la forme *Unsubscription*.
+
+Vous pouvez supprimer les abonnements *Unsubscription* du portefeuille numérique pour qu'ils n'apparaissent plus.
+
+[NOTE]
+====
+Vous ne pouvez supprimer un abonnement que s'il est à la fois *désabonné* et *non configuré*. Cela signifie que tous les paramètres, données et configurations associés doivent être effacés ou réinitialisés avant d'être supprimés.
+
+Si l'abonnement est toujours configuré, l'option *Supprimer* ne s'affiche pas. Pour rendre l'option disponible, déconfigurez l'abonnement en effaçant les paramètres, services ou données associés.
+
+====
+.Étapes
+. Dans le menu de navigation BlueXP , sélectionnez *gouvernance > portefeuille numérique*.
+. Sélectionnez *abonnements Marketplace*.
+. Dans la ligne de l'abonnement que vous souhaitez supprimer, ouvrez le menu d'action et sélectionnez *Supprimer*.
 +
-Vous ne pouvez supprimer que les abonnements dont le statut est *désabonné*.
+Vous ne pouvez supprimer que les abonnements dont l'état est *Unsubscribed* et *Unconfigured*.
 
 . Dans la boîte de dialogue *Supprimer l'abonnement*, confirmez que vous souhaitez supprimer l'abonnement.
 

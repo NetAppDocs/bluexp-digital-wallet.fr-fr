@@ -18,9 +18,9 @@ NOTE: Pour saisir le numéro de série, vous devez d'abord le faire https://docs
 .Étapes
 . Contactez votre représentant NetApp pour acheter une nouvelle licence.
 +
-Une fois la licence payée et enregistrée sur le site de support NetApp, BlueXP  met automatiquement à jour la licence dans le portefeuille digital BlueXP . La page des licences de service de données reflète le changement en 5 à 10 minutes.
+Une fois que vous avez payé la licence et qu'elle est enregistrée sur le site de support NetApp, BlueXP  met automatiquement à jour la licence dans le portefeuille numérique BlueXP  et la page *licences directes* reflète le changement dans 5 à 10 minutes.
 
 . Si BlueXP  ne peut pas mettre à jour automatiquement la licence (par exemple, lorsque vous utilisez BlueXP  en mode privé), vous devez obtenir un fichier de licence NetApp auprès du support et télécharger manuellement le fichier de licence. <<obtain-license,Apprenez à obtenir un fichier de licence.>>
-. Dans l'onglet _licences de service de données_, sélectionnez image:icon-action.png["Plus d'icône"] le numéro de série que vous mettez à jour, puis sélectionnez *mettre à jour la licence*.
-. Sur la page _mettre à jour la licence_, téléchargez le fichier de licence et sélectionnez *mettre à jour la licence*.
+. Dans l'onglet *licences directes*, sélectionnez image:icon-action.png["Plus d'icône"] le numéro de série que vous mettez à jour, puis sélectionnez *mettre à jour la licence*.
+. Sur la page *mettre à jour la licence*, téléchargez le fichier de licence et sélectionnez *mettre à jour la licence*.
 

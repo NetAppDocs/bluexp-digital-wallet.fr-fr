@@ -82,8 +82,8 @@ Si vous n'avez pas utilisé de licence basée sur des nœuds non attribuée pour
 
 L'échange de la licence révoque la licence Cloud Volumes ONTAP et crée une licence équivalente en dollars pour le service :
 
-* Les licences d'une paire haute disponibilité Cloud Volumes ONTAP sont converties en licence de service de données de 51 Tio
-* Les licences d'un nœud Cloud Volumes ONTAP unique sont converties en licence de service de données de 32 Tio
+* La licence pour une paire Cloud Volumes ONTAP HA est convertie en licence directe de 51 Tio
+* La licence pour un seul nœud Cloud Volumes ONTAP est convertie en licence directe de 32 Tio
 
 
 La licence convertie a la même date d'expiration que la licence Cloud Volumes ONTAP.

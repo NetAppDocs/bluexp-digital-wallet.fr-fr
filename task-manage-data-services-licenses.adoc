@@ -17,7 +17,7 @@ summary: 'Le portefeuille digital BlueXP  vous permet de gérer les licences ac
 Le portefeuille digital BlueXP  vous permet de gérer les licences achetées directement auprès d'NetApp (BYOL) pour une utilisation avec les services de données BlueXP , notamment Cloud volumes pour ONTAP. Vous pouvez afficher la capacité de licence utilisée et la capacité disponible restante. Une notification s'affiche si vous avez atteint la limite de capacité ou la date d'expiration.
 
 
-NOTE: La page *licences de service de données* répertorie toutes les licences. Si vous souhaitez obtenir des détails de licence pour un service de données spécifique, utilisez les mosaïques de services de données du tableau de bord *Overview*. link:task-homepage.html#overview-page["En savoir plus sur le tableau de bord de présentation"].
+NOTE: La page *licences directes* répertorie toutes les licences. Si vous souhaitez obtenir des détails de licence pour un service de données spécifique, utilisez les mosaïques de services de données du tableau de bord *Overview*. link:task-homepage.html#overview-page["En savoir plus sur le tableau de bord de présentation"].
 
 Les instructions de cette page fournissent des informations qui s'appliquent à chaque service. Pour plus d'informations sur les licences de ces services, reportez-vous aux pages suivantes :
 
@@ -84,7 +84,7 @@ Après avoir acheté une licence auprès de votre représentant commercial NetAp
 NOTE: Pour saisir le numéro de série, vous devez d'abord le faire https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Ajoutez votre compte sur le site de support NetApp à BlueXP"^]. Il s'agit du compte du site de support NetApp autorisé à accéder au numéro de série.
 
 .Étapes
-. Dans le menu BlueXP , sélectionnez *gouvernance > portefeuille numérique*, puis sélectionnez l'onglet *licences des services de données*.
+. Dans le menu BlueXP , sélectionnez *gouvernance > portefeuille numérique*, puis sélectionnez l'onglet *licences directes*.
 . Sélectionnez *Ajouter licence*.
 . Dans la boîte de dialogue _Add license_, entrez les informations de licence et sélectionnez *Add license*:
 +
@@ -120,9 +120,20 @@ NOTE: Pour saisir le numéro de série, vous devez d'abord le faire https://docs
 .Étapes
 . Contactez votre représentant NetApp pour acheter une nouvelle licence.
 +
-Une fois la licence payée et enregistrée sur le site de support NetApp, BlueXP  met automatiquement à jour la licence dans le portefeuille digital BlueXP . La page des licences de service de données reflète le changement en 5 à 10 minutes.
+Une fois que vous avez payé la licence et qu'elle est enregistrée sur le site de support NetApp, BlueXP  met automatiquement à jour la licence dans le portefeuille numérique BlueXP  et la page *licences directes* reflète le changement dans 5 à 10 minutes.
 
 . Si BlueXP  ne peut pas mettre à jour automatiquement la licence (par exemple, lorsque vous utilisez BlueXP  en mode privé), vous devez obtenir un fichier de licence NetApp auprès du support et télécharger manuellement le fichier de licence. <<obtain-license,Apprenez à obtenir un fichier de licence.>>
-. Dans l'onglet _licences de service de données_, sélectionnez image:icon-action.png["Plus d'icône"] le numéro de série que vous mettez à jour, puis sélectionnez *mettre à jour la licence*.
-. Sur la page _mettre à jour la licence_, téléchargez le fichier de licence et sélectionnez *mettre à jour la licence*.
+. Dans l'onglet *licences directes*, sélectionnez image:icon-action.png["Plus d'icône"] le numéro de série que vous mettez à jour, puis sélectionnez *mettre à jour la licence*.
+. Sur la page *mettre à jour la licence*, téléchargez le fichier de licence et sélectionnez *mettre à jour la licence*.
+
+
+
+
+== Afficher l'état de la licence
+
+Pour gérer les licences, vous pouvez regrouper les licences en fonction du nom du service. Cela vous permet de voir toutes les licences associées à un service spécifique. Vous pouvez développer une ligne pour afficher des informations détaillées sur chaque licence associée au service. La ligne racine de chaque service affiche le nom du service et la capacité utilisée pour ce service. Les licences sont automatiquement regroupées par nom de service. La ligne racine de chaque service indique le nom du service et la capacité utilisée pour ce service.
+
+.Étapes
+. Dans le menu BlueXP , sélectionnez *gouvernance* > *portefeuille numérique*, puis sélectionnez l'onglet *licences directes*.
+. Cliquez sur une ligne de nom de service pour la développer. Cette option affiche toutes les licences associées à ce service. Chaque ligne développée affiche des informations détaillées sur les licences, notamment l'ID de licence, le numéro de série, la capacité et la date d'expiration.
 
