@@ -276,16 +276,6 @@
   <block id="9906134ee224bc081497b19c4269cc34" category="paragraph">Si une licence de capacité supplémentaire a expiré et n'est plus utilisée, vous pouvez la supprimer à tout moment.</block>
   <block id="c320af21170d1ca43751b7580a1125f4" category="list-text">Cliquez sur le menu d'action en regard de la licence de capacité et sélectionnez *Supprimer la licence*.</block>
   <block id="03b194a23dcb353466fbfb7acff64363" category="list-text">Cliquez sur *Supprimer*.</block>
-  <block id="b38317f372e5ede5e8e7662a6abf56de" category="section-title">Convertissez une licence d'évaluation en licence BYOL</block>
-  <block id="6f3e45030426e1b86c424d2780111d20" category="paragraph">Une licence d'évaluation est valable 30 jours. Vous pouvez appliquer une nouvelle licence BYOL à la licence d'évaluation pour une mise à niveau sur place.</block>
-  <block id="6e7fc6b7eae0415b78955003531a799e" category="paragraph">Lorsque vous convertissez une licence d'évaluation en licence BYOL, BlueXP redémarre le système Cloud Volumes ONTAP.</block>
-  <block id="9a640fdf29d0376d44625fbe7757592a" category="list-text">Pour un système à un seul nœud, le redémarrage entraîne une interruption des E/S lors du processus de redémarrage.</block>
-  <block id="a1b2198d5e77e52b34a9567f6e8204f9" category="list-text">Pour une paire haute disponibilité, le redémarrage lance le basculement et le rétablissement pour continuer à transmettre des E/S aux clients.</block>
-  <block id="b7c7df7a1f738eeeb402c8feafc80dba" category="list-text">Cliquez sur *Eval*.</block>
-  <block id="fcb9420dfbbc4a57ba1b1a992a71d207" category="list-text">Dans le tableau, cliquez sur *convertir en licence BYOL* pour un système Cloud Volumes ONTAP.</block>
-  <block id="e539cbd6aefe9d1fb7bc951680944206" category="list-text">Entrez le numéro de série ou téléchargez le fichier de licence.</block>
-  <block id="b171537681ac6ab38d6353435252c4f1" category="list-text">Cliquez sur *convertir la licence*.</block>
-  <block id="629b6ceff1a1b74de909c5f304f623b9" category="paragraph">BlueXP démarre le processus de conversion. Cloud Volumes ONTAP redémarre automatiquement dans le cadre de ce processus. Lors de la sauvegarde, les informations de licence reflètent la nouvelle licence.</block>
   <block id="594cb44c6500d8855ad820b0653e02c7" category="section-title">PAYGO à la solution BYOL</block>
   <block id="a704128156d562fe5860508e9584ee34" category="paragraph">Convertir un système en licences PAYGO par nœud en licences BYOL (et inversement) n'est pas pris en charge. Si vous souhaitez basculer entre un abonnement avec paiement à l'utilisation et un abonnement BYOL, vous devez déployer un nouveau système et répliquer les données depuis le système existant vers le nouveau.</block>
   <block id="7f7c7e70efe0e6e29f5d0b207145f30e" category="list-text">Créez un nouvel environnement de travail Cloud Volumes ONTAP.</block>
@@ -618,7 +608,6 @@
   <block id="8ac1ecc7ceb7a49d071b4f1b71f0e176" category="section-title">Affichage des détails du package</block>
   <block id="f88e8fee4b6b78cbc9779b73098653b5" category="paragraph">Vous pouvez afficher des détails sur la capacité utilisée par package en passant en mode hérité sur la page Cloud Volumes ONTAP.</block>
   <block id="4a95292c803539c8cf72591c54db0644" category="list-text">Sélectionnez *View* pour afficher la capacité provisionnée pour chacun de vos packages de licences.</block>
-  <block id="28db6f5e86482ae58b9becef415d1abc" category="list-text">Sélectionnez *basculer vers la vue héritée*.</block>
   <block id="13bb1907bdca20408e78b483332beab6" category="inline-image-macro">Capture d'écran du bouton basculer vers la vue héritée</block>
   <block id="ad8dd0162f38eb308d880b20d20ab47e" category="paragraph"><block ref="ad8dd0162f38eb308d880b20d20ab47e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="31ccaa5879eee7a69ef3c48f1004c59c" category="list-text">Si vous changez de mode de facturation, cela n'a pas d'impact, que vous utilisiez une licence achetée sous NetApp (BYOL) ou un abonnement PAYGO (marché, paiement basé sur l'utilisation).</block>
@@ -744,4 +733,10 @@
   <block id="f718d4efc769e352af879333b97563c1" category="list-text">Dans la ligne de l'abonnement que vous souhaitez supprimer, ouvrez le menu d'action et sélectionnez *Supprimer*.</block>
   <block id="d945569d4f85da82c21c1eedda61f245" category="paragraph">Vous ne pouvez supprimer que les abonnements dont l'état est *Unsubscribed* et *Unconfigured*.</block>
   <block id="22a93e112ce29f0d1e8dfc0ede83e119" category="sidebar">Gérer les licences directes</block>
+  <block id="40d1f3228e91a00383279859612f7ba5" category="list-text">Sélectionnez *basculer vers la vue avancée*.</block>
+  <block id="3df898a44cd4e747f0651fff3683bca8" category="inline-image-macro">Capture d'écran du bouton basculer vers la vue avancée</block>
+  <block id="d4de4fdd26abe13af932d9682aa962d4" category="paragraph"><block ref="d4de4fdd26abe13af932d9682aa962d4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cf5e0e2d5e3b97433dcea18ed2c97b91" category="list-text">Affichez les détails du package que vous souhaitez voir.</block>
+  <block id="f651647ac9ca970bf81f92917731dcbb" category="inline-image-macro">Une capture d'écran du bouton passer à la vue standard</block>
+  <block id="20dbfe4510a959e2d164802031656e83" category="paragraph"><block ref="20dbfe4510a959e2d164802031656e83" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

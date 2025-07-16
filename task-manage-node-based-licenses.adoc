@@ -208,32 +208,6 @@ Si une licence de capacité supplémentaire a expiré et n'est plus utilisée, v
 
 
 
-=== Convertissez une licence d'évaluation en licence BYOL
-
-Une licence d'évaluation est valable 30 jours. Vous pouvez appliquer une nouvelle licence BYOL à la licence d'évaluation pour une mise à niveau sur place.
-
-Lorsque vous convertissez une licence d'évaluation en licence BYOL, BlueXP redémarre le système Cloud Volumes ONTAP.
-
-* Pour un système à un seul nœud, le redémarrage entraîne une interruption des E/S lors du processus de redémarrage.
-* Pour une paire haute disponibilité, le redémarrage lance le basculement et le rétablissement pour continuer à transmettre des E/S aux clients.
-
-
-.Étapes
-. Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
-. Sélectionnez l'onglet *Aperçu*.
-. Sur la mosaïque Cloud Volumes ONTAP, sélectionnez *Afficher*.
-. Sélectionnez *licences basées sur un nœud* dans la liste déroulante.
-. Cliquez sur *Eval*.
-. Dans le tableau, cliquez sur *convertir en licence BYOL* pour un système Cloud Volumes ONTAP.
-. Entrez le numéro de série ou téléchargez le fichier de licence.
-. Cliquez sur *convertir la licence*.
-
-
-.Résultat
-BlueXP démarre le processus de conversion. Cloud Volumes ONTAP redémarre automatiquement dans le cadre de ce processus. Lors de la sauvegarde, les informations de licence reflètent la nouvelle licence.
-
-
-
 == PAYGO à la solution BYOL
 
 Convertir un système en licences PAYGO par nœud en licences BYOL (et inversement) n'est pas pris en charge. Si vous souhaitez basculer entre un abonnement avec paiement à l'utilisation et un abonnement BYOL, vous devez déployer un nouveau système et répliquer les données depuis le système existant vers le nouveau.

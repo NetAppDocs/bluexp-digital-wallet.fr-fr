@@ -82,9 +82,13 @@ Vous pouvez afficher des détails sur la capacité utilisée par package en pass
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
 . Dans l'onglet *vue d'ensemble*, la mosaïque Cloud Volumes ONTAP affiche la capacité actuellement provisionnée pour votre compte.
 . Sélectionnez *View* pour afficher la capacité provisionnée pour chacun de vos packages de licences.
-. Sélectionnez *basculer vers la vue héritée*.
+. Sélectionnez *basculer vers la vue avancée*.
 +
-image:screenshot_digital_wallet_legacy_view.png["Capture d'écran du bouton basculer vers la vue héritée"]
+image:screenshot_digital_wallet_legacy_view.png["Capture d'écran du bouton basculer vers la vue avancée"]
+
+. Affichez les détails du package que vous souhaitez voir.
++
+image:screenshot_digital_wallet_standard_view.png["Une capture d'écran du bouton passer à la vue standard"]
 
 
 
@@ -108,7 +112,7 @@ BlueXP tente toujours de facturer d'abord une licence. Si une licence n'est pas 
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
 . Sélectionnez l'onglet *Aperçu*.
 . Sur la mosaïque Cloud Volumes ONTAP, sélectionnez *Afficher*.
-. Sélectionnez *basculer vers la vue héritée*.
+. Sélectionnez *basculer vers la vue avancée*.
 +
 image:screenshot_digital_wallet_legacy_view.png["Capture d'écran du bouton basculer vers la vue héritée"]
 
