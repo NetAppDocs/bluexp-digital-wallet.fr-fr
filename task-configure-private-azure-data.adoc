@@ -1,0 +1,113 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-azure-data.html 
+keywords: activate,license, licensing, install, request capacity, link subscription, digital wallet, keystone flex, digital wallet, bluexp digital wallet 
+summary: 'Gérez votre processus d"offre privée de bout en bout général et spécifique à Hyperscaler ainsi que vos guides d"acceptation et d"activation des services intelligents NetApp pour AWS, Azure et Google Cloud.' 
+---
+= Accepter et activer une offre privée Azure pour NetApp Data Infrastructure Insights
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Acceptez et abonnez-vous à une offre privée Marketplace pour NetApp Data Infrastructure Insights dans le portail Azure.  Confirmez et activez l'abonnement dans NetApp Data Infrastructure Insights.
+
+.Avant de commencer
+* Travaillez avec le service commercial NetApp pour créer une offre privée pour votre ID de facturation Azure.
+* Collectez les éléments de données suivants liés à l'offre privée :
++
+** URL de l'environnement de travail Data Infrastructure Insights
+** Date de fin d'abonnement
+** Nombre d'unités gérées
+
+
+* Assurez-vous de disposer des autorisations requises pour accepter une offre privée sur la Place de marché Azure :
++
+** Contrat d'entreprise (CE) : *Administrateur d'entreprise*
+** Contrat client Microsoft (MCA) : *Propriétaire du compte de facturation* ou *Contributeur du compte de facturation*
+
+
+* Assurez-vous de disposer des autorisations requises pour acheter une offre privée et créer un abonnement :
++
+** *Propriétaire de l'abonnement* ou *Contributeur de l'abonnement* de l'abonnement Azure utilisé
+
+
+* Une personne peut accepter et acheter l’offre privée si elle dispose des autorisations requises.
+* Déterminez l’abonnement Azure et le groupe de ressources à associer à Data Infrastructure Insights.
+
+
+
+
+== Accepter et souscrire à l'offre privée dans le portail Azure
+
+[IMPORTANT]
+====
+Complétez toutes les étapes pour accepter et activer votre offre privée.  Sauter des étapes peut entraîner des problèmes d'activation ou une double charge.
+
+Si les conditions, le prix ou les détails de l'offre sont incorrects, ou si vous n'êtes pas sûr de l'offre à accepter, n'acceptez pas l'offre.  Contactez votre équipe commerciale NetApp .
+
+====
+.Étapes
+. Cliquez sur le lien d’offre privée fourni par votre équipe commerciale NetApp et connectez-vous. Si aucun lien n’est disponible, connectez-vous directement au portail Azure.
+. Recherchez ou sélectionnez *Marketplace* parmi les services Azure.
+. Sur la page Marketplace, cliquez sur *Gestion des offres privées* sous la section *Gestion*.
+. Cliquez sur *Afficher + accepter* pour consulter les détails de l'offre privée.
++
+.. Validez la *quantité*, la *durée* et le *prix* de chaque produit.
+.. Si les détails sont incorrects, ne vous abonnez pas.  Contactez votre équipe commerciale NetApp pour corriger l'offre.
+
+
+. Confirmez et cliquez sur *Accepter l'offre privée*.
+. Cliquez sur *Acheter* pour terminer le processus d'achat.
++
+[NOTE]
+====
+Si le bouton *Acheter* n'est pas disponible, confirmez que vous disposez des autorisations d'achat requises.  Si vous ne le faites pas, copiez et partagez le lien de la fenêtre d’achat avec une personne de votre organisation autorisée.
+
+====
+. Dans le flux de travail des achats :
++
+.. Sélectionnez l'*abonnement Azure*.
+.. Sélectionnez le *Groupe de ressources*.
+.. Saisissez un *Nom* pour le nouvel abonnement.
++
+[NOTE]
+====
+Aucune ressource n'est provisionnée dans le groupe de ressources.
+
+====
+
+
+. Vous pouvez également définir des *balises* telles que le produit, l'emplacement du site, la définition de la charge de travail ou la convention de dénomination.
+. Cliquez sur *Vérifier et s'abonner* pour valider les détails, puis cliquez sur *S'abonner*.
+. Une fois l'abonnement créé, cliquez sur *Configurer le compte maintenant*.  Vous êtes redirigé vers NetApp Data Infrastructure Insights.
+
+
+[NOTE]
+====
+L’automatisation Azure se termine généralement en 30 secondes à 5 minutes avant que le bouton *Configurer le compte maintenant* n’apparaisse.
+
+Si la page se ferme avant que vous ne sélectionniez *Configurer le compte maintenant*, revenez au service dans le portail Azure.  Le statut de l'abonnement indique *Configuration en attente*.  Sélectionnez-le pour continuer la configuration.
+
+====
+
+
+== Confirmer et activer l'abonnement
+
+.Étapes
+. Dans un navigateur, accédez à https://cloud-insights-portal.azurewebsites.net/[] et connectez-vous.
+. Confirmez les détails de l'abonnement pour vous assurer que l'offre privée a été créée correctement :
++
+.. Saisissez l'*URL* de l'environnement de travail Data Infrastructure Insights .
+.. Saisissez la *Date de fin d'abonnement*.
+.. Entrez le *Nombre d'unités gérées*.
+
+
+. Cliquez sur *S'abonner*.  L'abonnement entre dans l'état *PendingActivation*.
+. L'activation est terminée dans un délai de 48 à 72 heures.  Pendant cette période, l'environnement de travail fonctionne en mode d'essai gratuit avec une utilisation illimitée.  Ajoutez l'URL à vos favoris pour suivre la progression de l'activation.
+. Une fois l'activation terminée, la console Data Infrastructure Insights affiche les détails de l'abonnement.  Un utilisateur disposant des autorisations *Admin* ou supérieures peut les consulter en accédant à *Admin → Abonnement*.
+

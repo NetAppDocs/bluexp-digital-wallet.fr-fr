@@ -25,7 +25,6 @@
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">S'inscrire pour obtenir de l'aide</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX pour ONTAP</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
-  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service pour Google Cloud</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Présentation de l'inscription au support</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Il existe deux types d'inscription pour activer les droits d'assistance :</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">Il sert d'ID d'abonnement unique pour tous les services de BlueXP. Chaque abonnement au support BlueXP au niveau du compte doit être enregistré.</block>
@@ -66,7 +65,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp devrait vous contacter au cours de ce processus. Il s'agit d'un exercice d'intégration unique pour les nouveaux utilisateurs.</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp prend en charge BlueXP de plusieurs façons. De nombreuses options d'auto-assistance gratuites sont disponibles 24 h/24 et 7 j/7, comme des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut un support technique à distance via la création de tickets en ligne.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Obtenez de l'aide</block>
-  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp prend en charge BlueXP et ses services cloud de différentes manières. De nombreuses options d'auto-assistance gratuites sont disponibles 24 h/24 et 7 j/7, comme des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut un support technique à distance via la création de tickets en ligne.</block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">Utilisation d'options de support en libre-service</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Ces options sont disponibles gratuitement, 24 heures sur 24, 7 jours sur 7 :</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Base de connaissances</block>
@@ -255,8 +253,6 @@
   <block id="c7db6ec8c72cc25c90f19ebafe2ddfbd" category="paragraph"><block ref="c7db6ec8c72cc25c90f19ebafe2ddfbd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="74fd2dac6a51b8a94f6612bae65dcbdf" category="list-text">Choisissez si vous souhaitez recevoir le fichier numéro de série.NLF JSON par e-mail ou par téléchargement direct.</block>
   <block id="58f676020d30c00d4b3fb18fc835e7ca" category="section-title">Mettre à jour une licence système</block>
-  <block id="34a3a4e91ba83bf9b417b1453a1dbdc6" category="paragraph">Lorsque vous renouvelez un abonnement BYOL en contactant un représentant NetApp, BlueXP obtient automatiquement la nouvelle licence auprès de NetApp et l'installe sur le système Cloud Volumes ONTAP.</block>
-  <block id="579ed3178fe639cd20c8874360f7ff2f" category="paragraph">Si BlueXP ne parvient pas à accéder au fichier de licence via la connexion Internet sécurisée, vous pouvez obtenir le fichier vous-même, puis le télécharger manuellement vers BlueXP.</block>
   <block id="eda4b0f5ee71694deda064c01799f329" category="list-text">Dans l'onglet *BYOL*, développez les détails d'un système Cloud Volumes ONTAP.</block>
   <block id="d91a847294f18b5d31d438a059c2532d" category="list-text">Cliquez sur le menu d'action en regard de la licence système et sélectionnez *mettre à jour la licence*.</block>
   <block id="98022931ad96bfc8db710666a48e0416" category="list-text">Téléchargez le fichier de licence (ou les fichiers si vous disposez d'une paire HA).</block>
@@ -380,7 +376,6 @@
   <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
-  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">Il s'agit d'un ID généré par le système qui correspond à votre courrier électronique. Sur la page *NSS Management*, vous pouvez afficher votre courriel à partir du <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menu.</block>
   <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">Si vous avez besoin d'actualiser vos jetons d'identification de connexion, il existe également une option *mettre à jour les informations d'identification* dans le <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menu.</block>
@@ -404,8 +399,6 @@
   <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">Cette erreur peut signifier que le compte NSS et la société d'enregistrement auquel il est associé n'est pas la même société d'enregistrement pour le numéro de série du compte BlueXP (par exemple 960xxxx) ou le numéro de série de l'environnement de travail. Vous pouvez demander de l'aide en utilisant l'une des options suivantes :</block>
   <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">L'enregistrement des deux types de numéros de série offre des fonctionnalités telles que l'ouverture de tickets de support et la génération automatique de tickets. L'inscription est terminée en ajoutant des comptes du site de support NetApp (NSS) à BlueXP, comme décrit ci-dessous.</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">Sélectionnez *Ajouter des informations d'identification NSS* et suivez l'invite authentification du site de support NetApp (NSS).</block>
-  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">Capture d'écran affichant un numéro de série de compte, une case à cocher verte et le texte enregistré pour le support.</block>
-  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">Si vous possédez déjà des licences et des numéros de série NetApp, mais que vous possédez un compte NSS, vous devez créer un compte NSS et l'associer à votre connexion BlueXP.</block>
   <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">Associez votre nouveau compte NSS à votre connexion BlueXP en suivant les étapes décrites sous <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">Une fois que vous possédez votre compte sur le site de support NetApp, associez-le à votre connexion BlueXP en suivant les étapes décrites sous <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
@@ -614,7 +607,6 @@
   <block id="2daabc6822724771970f17e8ae6a4cee" category="list-text">Sélectionnez l'onglet *Aperçu*.</block>
   <block id="5b37c7034b369fcc6d9b931180eef46f" category="list-text">Sur la mosaïque Cloud Volumes ONTAP, sélectionnez *Afficher*.</block>
   <block id="a9bcc09a5114887c29b3f365ee72e9e5" category="list-text">*Utilisation de haut niveau* : ce rapport comprend les informations suivantes :</block>
-  <block id="4600869c8040d8603fe9dbe6d56a2b2a" category="list-text">*Utilisation du progiciel Cloud Volumes ONTAP* : ce rapport contient les informations suivantes pour chaque progiciel, à l'exception du progiciel E/S optimisé :</block>
   <block id="a65d4ec7ff2941ad2ea2bc688a6dbbb3" category="list-text">*Utilisation des machines virtuelles de stockage* : ce rapport montre comment la capacité chargée est répartie entre les systèmes Cloud Volumes ONTAP et les machines virtuelles de stockage (SVM). Ces informations sont uniquement disponibles dans le rapport. Il contient les informations suivantes :</block>
   <block id="b2b74732b80350970fadfac4db3ba17e" category="list-text">Dans l'onglet *vue d'ensemble*, sélectionnez *vue* dans la mosaïque Cloud Volumes ONTAP.</block>
   <block id="f4c2ce2a853a74c3742ccc54482c074e" category="list-text">Sélectionnez *Rapport d'utilisation*.</block>
@@ -739,4 +731,238 @@
   <block id="cf5e0e2d5e3b97433dcea18ed2c97b91" category="list-text">Affichez les détails du package que vous souhaitez voir.</block>
   <block id="f651647ac9ca970bf81f92917731dcbb" category="inline-image-macro">Une capture d'écran du bouton passer à la vue standard</block>
   <block id="20dbfe4510a959e2d164802031656e83" category="paragraph"><block ref="20dbfe4510a959e2d164802031656e83" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="486c0e58304417d548694e3073643b23" category="summary">Gérez votre processus d'offre privée de bout en bout général et spécifique à Hyperscaler ainsi que vos guides d'acceptation et d'activation des services intelligents NetApp pour AWS, Azure et Google Cloud.</block>
+  <block id="287a1dce8b83044abd5ba4b137cc9356" category="doc">Accepter et configurer une offre privée AWS Marketplace pour NetApp Cloud Insights</block>
+  <block id="560fba0230ed4fcc4aa5b550943e5c6e" category="paragraph">Acceptez une offre privée Marketplace pour NetApp Cloud Insights dans la console AWS.  Connectez l’abonnement AWS à un environnement de travail Cloud Insights .</block>
+  <block id="e38cc8289ffa475f2f52eb3626b0751a" category="list-text">Travaillez avec les ventes NetApp pour créer une offre privée et obtenir le lien de l'offre.</block>
+  <block id="a7ff81dfc486abee13341131466e6038" category="list-text">Travaillez avec les ventes NetApp pour créer un environnement de travail Cloud Insights et ajoutez votre e-mail avec le rôle *Propriétaire*.</block>
+  <block id="7bdb1970dfaaab5dac12a9d4105e0f76" category="inline-link-macro">Autorisations AWS Marketplace</block>
+  <block id="5291ea6312230025a44105528f9ae707" category="list-text">Assurez-vous d'avoir les éléments requis<block ref="263b0644c4910f8bdcb4766350c819a3" category="inline-link-macro-rx"></block></block>
+  <block id="09d9df0afa016eba24d822b0fab07ad9" category="section-title">Accepter l'offre privée dans la console AWS</block>
+  <block id="b92d9c0960b55910e18fa0cba585a0e6" category="paragraph">Vous devez compléter toutes les étapes pour activer votre offre privée.  Le fait de sauter des étapes peut entraîner des problèmes d'activation ou des erreurs de facturation, notamment une double facturation.</block>
+  <block id="82c11d575f59d1f0633f2ab1f72cf2fb" category="list-text">Cliquez sur le lien d’activation de l’offre privée fourni par votre équipe commerciale NetApp .  Le lien devrait ressembler à ce qui suit :<block ref="e8da69261a2e7defb7c8e446536dda38" prefix=" " category="inline-code"></block></block>
+  <block id="76c2641fba3d253c350ef7435f955f42" category="paragraph">Si vous n'avez pas reçu de lien d'activation, vous pouvez consulter toutes les offres privées dans la console AWS.</block>
+  <block id="ab6a2a55861781608c66e0b9965983e1" category="list-text">Politiques gérées requises : *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions* ou *AWSMarketplaceFullAccess*</block>
+  <block id="c8a06e7e3b12ddb42900b632a628af3c" category="list-text">Si vous utilisez des politiques IAM personnalisées :<block ref="ff04429efaed7625c69c6d08008313b5" prefix=" " category="inline-code"></block> et<block ref="326720e7bae8966d6ca9815f71034380" prefix=" " category="inline-code"></block></block>
+  <block id="272f877168d816197d5b7d7249493794" category="list-text">Vous êtes redirigé vers AWS Marketplace pour consulter et accepter l'offre privée.</block>
+  <block id="ed531c62409749839128abc4ac3024b2" category="paragraph">Les offres privées sont créées en plus des annonces publiques.  Utilisez le menu déroulant *Sélection d'offres* pour basculer entre les offres publiques et privées.</block>
+  <block id="0b94c882930f40c2c741363078d2ee74" category="list-text">Consultez les détails de l’offre privée et validez qu’ils correspondent à votre accord.</block>
+  <block id="ade95ed1635e6e04c5fc70243e91b88b" category="list-text">Si les informations sont incorrectes, n'acceptez pas.  Contactez votre équipe commerciale NetApp pour modifier l’offre.</block>
+  <block id="dbfca4d00890fc1d9a6c8223fb50f6c2" category="list-text">La facturation commence une fois que vous sélectionnez *S'abonner*.</block>
+  <block id="1aa0cd62a671b8f1ba9f6e1bbdcfaba3" category="paragraph">Il existe deux types d’offres privées dans AWS :</block>
+  <block id="b1f68330f38d69d3686f740e31c6d5b1" category="list-text">*Utilisation à la demande*</block>
+  <block id="989c9d336b48f059c4d11f6a24942a33" category="list-text">Informations sur les prix</block>
+  <block id="b0f259fa317864ce24dbbe5ad867e3a4" category="list-text">Mentions légales</block>
+  <block id="38051ece51b996f233648f7f33667245" category="list-text">*Contracter*</block>
+  <block id="9a827e338cd6868f9e816f40ee21a2ad" category="list-text">Durée et dates</block>
+  <block id="877816703aaff9a793d10b57c4f3d74b" category="list-text">Paramètres de renouvellement</block>
+  <block id="3c2829dbb4c3ce0e6c77b1ca57204aac" category="list-text">Options de contrat</block>
+  <block id="dde6c83692973edca761850557257be5" category="list-text">Prix total du contrat</block>
+  <block id="194070daee8c3e04c357ae6e369b3441" category="paragraph">Pour les offres de contrat, indiquez le nombre d'unités gérées tel que convenu.</block>
+  <block id="ad4d2096632e8dd41126e7bbcc740197" category="list-text">Pour accepter l'offre privée :</block>
+  <block id="6e0d4ea20631710cd0475440fa61cba7" category="list-text">Pour une utilisation à la demande, cliquez sur *S'abonner*.</block>
+  <block id="2328a0802fe5ec750c1ee07b93108711" category="list-text">Pour les offres de contrat, saisissez le nombre d'unités gérées pour chaque service et cliquez sur *Créer un contrat*.</block>
+  <block id="5f1a0798d0df80b1a31e0c8e4d4fd174" category="list-text">Après acceptation, une bannière confirme que vous vous êtes inscrit avec succès et vous indique les étapes suivantes.</block>
+  <block id="dabae0fd96038da09b825a44b9cb885a" category="list-text">Cliquez sur *Configurer votre compte*.  Cela vous redirige vers NetApp Cloud Insights pour configurer votre abonnement Marketplace.</block>
+  <block id="5ba471c397a6aa5cb7905734ced8cba5" category="paragraph">Si l'offre a été acceptée mais que l'inscription n'est pas terminée, revenez à la page du produit.  Vous serez invité à terminer l'inscription.</block>
+  <block id="4dfcec3f4a2c5d3ce1a39ed9226340a3" category="paragraph">Pour les offres de contrat, cliquez sur *Afficher les options d'achat* pour afficher l'offre privée, puis sélectionnez *Configurer votre compte*.</block>
+  <block id="c820d1cfe9ec14fd8a9ec4a3bf722904" category="section-title">Connectez l'abonnement à Cloud Insights</block>
+  <block id="c2be9474300ae59f234b8d4b65edc5c6" category="list-text">Vous êtes redirigé vers<block ref="e5bb5326e5083abca13227bdaf5c074f" category="inline-link-rx"></block> et vous êtes invité à vous connecter avec votre compte BlueXP .</block>
+  <block id="e74dac098e1e1a1653bb3c6ae20e4373" category="list-text">Connectez-vous avec un compte doté du rôle *Propriétaire*.  L'abonnement est associé à votre environnement de travail Cloud Insights .</block>
+  <block id="2bf4dc14f7dcacd1058fd0fdf204e2ec" category="paragraph">Cette étape n'est requise qu'une seule fois pour chaque abonnement.  Les renouvellements et les modules complémentaires sont appliqués automatiquement.</block>
+  <block id="8d39edd9872c95cf6228e7cdd1548d9c" category="list-text">L'abonnement est désormais connecté.</block>
+  <block id="4344fe263afb8c66660fa11af0b31a35" category="doc">Accepter et configurer une offre privée AWS Marketplace pour NetApp BlueXP</block>
+  <block id="7a119be870b49688f8c438b7a7119786" category="paragraph">Acceptez une offre privée Marketplace pour NetApp BlueXP dans la console AWS et configurez les informations d'identification AWS dans NetApp BlueXP.</block>
+  <block id="e42fe00103b11c26a130efa909bb5a84" category="list-text">Travaillez avec le service commercial NetApp pour créer une offre privée et obtenir le lien d'activation.</block>
+  <block id="514210ca19d963f85ab4ed1d6e72df32" category="list-text">Assurez-vous de disposer des autorisations AWS Marketplace requises :</block>
+  <block id="9b0cad6850cfb6b3550c8a17e7be435b" category="inline-link-macro">Consultation et souscription à une offre privée</block>
+  <block id="c3f1185d398ba0919b1e1de888c27261" category="list-text"><block ref="c3f1185d398ba0919b1e1de888c27261" category="inline-link-macro-rx"></block></block>
+  <block id="eddabc606d42f919a6957cf8c062b45b" category="inline-link-macro">Validation des autorisations de l'acheteur</block>
+  <block id="5669e814cce268752252c43ffbb097b9" category="list-text"><block ref="5669e814cce268752252c43ffbb097b9" category="inline-link-macro-rx"></block></block>
+  <block id="e6b00c26f9031fc70d0668c4aaca18c9" category="paragraph">La finalisation de la mission d'abonnement dans le portefeuille numérique est nécessaire pour activer l'achat et appliquer des tarifs réduits.</block>
+  <block id="5277c9848e0bbe319cb5f8129fe4c77b" category="paragraph">Vous devez compléter toutes les étapes pour activer votre offre privée.  Sauter des étapes peut entraîner des erreurs de facturation.  Accepter et activer l'offre plusieurs fois entraîne une double facturation.</block>
+  <block id="69ab7cbfb20290fc5a153bd4d1e77e2d" category="list-text">Cliquez sur le lien d’activation de l’offre privée de votre équipe commerciale NetApp .  Le lien devrait ressembler à ce qui suit :<block ref="e8da69261a2e7defb7c8e446536dda38" prefix=" " category="inline-code"></block></block>
+  <block id="3aa206f6a7574e314eb4973a2b96b331" category="list-text">Utilisation des politiques gérées par AWS : *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions* ou *AWSMarketplaceFullAccess*</block>
+  <block id="bc5572c241330df8ef51ced4284b0bdf" category="list-text">Utilisation de politiques IAM personnalisées :<block ref="ff04429efaed7625c69c6d08008313b5" prefix=" " category="inline-code"></block> et<block ref="326720e7bae8966d6ca9815f71034380" prefix=" " category="inline-code"></block></block>
+  <block id="e0d6be37107f0e0cac8ae690935c3953" category="list-text">Vous êtes redirigé vers AWS Marketplace pour voir l'offre privée.</block>
+  <block id="1052057eae38b60ef2718c5db26314fd" category="list-text">Vérifiez les détails de l’offre privée et confirmez qu’ils correspondent à votre accord.  S’ils sont incorrects, ne les acceptez pas.  Contactez votre équipe de compte NetApp .</block>
+  <block id="137e4e5a2d3b2312abe2fdc399f7a015" category="paragraph">Il existe deux types d’offres privées :</block>
+  <block id="b43c2b4893351e438e51acfa55e878f2" category="paragraph">Pour les offres contractuelles, indiquez le nombre d'unités convenues.  Pour Cloud Volumes ONTAP, assurez-vous de sélectionner la licence appropriée avant de vous abonner.</block>
+  <block id="260570d179a259556c7bafc6eb55af17" category="list-text">Pour accepter l’offre privée, procédez comme suit :</block>
+  <block id="2120ac26a0fb66eb1e68af4f82592f26" category="list-text">Pour les offres de contrat, saisissez le nombre d'unités pour chaque service et cliquez sur *Créer un contrat*.</block>
+  <block id="20d4f676d944ace93b6fd5ea20a1cd60" category="list-text">Après acceptation, une bannière confirme l'abonnement et fournit les instructions d'inscription.</block>
+  <block id="67453003d932a1508a60d62c5c6dea95" category="list-text">Cliquez sur *Configurer votre compte*.  Cela redirige vers NetApp BlueXP pour configurer l'abonnement.</block>
+  <block id="45a07e7bbaedb6a22c302c7002488d2a" category="paragraph">Si vous avez accepté l'offre mais n'avez pas terminé l'inscription, revenez à la page du produit.  Pour les listes de contrats, cliquez sur *Afficher les options d'achat* pour afficher l'offre, puis sélectionnez *Configurer votre compte*.</block>
+  <block id="a951786ed9d0f6fd98f01bf32ebd8871" category="list-text">Sign in à<block ref="30942e7e22a1858175e4b73944183c47" category="inline-link-rx"></block> avec votre compte BlueXP .</block>
+  <block id="912c9ce3dfaa0efa9e23628863505fff" category="list-text">Après vous être connecté, accédez à<block ref="e8caae0a1896f407154116371a0c7398" category="inline-link-rx"></block> .  Vous êtes invité à :</block>
+  <block id="e6927100ca6999c8078a1524ea9d9039" category="list-text">Saisissez un *Nom d'affichage* pour l'abonnement Marketplace.</block>
+  <block id="3dc57008557a43222c3c1dcf3b13dbe9" category="list-text">Sélectionnez les *Comptes* BlueXP avec accès à l'abonnement.</block>
+  <block id="0d44bad6f11273328ea95f1f049c4238" category="list-text">[Facultatif] Activez *Remplacer l'abonnement existant* pour remplacer un abonnement existant pour un compte.</block>
+  <block id="70d0125e4b5d4e703f8eb90a5ddf8be8" category="list-text">Le remplacement s'applique uniquement à un seul compte BlueXP .</block>
+  <block id="3de849c536c7d2a1b083f7cc3a929f1e" category="list-text">Pour associer plusieurs comptes au même abonnement, configurez manuellement des comptes supplémentaires.</block>
+  <block id="ac15313b1dc2741a5095bcc225efa2d9" category="list-text">Si les informations d’identification n’ont jamais été associées à un abonnement, associez-les manuellement comme décrit dans la section suivante.</block>
+  <block id="db4240b8b0057b7e98188fd2b9da80e5" category="list-text">Cliquez sur *Associer* puis sur *Terminé*.</block>
+  <block id="5daea3d2e0e3dd56df84d4371b0c0b76" category="paragraph">Il est nécessaire de compléter la tâche d'abonnement dans le portefeuille numérique pour appliquer des tarifs réduits.</block>
+  <block id="c0c0e5a70f02630ad210596fabf7c505" category="section-title">Configurer l'abonnement avec les informations d'identification AWS</block>
+  <block id="1b43003a854c9949a3a41b3ba9597d6f" category="list-text">Dans BlueXP, accédez à *Portefeuille numérique* et sélectionnez l'onglet *Abonnements Marketplace*.</block>
+  <block id="c2253c97c00d425ebdbe6658a33a6113" category="list-text">Localisez l'abonnement créé précédemment.  Développez la ligne pour confirmer qu’elle est associée à votre compte BlueXP .</block>
+  <block id="31755614a692882f0fd1545120b934e4" category="paragraph">En raison des limitations d'AWS Marketplace, certains détails des offres privées ne sont pas exposés en dehors de la console AWS.  Si un champ affiche<block ref="382b0f5185773fa0f67a8ed8056c7759" prefix=" " category="inline-code"></block> , vérifiez les informations directement dans la console AWS.</block>
+  <block id="2cf5224bbe9daa91b23d4edc583a8e45" category="list-text">Cliquez sur le menu à trois points à côté de l'abonnement et sélectionnez *Configurer*.</block>
+  <block id="8a8c90cee4f37eb6a5c4592bc73448b8" category="list-text">Sélectionnez les *informations d’identification du compte AWS* appropriées et cliquez sur *Configurer*.</block>
+  <block id="231e32eb4ed511a6945d523370b753b4" category="paragraph">Les frais de la place de marché pour ces informations d'identification sont facturés à l'aide de l'abonnement à la place de marché.  Pour les contrats annuels, les coûts sont comptabilisés dans l'utilisation du contrat.</block>
+  <block id="85841ffd20a8dfe9a6978cf27c2ad33d" category="paragraph">Répétez les étapes 1 à 4 pour chaque information d’identification AWS de votre compte BlueXP que vous souhaitez associer à l’abonnement.</block>
+  <block id="fcdb0510c0e23de827a7074ed7ceaa90" category="list-text">Pour les informations d'identification dans d'autres organisations BlueXP , utilisez la liste déroulante *Organisation* et répétez les étapes.</block>
+  <block id="6f3f33b919af1c15d87b3f21753e2272" category="list-text">Pour les informations d’identification dans d’autres connecteurs, utilisez la liste déroulante *Connecteur* et répétez les étapes.</block>
+  <block id="50259c64a2dc79da38b2b415dbbad7be" category="doc">Accepter et activer une offre privée Azure pour NetApp Data Infrastructure Insights</block>
+  <block id="450b4f59b19609737d7bfc1db7f11ca1" category="paragraph">Acceptez et abonnez-vous à une offre privée Marketplace pour NetApp Data Infrastructure Insights dans le portail Azure.  Confirmez et activez l'abonnement dans NetApp Data Infrastructure Insights.</block>
+  <block id="dc4e613e69e859f3be40de01f63ef1a2" category="list-text">Travaillez avec le service commercial NetApp pour créer une offre privée pour votre ID de facturation Azure.</block>
+  <block id="46908715e6c72aa83ba1a214711dd030" category="list-text">Collectez les éléments de données suivants liés à l'offre privée :</block>
+  <block id="813a98fb6452445b3dd35ef4d8f2d6a6" category="list-text">URL de l'environnement de travail Data Infrastructure Insights</block>
+  <block id="4c266a14f4d9617d47d5c0f25edecc1d" category="list-text">Date de fin d'abonnement</block>
+  <block id="79a1f74f1e44398b25596c7b7d699067" category="list-text">Nombre d'unités gérées</block>
+  <block id="9615d8a100d02f0179c42f9b4c94a270" category="list-text">Assurez-vous de disposer des autorisations requises pour accepter une offre privée sur la Place de marché Azure :</block>
+  <block id="3882306bc383e0907d92c44200b57542" category="list-text">Contrat d'entreprise (CE) : *Administrateur d'entreprise*</block>
+  <block id="5a17015c1797f9b3611d0d9767abd522" category="list-text">Contrat client Microsoft (MCA) : *Propriétaire du compte de facturation* ou *Contributeur du compte de facturation*</block>
+  <block id="43b7088a3a1fc3292522fbdaf96e9f4e" category="list-text">Assurez-vous de disposer des autorisations requises pour acheter une offre privée et créer un abonnement :</block>
+  <block id="0df5d9a9ae7c8623fef019f860f731c5" category="list-text">*Propriétaire de l'abonnement* ou *Contributeur de l'abonnement* de l'abonnement Azure utilisé</block>
+  <block id="28be4e001e5c461eec635e9e5e19df22" category="list-text">Une personne peut accepter et acheter l’offre privée si elle dispose des autorisations requises.</block>
+  <block id="29f4b900ac582f230f1238611aed3ed9" category="list-text">Déterminez l’abonnement Azure et le groupe de ressources à associer à Data Infrastructure Insights.</block>
+  <block id="cf76a106489c34d8d815ce8e836402f9" category="section-title">Accepter et souscrire à l'offre privée dans le portail Azure</block>
+  <block id="1bb8b9fb4e56cd56effe50f633dc7e38" category="paragraph">Complétez toutes les étapes pour accepter et activer votre offre privée.  Sauter des étapes peut entraîner des problèmes d'activation ou une double charge.</block>
+  <block id="946d050e9f40044e84f413c93083535a" category="paragraph">Si les conditions, le prix ou les détails de l'offre sont incorrects, ou si vous n'êtes pas sûr de l'offre à accepter, n'acceptez pas l'offre.  Contactez votre équipe commerciale NetApp .</block>
+  <block id="80fe6f318fd4a7ea6ad9a4a59226a8d4" category="list-text">Cliquez sur le lien d’offre privée fourni par votre équipe commerciale NetApp et connectez-vous. Si aucun lien n’est disponible, connectez-vous directement au portail Azure.</block>
+  <block id="b8d22f94e23c3841d89314fa73eee281" category="list-text">Recherchez ou sélectionnez *Marketplace* parmi les services Azure.</block>
+  <block id="01d52254404cff7607242f7525a5d9b5" category="list-text">Sur la page Marketplace, cliquez sur *Gestion des offres privées* sous la section *Gestion*.</block>
+  <block id="0a0f4af873ce479f6cd264bdbc69c46a" category="list-text">Cliquez sur *Afficher + accepter* pour consulter les détails de l'offre privée.</block>
+  <block id="cfd7239b76f04504bfbeaddc348bd9df" category="list-text">Validez la *quantité*, la *durée* et le *prix* de chaque produit.</block>
+  <block id="2e875515d0c4ffc7b932a081dce75482" category="list-text">Si les détails sont incorrects, ne vous abonnez pas.  Contactez votre équipe commerciale NetApp pour corriger l'offre.</block>
+  <block id="75d15cf3a199a24423c04db8c6229fa7" category="list-text">Confirmez et cliquez sur *Accepter l'offre privée*.</block>
+  <block id="ff840a8e44a1e10e7d8f108f33d39971" category="list-text">Cliquez sur *Acheter* pour terminer le processus d'achat.</block>
+  <block id="c835e219d7545abd5344ea09fe7ba5b9" category="paragraph">Si le bouton *Acheter* n'est pas disponible, confirmez que vous disposez des autorisations d'achat requises.  Si vous ne le faites pas, copiez et partagez le lien de la fenêtre d’achat avec une personne de votre organisation autorisée.</block>
+  <block id="f5e55f8f93d46fa2e348730347e0114b" category="list-text">Dans le flux de travail des achats :</block>
+  <block id="2534cb5d04f0975d7a2199aeca4e7fec" category="list-text">Sélectionnez l'*abonnement Azure*.</block>
+  <block id="5e540e21ae1ed6c4166772948acb8d11" category="list-text">Sélectionnez le *Groupe de ressources*.</block>
+  <block id="8eca803eab6a65681b87d1ee4e176522" category="list-text">Saisissez un *Nom* pour le nouvel abonnement.</block>
+  <block id="92e9f0cb05397641fd4fb0798dac4eda" category="paragraph">Aucune ressource n'est provisionnée dans le groupe de ressources.</block>
+  <block id="98043c1f703c2f986cde43a8e2cf3cac" category="list-text">Vous pouvez également définir des *balises* telles que le produit, l'emplacement du site, la définition de la charge de travail ou la convention de dénomination.</block>
+  <block id="22dd7877c016465cdacc0c970aa7698d" category="list-text">Cliquez sur *Vérifier et s'abonner* pour valider les détails, puis cliquez sur *S'abonner*.</block>
+  <block id="789e7c93c25cf7213f70e16d5ec2eb04" category="list-text">Une fois l'abonnement créé, cliquez sur *Configurer le compte maintenant*.  Vous êtes redirigé vers NetApp Data Infrastructure Insights.</block>
+  <block id="f3c77038c5ead385a99bbc3f196ce6a5" category="paragraph">L’automatisation Azure se termine généralement en 30 secondes à 5 minutes avant que le bouton *Configurer le compte maintenant* n’apparaisse.</block>
+  <block id="c6f949a50757107a7ca75c36e85bfc75" category="paragraph">Si la page se ferme avant que vous ne sélectionniez *Configurer le compte maintenant*, revenez au service dans le portail Azure.  Le statut de l'abonnement indique *Configuration en attente*.  Sélectionnez-le pour continuer la configuration.</block>
+  <block id="afb84665c596089b8d7a846d62094bbc" category="section-title">Confirmer et activer l'abonnement</block>
+  <block id="9b528122e788a2e6253ea9451515cbc4" category="list-text">Dans un navigateur, accédez à<block ref="4c59e7a78057b1d504f34c67a32c35c2" category="inline-link-rx"></block> et connectez-vous.</block>
+  <block id="deb78dc4aa83fba162fc8876739e7a34" category="list-text">Confirmez les détails de l'abonnement pour vous assurer que l'offre privée a été créée correctement :</block>
+  <block id="d8a45ceedf176912d68a6fd3b5d30a83" category="list-text">Saisissez l'*URL* de l'environnement de travail Data Infrastructure Insights .</block>
+  <block id="02ce808f389f62265b0474bfe68bc528" category="list-text">Saisissez la *Date de fin d'abonnement*.</block>
+  <block id="cc30addda753d570e5770821e25de437" category="list-text">Entrez le *Nombre d'unités gérées*.</block>
+  <block id="2fbcdf3770da0b17fe911c3329e93c04" category="list-text">Cliquez sur *S'abonner*.  L'abonnement entre dans l'état *PendingActivation*.</block>
+  <block id="4e0ebdac68ae7876633d2603862f3292" category="list-text">L'activation est terminée dans un délai de 48 à 72 heures.  Pendant cette période, l'environnement de travail fonctionne en mode d'essai gratuit avec une utilisation illimitée.  Ajoutez l'URL à vos favoris pour suivre la progression de l'activation.</block>
+  <block id="ea02fb706fda43ba24f6c042066421ef" category="list-text">Une fois l'activation terminée, la console Data Infrastructure Insights affiche les détails de l'abonnement.  Un utilisateur disposant des autorisations *Admin* ou supérieures peut les consulter en accédant à *Admin → Abonnement*.</block>
+  <block id="3a3e1c0d4efcb724ad48529ca01a3651" category="doc">Accepter et activer une offre privée Azure pour NetApp BlueXP</block>
+  <block id="f120df1a72a76ef0828242b3b86201f7" category="paragraph">Acceptez et abonnez-vous à une offre privée Marketplace pour NetApp BlueXP dans le portail Azure.  Configurez les informations d’identification Azure dans NetApp BlueXP.</block>
+  <block id="cbd25df866b9c26c2205191e25632c69" category="list-text">Vous disposez des autorisations requises pour accepter une offre privée sur la Place de marché Azure :</block>
+  <block id="b7ecccb6d9814347f79dd394e0ce015d" category="list-text">Vous devez disposer des autorisations requises pour acheter une offre privée sur la Place de marché Azure et créer un abonnement :</block>
+  <block id="2e4c4ee48a5f2caac03de8943a1fdc43" category="list-text">Une seule personne peut à la fois accepter et acheter l’offre privée si elle dispose des autorisations nécessaires.</block>
+  <block id="c98f183131eb496e36a008b2c291279c" category="paragraph">Un abonnement Azure ne peut être associé qu’à un seul abonnement Marketplace.  Si vous souhaitez utiliser deux abonnements Marketplace différents pour les charges de travail dans le même abonnement Azure, vous devez créer deux comptes NetApp BlueXP distincts, un pour chaque abonnement.  Si vous disposez de plusieurs instances Cloud Volumes ONTAP et que vous souhaitez répartir la facturation entre différents abonnements, créez des comptes BlueXP distincts pour chaque abonnement.</block>
+  <block id="47f26de5d5f809041d484473468f9e1e" category="paragraph">Vous devez compléter toutes les étapes pour accepter et activer votre offre privée.  Le fait de sauter des étapes peut entraîner des problèmes d'activation ou une double charge.</block>
+  <block id="5b91f544615def8157e9739a509448c2" category="paragraph">Si vous constatez des divergences dans les conditions, les prix ou les détails de l’offre, ou si vous n’êtes pas sûr de l’offre à accepter, n’acceptez pas l’offre.  Contactez votre équipe commerciale NetApp .</block>
+  <block id="8894c60d409fc720e1cb540f53b239d5" category="paragraph">Accepter et activer l'offre plusieurs fois entraîne une double facturation.</block>
+  <block id="d6d5f4c87a78b99fabcaa4703996f9f1" category="list-text">Vérifiez que les *détails du plan*, la *durée* et le *tarif* sont corrects.</block>
+  <block id="f6c5449120372658cd480801157add92" category="list-text">Cliquez sur *Acheter* pour terminer le processus d'achat.</block>
+  <block id="91a14b2790c4789bde6375a6c412e970" category="list-text">Sélectionnez l’*abonnement Azure* à utiliser.</block>
+  <block id="aa41804b7f278699a1900d8c288a14a3" category="list-text">Sélectionnez le *Groupe de ressources* dans lequel l'abonnement sera créé.</block>
+  <block id="3460a7ac34077d5cddfc99b0f205478c" category="list-text">En option, définissez des *Tags* (pour le produit, l'emplacement du site, la définition de la charge de travail ou la convention de dénomination).</block>
+  <block id="1a3a645cf42eafbdd06b4843afc9596f" category="list-text">Cliquez sur *Vérifier et s'abonner*, validez les détails, puis cliquez sur *S'abonner*.</block>
+  <block id="251fd5e4f0a34d89a1fc017802dac4a5" category="list-text">Une fois l'abonnement créé avec succès, cliquez sur *Configurer le compte maintenant*.  Cela vous redirige vers NetApp BlueXP pour terminer la configuration.</block>
+  <block id="9a563c483cf139d09ed5790b6644bd40" category="paragraph">L’automatisation côté Azure peut prendre entre 30 secondes et 5 minutes.  Si la page a été fermée avant que vous cliquiez sur *Configurer le compte maintenant*, revenez au service dans le portail Azure.  L'abonnement s'affiche comme *Configuration en attente*.  Sélectionnez-le pour continuer la configuration.</block>
+  <block id="0a32b305ac01f900505c561727f28bea" category="list-text">Vous êtes redirigé vers<block ref="30942e7e22a1858175e4b73944183c47" category="inline-link-rx"></block> et invité à se connecter.</block>
+  <block id="a8630a25fb4ef5912c2dea5b6c59ab2d" category="list-text">Après vous être connecté, vous êtes redirigé vers<block ref="e8caae0a1896f407154116371a0c7398" category="inline-link-rx"></block> .  Vous êtes invité à :</block>
+  <block id="39adb4da3012b43be809229537dd4480" category="list-text">Saisissez un *Nom d'affichage* pour l'abonnement Marketplace.</block>
+  <block id="6364661fafbe6588db006a076d8190fa" category="list-text">Sélectionnez les *comptes* NetApp BlueXP qui doivent avoir accès à cet abonnement.</block>
+  <block id="9c3c7d3274a11a5a4894522adc628e75" category="list-text">En option, vous pouvez activer *Remplacer l'abonnement existant* pour remplacer automatiquement un abonnement Marketplace existant dans un compte NetApp BlueXP .</block>
+  <block id="cf1cb8e8b8f821c8136103fb7cf2ba5f" category="list-text">Cette option de remplacement est limitée à un seul compte NetApp BlueXP .</block>
+  <block id="52a5719315feeb9c3efcc19c90c838d5" category="list-text">Pour associer plusieurs comptes BlueXP au même abonnement Marketplace, configurez les comptes supplémentaires manuellement.</block>
+  <block id="69151c9dd8707f2cba6598ff83dc176b" category="paragraph">Il est nécessaire de compléter la tâche d'abonnement dans le *Portefeuille numérique* pour activer l'achat et appliquer des tarifs réduits.</block>
+  <block id="901d81e7a9533af8349427e17f415710" category="section-title">Configurer l’abonnement avec les informations d’identification Azure</block>
+  <block id="b341a3d298535291adc28f4788d6bda4" category="list-text">Valider les détails de l'abonnement :</block>
+  <block id="83c3810644be0d2dacba1e7e4c54862d" category="list-text">Localisez l’abonnement Marketplace que vous avez créé.</block>
+  <block id="74e521a71f2e4891625df2e7de44dadd" category="list-text">Développez la ligne pour vérifier les détails et confirmer que l’abonnement est associé à votre compte BlueXP .</block>
+  <block id="ae1a47c80571694a1b615759eb3b5cd8" category="list-text">Cliquez sur le *menu à trois points* à côté de l'abonnement et sélectionnez *Configurer*.</block>
+  <block id="ac76c135e0b2e37bb199dfccf3e593e0" category="list-text">Sélectionnez l’abonnement *Azure* approprié et cliquez sur *Configurer*.</block>
+  <block id="af4e61dcda0487052f8f263523f3b339" category="paragraph">Les frais de la Marketplace pour ces informations d’identification Azure sont désormais facturés via l’abonnement de la Marketplace.  Pour les contrats annuels, l'utilisation de ces informations d'identification est comptabilisée dans le contrat annuel.</block>
+  <block id="700150f977a574c978f873c86f512046" category="paragraph">Répétez les étapes 1 à 4 pour chaque information d’identification Azure de votre compte BlueXP que vous souhaitez associer à l’abonnement.</block>
+  <block id="9d4e2368126567c9681abe7d7f0e3d0f" category="list-text">Pour associer les informations d'identification d'une autre organisation BlueXP , utilisez la liste déroulante *Organisation* pour changer d'organisation et répétez les étapes.</block>
+  <block id="58fe11e521ef08e7b807c78a9c84d14a" category="list-text">Pour associer les informations d'identification d'un autre connecteur, utilisez la liste déroulante *Connecteur* pour basculer et répétez les étapes.</block>
+  <block id="c965ce960bbd02234da5f37006d6d52f" category="doc">Accepter et configurer une offre privée Google Cloud pour NetApp BlueXP</block>
+  <block id="09b00d23dd469b00a74ba4c34958316a" category="paragraph">Acceptez une offre privée Marketplace pour la liste NetApp BlueXP dans la console Google Cloud.  Configurez les informations d’identification Google Cloud dans NetApp BlueXP.</block>
+  <block id="51f02975d44e73cb2d235f25a2f0cef5" category="list-text">Travaillez avec les ventes NetApp pour créer une offre privée.  Votre équipe commerciale doit vous fournir le lien de l'offre.</block>
+  <block id="feeb32431af9e3e0a47bfb99af23c132" category="list-text">Votre compte de facturation ne doit pas être en essai gratuit.  Les comptes d'essai gratuits ne peuvent pas accepter d'offres privées.  Si vous tentez d’utiliser un compte de facturation d’essai, vous recevrez une erreur et aurez besoin de l’aide de l’équipe cloud NetApp .</block>
+  <block id="60f5daee3203a778fb9602ff72136dca" category="list-text">Les autorisations Google Cloud suivantes sont requises pour accepter l'offre :</block>
+  <block id="1e0f04e311f715ce8ea177fbb1e72905" category="list-text"><block ref="31e027d96bb2f1edadd2510bb8aef75e" prefix="" category="inline-code"></block>pour le compte de facturation Cloud ciblé ou l'organisation Google Cloud</block>
+  <block id="dd254233486ecf83785247cac06950fc" category="list-text"><block ref="9aaa5b08341c4d5f1dd465ffcfa419fd" prefix="" category="inline-code"></block>pour le projet facturé sur le compte de facturation Cloud</block>
+  <block id="311615f7a28830db91d86814354b2ebc" category="section-title">Accepter l'offre privée dans Google Cloud</block>
+  <block id="a88c50d1b6d348c293c6e20b094bc542" category="paragraph">Un projet Google Cloud ne peut être associé qu'à un seul abonnement Marketplace.  Si vous souhaitez utiliser deux abonnements différents pour les charges de travail dans le même projet Google Cloud, vous devez créer deux comptes NetApp BlueXP distincts, un pour chaque abonnement.</block>
+  <block id="54ea7f5728b4fe3047e1bed3564400bf" category="paragraph">Vous devez compléter toutes les étapes pour activer votre offre privée.  Sauter des étapes peut entraîner des problèmes tels qu'une double charge.</block>
+  <block id="0f42a5bd113a6793bdfb54ff1c208d97" category="paragraph">Si vous constatez des divergences dans les conditions, les prix ou les détails de l’offre, ou si vous n’êtes pas sûr de l’offre à accepter, n’acceptez pas l’offre.  Contactez votre équipe de compte NetApp pour obtenir des éclaircissements.</block>
+  <block id="a1b6e6321b135eb6a5c905e52b3ce76b" category="paragraph">Si vous disposez déjà d'un abonnement PAYGO actif ou d'une offre privée modifiée, il vous suffit d'effectuer les étapes d'acceptation.  Dans ces cas, la Marketplace met à jour le plan dans la même liste et conserve le même ID d'abonnement, de sorte que l'association d'abonnement dans BlueXP reste intacte.</block>
+  <block id="290bbb83a89ab08e84b67b872e1882b9" category="list-text">Cliquez sur le lien d’activation de l’offre privée fourni par votre équipe commerciale NetApp .  Le lien devrait ressembler à ce qui suit :<block ref="7d9578c0f61bb46b3c15bbcf093caa47" prefix=" " category="inline-code"></block></block>
+  <block id="c06f390cc77930ad800760399f795901" category="list-text">Vous êtes redirigé vers Google Cloud Marketplace où vous pouvez consulter les détails de l'offre :</block>
+  <block id="6c3d8751216e46ce88977f0a36da3bcd" category="list-text">**Compte de facturation**</block>
+  <block id="1883f05e8045c14172513d205624ed7d" category="list-text">**Produit** : NetApp BlueXP</block>
+  <block id="a370fb40448c1a9cfd60035cbf486153" category="list-text">**Détails de l'offre**</block>
+  <block id="d187556677277eb1fac2454e9173b115" category="list-text">**Tarifs**</block>
+  <block id="dbafd25ecc4a1bd157a51b6df56ad0c4" category="paragraph">Examinez attentivement les détails du plan, la durée et les prix.  Si quelque chose est incorrect, n’acceptez pas l’offre.  Contactez votre équipe de compte NetApp pour une modification.</block>
+  <block id="c5cd3c98a99c425040223e4b93fa3292" category="list-text">Confirmez que les informations sont exactes, acceptez les conditions et cliquez sur **Accepter**.</block>
+  <block id="85d9763d3791c88a822fb6f9a7689d51" category="list-text">Une icône de chargement apparaît lors de la création de l'abonnement.</block>
+  <block id="bd57a36b79c39cc2107f5d54656ea4e2" category="list-text">Une fois l'abonnement créé avec succès, une fenêtre contextuelle s'affiche : *Votre demande de commande a été envoyée à NetApp, Inc.*</block>
+  <block id="8b5b044f5a256217102b408c14b635e6" category="list-text">Cliquez sur **S'INSCRIRE AVEC NETAPP, Inc.**.  Vous êtes redirigé vers NetApp BlueXP pour terminer la configuration de votre abonnement.  Si l’offre privée a été acceptée par une autre personne de votre organisation :</block>
+  <block id="4eb83948e70f96f003401374e672121a" category="list-text">Dans Google Cloud Marketplace, accédez à **Commandes**.</block>
+  <block id="988a06cb0560fd8ac30cad8db115da85" category="list-text">Localisez l'offre avec le statut **En attente**.</block>
+  <block id="0418114406a14ea85606e27fbe1ee330" category="list-text">Cliquez sur le menu à trois points et sélectionnez **S'inscrire auprès de NetApp, Inc.**</block>
+  <block id="382a2b9ff54c608829ee5bb84b9c1f75" category="list-text">Vous êtes redirigé vers<block ref="43e196fd7d1a86adce26084a27e3d664" prefix=" " category="inline-code"></block> et invité à se connecter.</block>
+  <block id="a19087b422996ed382ea9248b23f3389" category="list-text">Après vous être connecté, vous êtes redirigé vers<block ref="d4df7b36ea1f36e5edded4e6414f05be" prefix=" " category="inline-code"></block> .  Une fenêtre contextuelle s'affiche dans laquelle vous devez :</block>
+  <block id="109deb83c524752969863db2154396e3" category="list-text">Saisissez un nom d'affichage pour l'*abonnement SaaS Marketplace*.</block>
+  <block id="aa3283a28b29d18b697a59a9e81521d1" category="list-text">Sélectionnez les **comptes** NetApp BlueXP qui doivent avoir accès à l’abonnement.</block>
+  <block id="c2db462dc9ebdd4a86083e4f526c170c" category="list-text">En option, vous pouvez activer **Remplacer l'abonnement existant** si vous souhaitez remplacer automatiquement un abonnement Marketplace existant dans un compte NetApp BlueXP .</block>
+  <block id="f4f26ce82d96f80b854ceefb28464c61" category="list-text">Si vous devez associer plusieurs comptes NetApp BlueXP au même abonnement Marketplace, vous devez configurer les comptes supplémentaires manuellement.</block>
+  <block id="5d80793259e7331456ddff3f91a5456b" category="list-text">Cliquez sur **Associer** puis sur **Terminé**.</block>
+  <block id="a378083fbc7ec3f353dbe9d5b064d0f6" category="section-title">Associer l'abonnement aux informations d'identification Google Cloud</block>
+  <block id="ad2e06ffa1c65465cf053aff5fca1fe9" category="list-text">Dans BlueXP, accédez à **Portefeuille numérique** et sélectionnez l'onglet **Abonnements Marketplace**.</block>
+  <block id="8fbe217ff0b9b7194904a0d5b0c3cb0d" category="list-text">Localisez l'abonnement créé lors du processus d'acceptation.</block>
+  <block id="099fe4ce960f301e1509b85f07456fec" category="list-text">Vérifiez que le plan correct est affiché.</block>
+  <block id="a7dd4d4083c70bf36edc2215bcf1d392" category="list-text">Développez la ligne pour confirmer l’association de l’offre privée.</block>
+  <block id="df5938543de3aeab258d6bb444cb19bb" category="paragraph">En raison des limitations de Google Cloud Marketplace, certains champs peuvent s'afficher<block ref="382b0f5185773fa0f67a8ed8056c7759" prefix=" " category="inline-code"></block> .  Ces informations ne sont disponibles que dans la console Google Cloud.</block>
+  <block id="95672b9c651ec0ed6ec25a849f943b6d" category="list-text">[Facultatif] Pour renommer l'abonnement :</block>
+  <block id="102533fc3349affbde8eed3f0119055a" category="list-text">Cliquez sur le **menu à trois points** à côté de l’abonnement.</block>
+  <block id="bb9d726ae34d1dd317cb722b46752963" category="list-text">Sélectionnez **Renommer l'abonnement**.</block>
+  <block id="14652e6a008507211ad2e3f7ec7082c0" category="list-text">Cliquez à nouveau sur le **menu à trois points** et sélectionnez **Configurer**.</block>
+  <block id="a2716289bc8357bf8ed654777881b95b" category="list-text">Sélectionnez le compte Google Cloud approprié **Credential** et cliquez sur **Configurer**.</block>
+  <block id="84656ffcb4b3afd9fc277e779c534a20" category="paragraph">Les frais Marketplace pour ces informations d'identification Google Cloud sont désormais facturés via l'abonnement Marketplace.  Pour les contrats annuels, l'utilisation de ces informations d'identification est comptabilisée dans le contrat annuel.</block>
+  <block id="0e10f57d49dfeee371cbc646a960b99b" category="paragraph">Répétez les étapes 1 à 5 pour chaque identifiant Google Cloud de votre compte BlueXP que vous souhaitez associer à l’abonnement Marketplace.</block>
+  <block id="5103b8202b72216b1b1df4cd78b87166" category="list-text">Pour associer les informations d'identification d'un autre compte BlueXP , utilisez la liste déroulante **Compte** pour changer de compte et répétez les étapes.</block>
+  <block id="9f60377ef9a5e22e0bdc821d995c2574" category="list-text">Pour associer les informations d’identification à un autre connecteur, utilisez la liste déroulante **Connecteur** et répétez les étapes.</block>
+  <block id="390eba2474f396f3e3c52f5eda09bd78" category="section-title">Afficher l'utilisation de Google Cloud</block>
+  <block id="b22fe978436068666bd5697ee5f14cf8" category="paragraph">Pour afficher l’état et l’utilisation du crédit Google Cloud :</block>
+  <block id="1afb41bd6758d43e8e21093a19c57c09" category="list-text">Dans la console Google Cloud, accédez à **Cloud Marketplace**.</block>
+  <block id="4ff28d68fee060aaa1dc530e74b6dfd5" category="list-text">Cliquez sur **Vos commandes**.</block>
+  <block id="9bf1f05e9fbef21e2ad4a15f4f8f4069" category="list-text">Dans la liste déroulante **Sélectionner un compte de facturation**, choisissez le compte de facturation associé à votre offre privée.</block>
+  <block id="c33037b135d0f0c2a1ec0f24e1d17c91" category="list-text">Recherchez votre offre privée dans le tableau, cliquez sur le **menu à trois points** et sélectionnez **Afficher le crédit**.</block>
+  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp propose une assistance pour BlueXP et ses services cloud de différentes manières. De nombreuses options d'auto-assistance gratuites sont disponibles 24h/24 et 7j/7, telles que des articles de la base de connaissances et un forum communautaire. Votre inscription au support inclut une assistance technique à distance via un ticket web.</block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
+  <block id="219fa750a13ad456df1d25524d9f6ad9" category="list-text">* Utilisation du package Cloud Volumes ONTAP * : Ce rapport inclut les informations suivantes pour chaque package :</block>
+  <block id="6bcfb67e751fc7a3d8dba22f37cbb570" category="inline-link">Disponibilité restreinte des licences BYOL pour Cloud Volumes ONTAP</block>
+  <block id="ceb2294714463ec73c3bb76a991ef103" category="admonition">NetApp a restreint l'achat, la prolongation et le renouvellement des licences BYOL. Pour plus d'informations, consultez <block ref="73dc1b5468c2405a47da63a28335f079" category="inline-link-rx"></block> .</block>
+  <block id="1001b88d8ff7d289c57c8816aa6ffa49" category="paragraph">Lorsque vous renouvelez un abonnement BYOL en contactant un représentant NetApp , BlueXP obtient automatiquement la nouvelle licence auprès de NetApp et l'installe sur le système Cloud Volumes ONTAP . Si BlueXP ne peut pas accéder au fichier de licence via la connexion Internet sécurisée, vous pouvez l'obtenir vous-même, puis le télécharger manuellement sur BlueXP.</block>
+  <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">Une capture d'écran qui montre un numéro de série de compte, une case à cocher verte et le texte Enregistré pour l'assistance.</block>
+  <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="03d8ffc661918290fbea573239c62f5a" category="sidebar">Gérer les offres privées</block>
+  <block id="4efe0192c79df441a41da0744ecf3669" category="sidebar">Gérer les offres privées AWS</block>
+  <block id="c5a7b3a0d72357f8021b9c0a87292b7d" category="sidebar">Gérer une offre privée AWS pour BlueXP</block>
+  <block id="9656eeeb9e937eb67d609df0258423fe" category="sidebar">Gérer une offre privée AWS pour Data Infrastructure Insights</block>
+  <block id="aea29cc4f3c81c7813c16f88bb99f5f7" category="sidebar">Gérer les offres privées Azure</block>
+  <block id="4b1ed9ce2942ec5116672ef19503654f" category="sidebar">Gérer une offre privée Azure pour BlueXP</block>
+  <block id="a75875639ba528f8850019947118007c" category="sidebar">Gérer une offre privée Azure pour NetApp Cloud Insights</block>
+  <block id="d442ea41bda9b1d8784f8a8d8bae7bb4" category="sidebar">Gérer les offres privées de Google Cloud</block>
+  <block id="051806976137f9456e5cc2d7cd30bd63" category="sidebar">Gérer une offre privée Google Cloud pour NetApp BlueXP</block>
 </blocks>
